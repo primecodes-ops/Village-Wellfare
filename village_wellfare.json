@@ -5492,14 +5492,6 @@
                 },
                 {
                   "type": {
-                    "value": "Hide"
-                  },
-                  "parameters": [
-                    "Bucket"
-                  ]
-                },
-                {
-                  "type": {
                     "value": "TextContainerCapability::TextContainerBehavior::SetValue"
                   },
                   "parameters": [
@@ -5556,6 +5548,15 @@
                     "OrderProgress",
                     "=",
                     "0",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Bucket",
                     ""
                   ]
                 }
@@ -5640,6 +5641,15 @@
                     "OrderProgress",
                     "+",
                     "Order",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Bucket",
                     ""
                   ]
                 }
