@@ -905,6 +905,215 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Pixel Cars/9bbd87e4da9e10b869eb2f0aaa4484ab4be1b20244fef9e002cbf13001a3acc9_Fuel Semi Truck_Moving_4.png",
           "name": "Fuel Semi Truck_Moving_4.png"
         }
+      },
+      {
+        "file": "assets/Female Character 11_Walking Down_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Female Character 11_Walking Down_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/females/d2b657d0843d15fbfb53a606c5053cdf43e0573cb76fa2832c1bee8eaf5d51cc_Female Character 11_Walking Down_1.png",
+          "name": "Female Character 11_Walking Down_1.png"
+        }
+      },
+      {
+        "file": "assets/Female Character 11_Walking Down_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Female Character 11_Walking Down_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/females/b9fba8bc0e4837f52c24b17b273143c1fb2cee3f8fa26492e747a383da45d59f_Female Character 11_Walking Down_2.png",
+          "name": "Female Character 11_Walking Down_2.png"
+        }
+      },
+      {
+        "file": "assets/Female Character 11_Walking Down_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Female Character 11_Walking Down_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/females/75d20bb87c5b03d2b54ceab26fb591c344f6fc587444d2286b0f3a76a9c17224_Female Character 11_Walking Down_3.png",
+          "name": "Female Character 11_Walking Down_3.png"
+        }
+      },
+      {
+        "file": "assets/Female Character 11_Walking Left_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Female Character 11_Walking Left_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/females/b89738593a7dd85c20f534578e33ea8df8525d9b691e4b434221a10342a06a53_Female Character 11_Walking Left_1.png",
+          "name": "Female Character 11_Walking Left_1.png"
+        }
+      },
+      {
+        "file": "assets/Female Character 11_Walking Left_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Female Character 11_Walking Left_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/females/41fc49213cec5aaa318df8d795c741a30aae2f4854d962e9dfbf285c20a6fcca_Female Character 11_Walking Left_2.png",
+          "name": "Female Character 11_Walking Left_2.png"
+        }
+      },
+      {
+        "file": "assets/Female Character 11_Walking Left_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Female Character 11_Walking Left_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/females/62791151338a026bcd94f8e3d231380f312b27107e22201be0839f9fd73d7832_Female Character 11_Walking Left_3.png",
+          "name": "Female Character 11_Walking Left_3.png"
+        }
+      },
+      {
+        "file": "assets/Female Character 11_Walking Right_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Female Character 11_Walking Right_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/females/9e08efd06e9407c7ea20f5115384f461d6a7d146e0e188f0edd3d34d7cb3a06b_Female Character 11_Walking Right_1.png",
+          "name": "Female Character 11_Walking Right_1.png"
+        }
+      },
+      {
+        "file": "assets/Female Character 11_Walking Right_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Female Character 11_Walking Right_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/females/9bebea9c9a9b561f281da754eab85a57bde97f81e10a560db78ef34f20c9f3f4_Female Character 11_Walking Right_2.png",
+          "name": "Female Character 11_Walking Right_2.png"
+        }
+      },
+      {
+        "file": "assets/Female Character 11_Walking Right_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Female Character 11_Walking Right_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/females/b457cec112c1456138cbaf3de1b35fc62e962ede2cd004bd26193b7a8eccebb8_Female Character 11_Walking Right_3.png",
+          "name": "Female Character 11_Walking Right_3.png"
+        }
+      },
+      {
+        "file": "assets/Female Character 11_Walking Up_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Female Character 11_Walking Up_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/females/8113d7bb910da9e586428aeaac4fe01af26adbaf427599f9367a82d22b417ae0_Female Character 11_Walking Up_1.png",
+          "name": "Female Character 11_Walking Up_1.png"
+        }
+      },
+      {
+        "file": "assets/Female Character 11_Walking Up_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Female Character 11_Walking Up_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/females/edc4a751545d613b4954b7c8da3b79366aedf8a66107b5d63fa60dd6925e075a_Female Character 11_Walking Up_2.png",
+          "name": "Female Character 11_Walking Up_2.png"
+        }
+      },
+      {
+        "file": "assets/Female Character 11_Walking Up_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Female Character 11_Walking Up_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/females/89c1045c8d91109c6acb3a97b1bf4f9f5d6f1cf57557608dc65b23d5929c7591_Female Character 11_Walking Up_3.png",
+          "name": "Female Character 11_Walking Up_3.png"
+        }
+      },
+      {
+        "file": "assets/NotJamOldStyle11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/NotJamOldStyle11.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Bitmap texts/Not Jam bitmap fonts/db0c13bb0fd38392e0b4dd2d41753a5b056a319ff942477e25e27f946768cb7a_NotJamOldStyle11.png",
+          "name": "NotJamOldStyle11.png"
+        }
+      },
+      {
+        "file": "assets/NotJamOldStyle11.fnt",
+        "kind": "bitmapFont",
+        "metadata": "",
+        "name": "assets/NotJamOldStyle11.fnt",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Bitmap texts/Not Jam bitmap fonts/02bfd26cf796fa150716a58ad1da54490e112c063d7870d6010005178c9d1ef3_NotJamOldStyle11.fnt",
+          "name": "NotJamOldStyle11.fnt"
+        }
+      },
+      {
+        "file": "assets/Barnville.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "7fa72663d2b3fcc4aa262ac256fd9e649c88f3acb73d50150a96a98fa4bdf7b3_Barnville.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Music/Comedy/7fa72663d2b3fcc4aa262ac256fd9e649c88f3acb73d50150a96a98fa4bdf7b3_Barnville.aac",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Confirm_01.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "3604b33fad2a11fcd0222da9ddcf6843d6f30053dba00462d1c88c56d05a41e1_Confirm_01.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/Interface Bleeps/3604b33fad2a11fcd0222da9ddcf6843d6f30053dba00462d1c88c56d05a41e1_Confirm_01.aac",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/death.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "8801d2d6cde766d642136e3fb8749862146cc40b5ed144379f7ff14315c489f7_death.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GDevelop examples/Platformer/Audio/8801d2d6cde766d642136e3fb8749862146cc40b5ed144379f7ff14315c489f7_death.aac",
+          "name": "gdevelop-asset-store"
+        }
       }
     ]
   },
@@ -954,7 +1163,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.4,
         "snap": true,
-        "zoomFactor": 0.6455105703311568,
+        "zoomFactor": 0.6040838749988954,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -1129,23 +1338,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 5,
-          "height": 79,
-          "keepRatio": true,
-          "layer": "UI Layer",
-          "name": "Villager",
-          "persistentUuid": "76ec8359-53b9-4531-8fbb-9a980d8914d4",
-          "width": 74,
-          "x": 64,
-          "y": 81,
-          "zOrder": 14,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
           "depth": 32,
           "height": 256,
           "keepRatio": true,
@@ -1206,6 +1398,23 @@
           "x": 564,
           "y": 488,
           "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 4,
+          "height": 68,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Villager",
+          "persistentUuid": "73503f24-571e-4dce-9bc7-718c86eab464",
+          "width": 64,
+          "x": 64,
+          "y": 60,
+          "zOrder": 20,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1883,10 +2092,10 @@
           "effects": [],
           "behaviors": [
             {
-              "cost": 2,
-              "impassable": true,
               "name": "PathfindingObstacle",
-              "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+              "type": "PathfindingBehavior::PathfindingObstacleBehavior",
+              "cost": 2,
+              "impassable": true
             }
           ],
           "animations": [
@@ -2012,499 +2221,6 @@
         },
         {
           "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "76a121852b878132461dfea71c9d3da7f632ff2ff93d834f7a7a4f9d08377178",
-          "name": "Villager",
-          "persistentUuid": "26dcedac-0db2-4e83-b114-1159e467c63c",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "Walking Down",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.25,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Female Character 1_Walking Down_1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 1,
-                            "y": 1
-                          },
-                          {
-                            "x": 15,
-                            "y": 1
-                          },
-                          {
-                            "x": 15,
-                            "y": 17
-                          },
-                          {
-                            "x": 1,
-                            "y": 17
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Female Character 1_Walking Down_2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 1,
-                            "y": 1
-                          },
-                          {
-                            "x": 15,
-                            "y": 1
-                          },
-                          {
-                            "x": 15,
-                            "y": 17
-                          },
-                          {
-                            "x": 1,
-                            "y": 17
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Female Character 1_Walking Down_3.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 1,
-                            "y": 1
-                          },
-                          {
-                            "x": 15,
-                            "y": 1
-                          },
-                          {
-                            "x": 15,
-                            "y": 17
-                          },
-                          {
-                            "x": 1,
-                            "y": 17
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Walking Left",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.25,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Female Character 1_Walking Left_1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 1,
-                            "y": 1
-                          },
-                          {
-                            "x": 15,
-                            "y": 1
-                          },
-                          {
-                            "x": 15,
-                            "y": 17
-                          },
-                          {
-                            "x": 1,
-                            "y": 17
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Female Character 1_Walking Left_2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 1,
-                            "y": 1
-                          },
-                          {
-                            "x": 15,
-                            "y": 1
-                          },
-                          {
-                            "x": 15,
-                            "y": 17
-                          },
-                          {
-                            "x": 1,
-                            "y": 17
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Female Character 1_Walking Left_3.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 1,
-                            "y": 1
-                          },
-                          {
-                            "x": 15,
-                            "y": 1
-                          },
-                          {
-                            "x": 15,
-                            "y": 17
-                          },
-                          {
-                            "x": 1,
-                            "y": 17
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Walking Right",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.25,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Female Character 1_Walking Right_1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 1,
-                            "y": 1
-                          },
-                          {
-                            "x": 15,
-                            "y": 1
-                          },
-                          {
-                            "x": 15,
-                            "y": 17
-                          },
-                          {
-                            "x": 1,
-                            "y": 17
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Female Character 1_Walking Right_2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 1,
-                            "y": 1
-                          },
-                          {
-                            "x": 15,
-                            "y": 1
-                          },
-                          {
-                            "x": 15,
-                            "y": 17
-                          },
-                          {
-                            "x": 1,
-                            "y": 17
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Female Character 1_Walking Right_3.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 1,
-                            "y": 1
-                          },
-                          {
-                            "x": 15,
-                            "y": 1
-                          },
-                          {
-                            "x": 15,
-                            "y": 17
-                          },
-                          {
-                            "x": 1,
-                            "y": 17
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Walking Up",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.25,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Female Character 1_Walking Up_1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 1,
-                            "y": 1
-                          },
-                          {
-                            "x": 15,
-                            "y": 1
-                          },
-                          {
-                            "x": 15,
-                            "y": 17
-                          },
-                          {
-                            "x": 1,
-                            "y": 17
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Female Character 1_Walking Up_2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 1,
-                            "y": 1
-                          },
-                          {
-                            "x": 15,
-                            "y": 1
-                          },
-                          {
-                            "x": 15,
-                            "y": 17
-                          },
-                          {
-                            "x": 1,
-                            "y": 17
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Female Character 1_Walking Up_3.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 1,
-                            "y": 1
-                          },
-                          {
-                            "x": 15,
-                            "y": 1
-                          },
-                          {
-                            "x": 15,
-                            "y": 17
-                          },
-                          {
-                            "x": 1,
-                            "y": 17
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "738a6b85621ac08346843749d6741e7a2a47bb204eaf84ffbf25e846ceb67ac7",
           "name": "Request_Desk",
           "persistentUuid": "905f31bf-1303-45a7-9a61-3d0d2e61c747",
@@ -2587,7 +2303,18 @@
           "preScale": 3,
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "name": "waterAmount",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "maxCapacity",
+              "type": "number",
+              "value": 10
+            }
+          ],
           "effects": [],
           "behaviors": [],
           "animations": [
@@ -3087,6 +2814,520 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "9af6773a55ddc01430409f858506afe9e08b86f62eacc5dd574ac399bdb14b16",
+          "name": "Villager",
+          "persistentUuid": "a7f11b56-c614-4d91-a3a2-790928bb33a5",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "name": "HoldingBucket",
+              "type": "boolean",
+              "value": false
+            },
+            {
+              "name": "requiredWater",
+              "type": "number",
+              "value": 10
+            },
+            {
+              "name": "isServed",
+              "type": "boolean",
+              "value": false
+            },
+            {
+              "name": "XP",
+              "type": "number",
+              "value": 20
+            }
+          ],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Walking Down",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.25,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Female Character 11_Walking Down_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 2
+                          },
+                          {
+                            "x": 15,
+                            "y": 2
+                          },
+                          {
+                            "x": 15,
+                            "y": 17
+                          },
+                          {
+                            "x": 1,
+                            "y": 17
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Female Character 11_Walking Down_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 2
+                          },
+                          {
+                            "x": 15,
+                            "y": 2
+                          },
+                          {
+                            "x": 15,
+                            "y": 17
+                          },
+                          {
+                            "x": 1,
+                            "y": 17
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Female Character 11_Walking Down_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 2
+                          },
+                          {
+                            "x": 15,
+                            "y": 2
+                          },
+                          {
+                            "x": 15,
+                            "y": 17
+                          },
+                          {
+                            "x": 1,
+                            "y": 17
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Walking Left",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.25,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Female Character 11_Walking Left_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 2
+                          },
+                          {
+                            "x": 15,
+                            "y": 2
+                          },
+                          {
+                            "x": 15,
+                            "y": 17
+                          },
+                          {
+                            "x": 1,
+                            "y": 17
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Female Character 11_Walking Left_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 2
+                          },
+                          {
+                            "x": 15,
+                            "y": 2
+                          },
+                          {
+                            "x": 15,
+                            "y": 17
+                          },
+                          {
+                            "x": 1,
+                            "y": 17
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Female Character 11_Walking Left_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 2
+                          },
+                          {
+                            "x": 15,
+                            "y": 2
+                          },
+                          {
+                            "x": 15,
+                            "y": 17
+                          },
+                          {
+                            "x": 1,
+                            "y": 17
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Walking Right",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.25,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Female Character 11_Walking Right_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 2
+                          },
+                          {
+                            "x": 15,
+                            "y": 2
+                          },
+                          {
+                            "x": 15,
+                            "y": 17
+                          },
+                          {
+                            "x": 1,
+                            "y": 17
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Female Character 11_Walking Right_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 2
+                          },
+                          {
+                            "x": 15,
+                            "y": 2
+                          },
+                          {
+                            "x": 15,
+                            "y": 17
+                          },
+                          {
+                            "x": 1,
+                            "y": 17
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Female Character 11_Walking Right_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 2
+                          },
+                          {
+                            "x": 15,
+                            "y": 2
+                          },
+                          {
+                            "x": 15,
+                            "y": 17
+                          },
+                          {
+                            "x": 1,
+                            "y": 17
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Walking Up",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.25,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Female Character 11_Walking Up_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 2
+                          },
+                          {
+                            "x": 15,
+                            "y": 2
+                          },
+                          {
+                            "x": 15,
+                            "y": 17
+                          },
+                          {
+                            "x": 1,
+                            "y": 17
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Female Character 11_Walking Up_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 2
+                          },
+                          {
+                            "x": 15,
+                            "y": 2
+                          },
+                          {
+                            "x": 15,
+                            "y": 17
+                          },
+                          {
+                            "x": 1,
+                            "y": 17
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Female Character 11_Walking Up_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 2
+                          },
+                          {
+                            "x": 15,
+                            "y": 2
+                          },
+                          {
+                            "x": 15,
+                            "y": 17
+                          },
+                          {
+                            "x": 1,
+                            "y": 17
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -3179,6 +3420,18 @@
               },
               "parameters": [
                 "DialogBox"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "7fa72663d2b3fcc4aa262ac256fd9e649c88f3acb73d50150a96a98fa4bdf7b3_Barnville.aac",
+                "",
+                "60",
+                ""
               ]
             }
           ]
@@ -3639,9 +3892,41 @@
                 ">",
                 "0"
               ]
+            },
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Player",
+                "HoldingBucket",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareNumbers"
+              },
+              "parameters": [
+                "Bucket.waterAmount",
+                "<",
+                "Bucket.maxCapacity"
+              ]
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Bucket",
+                "waterAmount",
+                "=",
+                "Bucket.maxCapacity"
+              ]
+            },
             {
               "type": {
                 "value": "SetNumberVariable"
@@ -3649,7 +3934,7 @@
               "parameters": [
                 "Meter.Water",
                 "-",
-                "10"
+                "Bucket.maxCapacity"
               ]
             },
             {
@@ -3696,6 +3981,17 @@
                 "Player",
                 "Villager",
                 "50",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Villager",
+                "isServed",
+                "=",
                 ""
               ]
             }
@@ -3846,23 +4142,24 @@
           "conditions": [
             {
               "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Bucket",
+                "Transport",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "BooleanObjectVariable"
               },
               "parameters": [
                 "Player",
                 "HoldingBucket",
                 "True",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "IsCursorOnObject"
-              },
-              "parameters": [
-                "Transport",
-                "",
-                "",
                 ""
               ]
             },
@@ -3885,6 +4182,17 @@
                 "50",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "IsCursorOnObject"
+              },
+              "parameters": [
+                "Transport",
+                "",
+                "",
+                ""
+              ]
             }
           ],
           "actions": [
@@ -3898,13 +4206,180 @@
                 "False",
                 ""
               ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "Bucket.waterAmount",
+                    ">=",
+                    "Villager.requiredWater"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Villager",
+                    "isServed",
+                    "=",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetBooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Villager",
+                    "isServed",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Bucket",
+                    "waterAmount",
+                    "-",
+                    "Villager.requiredWater"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Meter.Village",
+                    "+",
+                    "Villager.XP"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+                  },
+                  "parameters": [
+                    "Village_Health_Meter",
+                    "=",
+                    "Meter.Village",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "Bucket"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "DialogBox",
+                    "Text",
+                    "=",
+                    "\"Delivery complete!\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "3604b33fad2a11fcd0222da9ddcf6843d6f30053dba00462d1c88c56d05a41e1_Confirm_01.aac",
+                    "",
+                    "60",
+                    ""
+                  ]
+                }
+              ]
             },
             {
-              "type": {
-                "value": "Hide"
-              },
-              "parameters": [
-                "Bucket"
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "Bucket.waterAmount",
+                    "<",
+                    "Villager.requiredWater"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Villager",
+                    "isServed",
+                    "=",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "DialogBox",
+                    "Text",
+                    "=",
+                    "\"Not enoughth water.\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "8801d2d6cde766d642136e3fb8749862146cc40b5ed144379f7ff14315c489f7_death.aac",
+                    "",
+                    "40",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Villager",
+                    "isServed",
+                    "False",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "Bucket",
+                    ""
+                  ]
+                }
               ]
             }
           ]
@@ -7326,7 +7801,7 @@
         "folderName": "__ROOT",
         "children": [
           {
-            "functionName": "eturnBoolean"
+            "functionName": ""
           },
           {
             "functionName": "IsInGameEdition"
