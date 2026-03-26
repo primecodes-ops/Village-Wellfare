@@ -1114,6 +1114,66 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/GDevelop examples/Platformer/Audio/8801d2d6cde766d642136e3fb8749862146cc40b5ed144379f7ff14315c489f7_death.aac",
           "name": "gdevelop-asset-store"
         }
+      },
+      {
+        "file": "assets/Small Light Grey Button_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Small Light Grey Button_Hovered.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/Pixel art/95c8aec49aac6657a1b1870edcbafe98def8da6ced9ba38486ad54b16b11bd2e_Small Light Grey Button_Hovered.png",
+          "name": "Small Light Grey Button_Hovered.png"
+        }
+      },
+      {
+        "file": "assets/Small Light Grey Button_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Small Light Grey Button_Idle.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/Pixel art/80613a75f24d5c563b76fe4775c6bd66e8f5050eeaae279a556e41de62a1649d_Small Light Grey Button_Idle.png",
+          "name": "Small Light Grey Button_Idle.png"
+        }
+      },
+      {
+        "file": "assets/Small Light Grey Button_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Small Light Grey Button_Pressed.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/Pixel art/9bd7fdd350ae7a52dbe99d2ff6e0f6226656c6057aafe3c6e034cb6ef6616f4d_Small Light Grey Button_Pressed.png",
+          "name": "Small Light Grey Button_Pressed.png"
+        }
+      },
+      {
+        "file": "assets/Timer_Drop-shadowed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Timer_Drop-shadowed.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Mini FX, Items & UI/Mini UI/ca6ffc29cda5bb7c5dc1359bf94193e323c6e407424c4903ab93ba48e44ce421_Timer_Drop-shadowed.png",
+          "name": "Timer_Drop-shadowed.png"
+        }
+      },
+      {
+        "file": "assets/Timer_Outlined.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Timer_Outlined.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/GrafxKid Pack/Mini FX, Items & UI/Mini UI/71389ad4d3087bc13ad6c7c7524a08b053c17bfc93216e0013a09c9c1a4babd2_Timer_Outlined.png",
+          "name": "Timer_Outlined.png"
+        }
       }
     ]
   },
@@ -1163,7 +1223,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.4,
         "snap": true,
-        "zoomFactor": 0.6040838749988954,
+        "zoomFactor": 0.7619362677197726,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -1189,6 +1249,11 @@
           "name": "Facing",
           "type": "string",
           "value": "Down"
+        },
+        {
+          "name": "timeLeft",
+          "type": "number",
+          "value": 60
         }
       ],
       "instances": [
@@ -1197,7 +1262,7 @@
           "customSize": true,
           "depth": 63.999999999999986,
           "height": 49,
-          "layer": "UI Layer",
+          "layer": "WWS_UI Layer",
           "name": "Water_Meter",
           "persistentUuid": "8b580bcb-779a-470f-86e1-1f2ffa700e29",
           "width": 869,
@@ -1213,7 +1278,7 @@
           "customSize": true,
           "depth": 72.29508196721312,
           "height": 49,
-          "layer": "UI Layer",
+          "layer": "WWS_UI Layer",
           "name": "Village_Health_Meter",
           "persistentUuid": "23fae1a3-6522-4457-a7fb-adcb9e65d013",
           "width": 869,
@@ -1247,7 +1312,7 @@
           "depth": 5,
           "height": 89,
           "keepRatio": true,
-          "layer": "UI Layer",
+          "layer": "WWS_UI Layer",
           "name": "Player",
           "persistentUuid": "7e808be7-df53-45d6-adb6-71a9a378155d",
           "width": 84,
@@ -1269,7 +1334,7 @@
           "depth": 146,
           "height": 101,
           "keepRatio": true,
-          "layer": "UI Layer",
+          "layer": "WWS_UI Layer",
           "name": "Well",
           "persistentUuid": "18378d76-6c47-47dc-b425-89d1d9829949",
           "rotationX": 32,
@@ -1288,7 +1353,7 @@
           "depth": 1,
           "height": 736,
           "keepRatio": true,
-          "layer": "UI Layer",
+          "layer": "WWS_UI Layer",
           "name": "UIRight",
           "persistentUuid": "ce602f78-3584-40f1-93f8-4211846c485d",
           "width": 416,
@@ -1305,7 +1370,7 @@
           "depth": 1,
           "height": 736,
           "keepRatio": true,
-          "layer": "UI Layer",
+          "layer": "WWS_UI Layer",
           "name": "UIRight_barrier",
           "opacity": 0,
           "persistentUuid": "c697216d-ae4e-4a39-986a-97470cce53ad",
@@ -1323,14 +1388,14 @@
           "depth": 1,
           "height": 128,
           "keepRatio": true,
-          "layer": "UI Layer",
+          "layer": "WWS_UI Layer",
           "name": "UIDown_barrier2",
           "opacity": 0,
           "persistentUuid": "e4eaa149-2dfb-4825-88c9-04e6990cf14b",
           "width": 864,
           "x": 0,
           "y": 608,
-          "zOrder": 13,
+          "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1341,7 +1406,7 @@
           "depth": 32,
           "height": 256,
           "keepRatio": true,
-          "layer": "UI Layer",
+          "layer": "WWS_UI Layer",
           "name": "DialogBox",
           "persistentUuid": "9c24323b-14c2-418c-bceb-f5c752eb4fb8",
           "width": 416,
@@ -1357,7 +1422,7 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "UI Layer",
+          "layer": "WWS_UI Layer",
           "name": "Container_Shelf",
           "persistentUuid": "71cd821a-8860-4231-872e-abfe1a511d25",
           "width": 0,
@@ -1374,7 +1439,7 @@
           "depth": 3,
           "height": 70,
           "keepRatio": true,
-          "layer": "UI Layer",
+          "layer": "WWS_UI Layer",
           "name": "Interrogation_Dialog",
           "persistentUuid": "8bed2d70-ba90-4dbe-9627-c80ff2b47129",
           "width": 64,
@@ -1391,11 +1456,11 @@
           "depth": 4,
           "height": 88,
           "keepRatio": true,
-          "layer": "UI Layer",
+          "layer": "WWS_UI Layer",
           "name": "Transport",
           "persistentUuid": "ec09f571-188c-4f30-b01f-fcbd96fb4c48",
           "width": 268,
-          "x": 564,
+          "x": 532,
           "y": 488,
           "zOrder": 19,
           "numberProperties": [],
@@ -1415,6 +1480,56 @@
           "x": 64,
           "y": 60,
           "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 128,
+          "keepRatio": true,
+          "layer": "WWS_UI Layer",
+          "name": "UIDown",
+          "persistentUuid": "746f9b35-9003-4f20-a1a3-dc5ece506452",
+          "width": 864,
+          "x": 0,
+          "y": 608,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 64,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "WWS_UI Layer",
+          "name": "DS_Screen_Button",
+          "persistentUuid": "f9b9be89-b3be-40b3-a9c7-a68e6e487e2d",
+          "width": 352,
+          "x": 896,
+          "y": 288,
+          "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "WWS_UI Layer",
+          "name": "TimerText",
+          "persistentUuid": "779b20bb-14c9-4eb0-957b-fe65496cc361",
+          "width": 0,
+          "x": 960,
+          "y": 373,
+          "zOrder": 31,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2209,67 +2324,6 @@
                           {
                             "x": 0,
                             "y": 64
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "738a6b85621ac08346843749d6741e7a2a47bb204eaf84ffbf25e846ceb67ac7",
-          "name": "Request_Desk",
-          "persistentUuid": "905f31bf-1303-45a7-9a61-3d0d2e61c747",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.025,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Isometric Voxel Spruce Wood.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 111,
-                            "y": 0
-                          },
-                          {
-                            "x": 111,
-                            "y": 128
-                          },
-                          {
-                            "x": 0,
-                            "y": 128
                           }
                         ]
                       ]
@@ -3328,6 +3382,134 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "UIDown",
+          "persistentUuid": "fcc62470-56fc-4e64-8104-2350718ae63e",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "PathfindingObstacle",
+              "type": "PathfindingBehavior::PathfindingObstacleBehavior",
+              "cost": 2,
+              "impassable": true
+            }
+          ],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite4",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "0afc2350902b780376c88111a4f3b03e4273d1ffe8e77239be4647e55ef35abd",
+          "name": "DS_Screen_Button",
+          "persistentUuid": "d3c7b844-babf-4a85-b1ed-54e6e21e40ed",
+          "type": "PanelSpriteButton::PanelSpriteButton",
+          "variant": "Small Light Grey Button",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "LabelText": "Delivery Screen",
+            "PressedLabelOffsetY": 2,
+            "HoveredFadeOutDuration": 0.25
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "TimerText",
+          "persistentUuid": "a9e110d9-13e3-4e50-83d2-79dfa318f2ed",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "",
+          "font": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
+          "textAlignment": "left",
+          "characterSize": 60,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": true,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "",
+            "font": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 60,
+            "lineHeight": 0,
+            "color": "0;0;0"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -3361,22 +3543,28 @@
             "objectName": "Well"
           },
           {
+            "objectName": "DS_Screen_Button"
+          },
+          {
             "objectName": "UIRight"
           },
           {
             "objectName": "UIRight_barrier"
           },
           {
-            "objectName": "UIDown_barrier2"
+            "objectName": "UIDown"
           },
           {
-            "objectName": "Request_Desk"
+            "objectName": "UIDown_barrier2"
           },
           {
             "objectName": "DialogBox"
           },
           {
             "objectName": "Interrogation_Dialog"
+          },
+          {
+            "objectName": "TimerText"
           }
         ]
       },
@@ -3416,14 +3604,6 @@
             },
             {
               "type": {
-                "value": "Hide"
-              },
-              "parameters": [
-                "DialogBox"
-              ]
-            },
-            {
-              "type": {
                 "value": "PlaySound"
               },
               "parameters": [
@@ -3432,6 +3612,87 @@
                 "",
                 "60",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "DialogBox",
+                "Text",
+                "=",
+                "\"\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "TimerText",
+                "Text",
+                "=",
+                "\"Time Left: \" + ToString(floor(Variable(timeLeft)))"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "timeLeft",
+                "-",
+                "TimeDelta()"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "timeLeft",
+                "<=",
+                "0"
+              ]
+            }
+          ],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "timeLeft",
+                "<",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "timeLeft",
+                "=",
+                "0"
               ]
             }
           ]
@@ -3457,7 +3718,7 @@
               "parameters": [
                 "MoveToPosX",
                 "=",
-                "CursorX(\"UI Layer\")"
+                "CursorX(\"WWS_UI Layer\")"
               ]
             },
             {
@@ -3467,7 +3728,7 @@
               "parameters": [
                 "MoveToPosY",
                 "=",
-                "CursorY(\"UI Layer\")"
+                "CursorY(\"WWS_UI Layer\")"
               ]
             },
             {
@@ -4102,7 +4363,7 @@
                 "Bucket",
                 "Player.X()",
                 "Player.Y()",
-                "\"UI Layer\""
+                "\"WWS_UI Layer\""
               ]
             }
           ]
@@ -4345,7 +4606,7 @@
                     "DialogBox",
                     "Text",
                     "=",
-                    "\"Not enoughth water.\""
+                    "\"Not enough water.\""
                   ]
                 },
                 {
@@ -4373,16 +4634,33 @@
                 },
                 {
                   "type": {
-                    "value": "Show"
+                    "value": "SetBooleanObjectVariable"
                   },
                   "parameters": [
-                    "Bucket",
+                    "Player",
+                    "HoldingBucket",
+                    "True",
                     ""
                   ]
                 }
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+              },
+              "parameters": [
+                "DS_Screen_Button",
+                ""
+              ]
+            }
+          ],
+          "actions": []
         }
       ],
       "layers": [
@@ -4427,7 +4705,61 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "isLocked": false,
-          "name": "UI Layer",
+          "name": "WWS_UI Layer",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "DS_UI Layer",
           "renderingType": "",
           "visibility": true,
           "cameras": [],
@@ -12361,6 +12693,335 @@
                   "width": 256,
                   "x": 0,
                   "y": 32,
+                  "zOrder": 2,
+                  "numberProperties": [],
+                  "stringProperties": [],
+                  "initialVariables": []
+                }
+              ],
+              "editionSettings": []
+            },
+            {
+              "areaMaxX": 128,
+              "areaMaxY": 48,
+              "areaMaxZ": 64,
+              "areaMinX": 0,
+              "areaMinY": 0,
+              "areaMinZ": 0,
+              "assetStoreAssetId": "0afc2350902b780376c88111a4f3b03e4273d1ffe8e77239be4647e55ef35abd",
+              "assetStoreOriginalName": "Small Light Grey Button",
+              "name": "Small Light Grey Button",
+              "objects": [
+                {
+                  "assetStoreId": "",
+                  "bold": false,
+                  "italic": false,
+                  "name": "Label",
+                  "smoothed": true,
+                  "type": "TextObject::Text",
+                  "underlined": false,
+                  "variables": [],
+                  "effects": [],
+                  "behaviors": [
+                    {
+                      "name": "Anchor",
+                      "type": "AnchorBehavior::AnchorBehavior",
+                      "bottomEdgeAnchor": 4,
+                      "topEdgeAnchor": 4,
+                      "leftEdgeAnchor": 1,
+                      "relativeToOriginalWindowSize": true,
+                      "rightEdgeAnchor": 2,
+                      "useLegacyBottomAndRightAnchors": false
+                    },
+                    {
+                      "name": "TextStyleState",
+                      "type": "PanelSpriteButton::TextStyleState",
+                      "ShouldEnableOutlineOnHover": false,
+                      "HoverColor": "",
+                      "ShouldEnableShadowOnHover": false,
+                      "HoverFontSize": 0,
+                      "IsHovered": false,
+                      "IdleFontSize": 0,
+                      "IdleColor": ""
+                    }
+                  ],
+                  "string": "Text",
+                  "font": "",
+                  "textAlignment": "center",
+                  "characterSize": 20,
+                  "color": {
+                    "b": 0,
+                    "g": 0,
+                    "r": 0
+                  },
+                  "content": {
+                    "bold": false,
+                    "isOutlineEnabled": false,
+                    "isShadowEnabled": false,
+                    "italic": false,
+                    "outlineColor": "255;255;255",
+                    "outlineThickness": 2,
+                    "shadowAngle": 90,
+                    "shadowBlurRadius": 2,
+                    "shadowColor": "0;0;0",
+                    "shadowDistance": 4,
+                    "shadowOpacity": 127,
+                    "smoothed": true,
+                    "underlined": false,
+                    "text": "Text",
+                    "font": "",
+                    "textAlignment": "center",
+                    "verticalTextAlignment": "center",
+                    "characterSize": 20,
+                    "lineHeight": 0,
+                    "color": "0;0;0"
+                  }
+                },
+                {
+                  "assetStoreId": "",
+                  "bottomMargin": 5,
+                  "height": 32,
+                  "leftMargin": 3,
+                  "name": "Idle",
+                  "rightMargin": 3,
+                  "texture": "assets\\Small Light Grey Button_Idle.png",
+                  "tiled": false,
+                  "topMargin": 3,
+                  "type": "PanelSpriteObject::PanelSprite",
+                  "width": 32,
+                  "variables": [
+                    {
+                      "folded": true,
+                      "name": "State",
+                      "type": "string",
+                      "value": "Idle"
+                    }
+                  ],
+                  "effects": [],
+                  "behaviors": [
+                    {
+                      "name": "Anchor",
+                      "type": "AnchorBehavior::AnchorBehavior",
+                      "bottomEdgeAnchor": 2,
+                      "leftEdgeAnchor": 1,
+                      "relativeToOriginalWindowSize": true,
+                      "rightEdgeAnchor": 2,
+                      "topEdgeAnchor": 1,
+                      "useLegacyBottomAndRightAnchors": false
+                    },
+                    {
+                      "name": "ButtonFSM",
+                      "type": "PanelSpriteButton::ButtonFSM",
+                      "ShouldCheckHovering": true
+                    }
+                  ]
+                },
+                {
+                  "assetStoreId": "",
+                  "bottomMargin": 5,
+                  "height": 32,
+                  "leftMargin": 3,
+                  "name": "Hovered",
+                  "rightMargin": 3,
+                  "texture": "assets\\Small Light Grey Button_Hovered.png",
+                  "tiled": false,
+                  "topMargin": 3,
+                  "type": "PanelSpriteObject::PanelSprite",
+                  "width": 32,
+                  "variables": [],
+                  "effects": [],
+                  "behaviors": [
+                    {
+                      "name": "Anchor",
+                      "type": "AnchorBehavior::AnchorBehavior",
+                      "bottomEdgeAnchor": 2,
+                      "leftEdgeAnchor": 1,
+                      "relativeToOriginalWindowSize": true,
+                      "rightEdgeAnchor": 2,
+                      "topEdgeAnchor": 1,
+                      "useLegacyBottomAndRightAnchors": false
+                    },
+                    {
+                      "name": "Tween",
+                      "type": "Tween::TweenBehavior"
+                    }
+                  ]
+                },
+                {
+                  "assetStoreId": "",
+                  "bottomMargin": 3,
+                  "height": 32,
+                  "leftMargin": 3,
+                  "name": "Pressed",
+                  "rightMargin": 3,
+                  "texture": "assets\\Small Light Grey Button_Pressed.png",
+                  "tiled": false,
+                  "topMargin": 3,
+                  "type": "PanelSpriteObject::PanelSprite",
+                  "width": 32,
+                  "variables": [],
+                  "effects": [],
+                  "behaviors": [
+                    {
+                      "name": "Anchor",
+                      "type": "AnchorBehavior::AnchorBehavior",
+                      "bottomEdgeAnchor": 2,
+                      "leftEdgeAnchor": 1,
+                      "relativeToOriginalWindowSize": true,
+                      "rightEdgeAnchor": 2,
+                      "topEdgeAnchor": 1,
+                      "useLegacyBottomAndRightAnchors": false
+                    }
+                  ]
+                },
+                {
+                  "assetStoreId": "",
+                  "name": "BitmapLabel",
+                  "type": "BitmapText::BitmapTextObject",
+                  "variables": [],
+                  "effects": [],
+                  "behaviors": [
+                    {
+                      "name": "Anchor",
+                      "type": "AnchorBehavior::AnchorBehavior",
+                      "bottomEdgeAnchor": 4,
+                      "topEdgeAnchor": 4,
+                      "leftEdgeAnchor": 1,
+                      "relativeToOriginalWindowSize": true,
+                      "rightEdgeAnchor": 2,
+                      "useLegacyBottomAndRightAnchors": false
+                    },
+                    {
+                      "name": "BitmapTextStyleState",
+                      "type": "PanelSpriteButton::BitmapTextStyleState",
+                      "HoverColor": "",
+                      "HoverPrefix": "",
+                      "HoverSuffix": "",
+                      "IsHovered": false,
+                      "IdleText": "",
+                      "IdleColor": ""
+                    }
+                  ],
+                  "content": {
+                    "text": "Button",
+                    "opacity": 255,
+                    "scale": 1,
+                    "fontSize": 20,
+                    "tint": "109;84;58",
+                    "bitmapFontResourceName": "assets\\8BitOperatorPlus8Regular_Edited.fnt",
+                    "textureAtlasResourceName": "assets\\8BitOperatorPlus8Regular_Edited.png",
+                    "align": "center",
+                    "verticalTextAlignment": "center"
+                  }
+                }
+              ],
+              "objectsFolderStructure": {
+                "folderName": "__ROOT",
+                "children": [
+                  {
+                    "objectName": "Label"
+                  },
+                  {
+                    "objectName": "BitmapLabel"
+                  },
+                  {
+                    "objectName": "Idle"
+                  },
+                  {
+                    "objectName": "Hovered"
+                  },
+                  {
+                    "objectName": "Pressed"
+                  }
+                ]
+              },
+              "objectsGroups": [
+                {
+                  "name": "Background",
+                  "objects": [
+                    {
+                      "name": "Idle"
+                    },
+                    {
+                      "name": "Hovered"
+                    },
+                    {
+                      "name": "Pressed"
+                    }
+                  ]
+                },
+                {
+                  "name": "Labels",
+                  "objects": [
+                    {
+                      "name": "Label"
+                    },
+                    {
+                      "name": "BitmapLabel"
+                    }
+                  ]
+                }
+              ],
+              "layers": [
+                {
+                  "ambientLightColorB": 200,
+                  "ambientLightColorG": 200,
+                  "ambientLightColorR": 200,
+                  "camera2DPlaneMaxDrawingDistance": 5000,
+                  "camera3DFarPlaneDistance": 10000,
+                  "camera3DFieldOfView": 45,
+                  "camera3DNearPlaneDistance": 3,
+                  "cameraType": "",
+                  "followBaseLayerCamera": false,
+                  "isLightingLayer": false,
+                  "isLocked": false,
+                  "name": "",
+                  "renderingType": "",
+                  "visibility": true,
+                  "cameras": [
+                    {
+                      "defaultSize": true,
+                      "defaultViewport": true,
+                      "height": 0,
+                      "viewportBottom": 1,
+                      "viewportLeft": 0,
+                      "viewportRight": 1,
+                      "viewportTop": 0,
+                      "width": 0
+                    }
+                  ],
+                  "effects": []
+                }
+              ],
+              "instances": [
+                {
+                  "angle": 0,
+                  "customSize": true,
+                  "depth": 1,
+                  "height": 48,
+                  "layer": "",
+                  "name": "Idle",
+                  "persistentUuid": "24882334-eec8-403e-8bf1-70fc928a46e6",
+                  "width": 128,
+                  "x": 0,
+                  "y": 0,
+                  "zOrder": 1,
+                  "numberProperties": [],
+                  "stringProperties": [],
+                  "initialVariables": []
+                },
+                {
+                  "angle": 0,
+                  "customSize": true,
+                  "depth": 1,
+                  "height": 48,
+                  "keepRatio": true,
+                  "layer": "",
+                  "name": "BitmapLabel",
+                  "persistentUuid": "c3c3200d-dec4-4ac4-9dc5-4715d8989830",
+                  "width": 128,
+                  "x": 5,
+                  "y": 26,
                   "zOrder": 2,
                   "numberProperties": [],
                   "stringProperties": [],
