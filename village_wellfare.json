@@ -1229,6 +1229,26 @@
         "metadata": "",
         "name": "assets/Kenney Pixel.ttf",
         "userAdded": false
+      },
+      {
+        "file": "assets/Sprites/Desk.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Sprites/Desk.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/tiled_Brick3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tiled_Brick3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tileable Ground Textures/821a1cde78a58eae605bc09ebb4b3d91b1d1bda569cea742ff74470a0068dc2e_tiled_Brick3.png",
+          "name": "tiled_Brick3.png"
+        }
       }
     ]
   },
@@ -1283,7 +1303,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.4,
         "snap": true,
-        "zoomFactor": 0.64551057033116,
+        "zoomFactor": 0.5117784035210275,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -1352,23 +1372,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 1,
-          "height": 719,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Floor",
-          "persistentUuid": "1413911c-7936-4c82-85f4-190de53949ff",
-          "width": 1277,
-          "x": 2,
-          "y": 1,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
           "depth": 5,
           "height": 89,
           "keepRatio": true,
@@ -1378,7 +1381,7 @@
           "width": 84,
           "x": 630,
           "y": 393,
-          "zOrder": 10,
+          "zOrder": 100,
           "numberProperties": [
             {
               "name": "animation",
@@ -1503,9 +1506,9 @@
           "name": "Interrogation_Dialog",
           "persistentUuid": "8bed2d70-ba90-4dbe-9627-c80ff2b47129",
           "width": 64,
-          "x": 106,
-          "y": 43,
-          "zOrder": 18,
+          "x": 138,
+          "y": 75,
+          "zOrder": 21,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1533,12 +1536,12 @@
           "depth": 4,
           "height": 68,
           "keepRatio": true,
-          "layer": "",
+          "layer": "WWS_UI Layer",
           "name": "Villager",
           "persistentUuid": "73503f24-571e-4dce-9bc7-718c86eab464",
           "width": 64,
-          "x": 64,
-          "y": 60,
+          "x": 96,
+          "y": 92,
           "zOrder": 20,
           "numberProperties": [],
           "stringProperties": [],
@@ -1603,8 +1606,8 @@
           "layer": "WWS_UI Layer",
           "name": "Menu_Button",
           "persistentUuid": "a353ed5a-5e34-4b13-8c8f-ab99c8f8cd49",
-          "width": 352,
-          "x": 896,
+          "width": 160,
+          "x": 992,
           "y": 672,
           "zOrder": 32,
           "numberProperties": [],
@@ -1640,6 +1643,40 @@
           "x": 896,
           "y": 563,
           "zOrder": 35,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 256,
+          "keepRatio": true,
+          "layer": "WWS_UI Layer",
+          "name": "Desk",
+          "persistentUuid": "2c2e9283-abaf-4b8e-9854-ecc43a69db5c",
+          "width": 320,
+          "x": 0,
+          "y": -32,
+          "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 704,
+          "keepRatio": true,
+          "layer": "WWS_UI Layer",
+          "name": "Brick3",
+          "persistentUuid": "093fe82f-183a-4853-b44d-a63febb6dbf5",
+          "width": 1280,
+          "x": 0,
+          "y": 0,
+          "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1684,18 +1721,6 @@
             "BarLeftPadding": 10,
             "PreviousHighValueDuration": 0
           }
-        },
-        {
-          "assetStoreId": "742252fc01d00101e3233a80d4b36164515cfc015a02f59671022d7db92114e6",
-          "height": 512,
-          "name": "Floor",
-          "persistentUuid": "785a7b71-2da9-4b5d-88e2-9d7f02f29a27",
-          "texture": "tiled_Dirt2.png",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 512,
-          "variables": [],
-          "effects": [],
-          "behaviors": []
         },
         {
           "adaptCollisionMaskAutomatically": false,
@@ -3766,6 +3791,115 @@
             "lineHeight": 8,
             "color": "255;255;255"
           }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Desk",
+          "persistentUuid": "b4a94bce-79aa-4764-8cb9-6407c6968c30",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Sprites/Desk.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Sprites/Desk.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "fad388d5b03fd85459567c968deb7d39df2ab923240826b6e823e7dc09c2e760",
+          "height": 512,
+          "name": "Brick3",
+          "persistentUuid": "205814e7-6594-48dc-b3de-7b23191ee15f",
+          "texture": "tiled_Brick3.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 512,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
         }
       ],
       "objectsFolderStructure": {
@@ -3791,9 +3925,6 @@
           },
           {
             "objectName": "Village_Health_Meter"
-          },
-          {
-            "objectName": "Floor"
           },
           {
             "objectName": "Well"
@@ -3833,6 +3964,12 @@
           },
           {
             "objectName": "BoxText"
+          },
+          {
+            "objectName": "Desk"
+          },
+          {
+            "objectName": "Brick3"
           }
         ]
       },
@@ -21952,7 +22089,7 @@
         "folderName": "__ROOT",
         "children": [
           {
-            "functionName": "lSpriteButto"
+            "functionName": ""
           },
           {
             "functionName": "IsInGameEdition"
