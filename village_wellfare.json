@@ -1567,7 +1567,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.4,
         "snap": true,
-        "zoomFactor": 0.7370816317994175,
+        "zoomFactor": 0.5117784035210277,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -3478,6 +3478,8 @@
           "effects": [],
           "behaviors": [
             {
+              "name": "Pathfinding",
+              "type": "PathfindingBehavior::PathfindingBehavior",
               "acceleration": 600,
               "allowDiagonals": false,
               "angleOffset": 0,
@@ -3488,10 +3490,8 @@
               "gridOffsetX": 0,
               "gridOffsetY": 0,
               "maxSpeed": 400,
-              "name": "Pathfinding",
               "rotateObject": false,
-              "smoothingMaxCellGap": 1,
-              "type": "PathfindingBehavior::PathfindingBehavior"
+              "smoothingMaxCellGap": 1
             }
           ],
           "animations": [
@@ -4913,26 +4913,6 @@
           "actions": [
             {
               "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "MoveToPosY",
-                "=",
-                "Player.Y()"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "MoveToPosX",
-                "=",
-                "Player.X()"
-              ]
-            },
-            {
-              "type": {
                 "value": "PlaySound"
               },
               "parameters": [
@@ -4959,6 +4939,14 @@
                 "value": "Hide"
               },
               "parameters": [
+                "Water_Required"
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
                 "BucketOptions"
               ]
             },
@@ -4968,37 +4956,6 @@
               },
               "parameters": [
                 "OrderProgress"
-              ]
-            },
-            {
-              "type": {
-                "value": "Hide"
-              },
-              "parameters": [
-                "Water_Required"
-              ]
-            },
-            {
-              "type": {
-                "value": "PathfindingBehavior::SetDestination"
-              },
-              "parameters": [
-                "Villager",
-                "Pathfinding",
-                "",
-                "InTargetPoint.X()",
-                "InTargetPoint.Y()"
-              ]
-            },
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "Villager",
-                "Animation",
-                "=",
-                "\"Child Walking Down\""
               ]
             },
             {
@@ -5024,6 +4981,29 @@
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "PathfindingBehavior::SetDestination"
+              },
+              "parameters": [
+                "Villager",
+                "Pathfinding",
+                "",
+                "InTargetPoint.X()",
+                "InTargetPoint.Y()"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Villager",
+                "Animation",
+                "=",
+                "\"Child Walking Down\""
+              ]
+            },
             {
               "type": {
                 "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
@@ -5090,6 +5070,32 @@
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::Name"
+              },
+              "parameters": [
+                "Villager",
+                "Animation",
+                "=",
+                "\"Child Walking Left\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "Interrogation_Dialog"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": [
             {
@@ -5113,40 +5119,62 @@
                 "TimeDelta()"
               ]
             }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "timeLeft",
+                    "<=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "timeLeft",
+                    "<",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "timeLeft",
+                    "=",
+                    "0"
+                  ]
+                }
+              ]
+            }
           ]
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "value": "NumberVariable"
+                "value": "SceneJustBegins"
               },
               "parameters": [
-                "timeLeft",
-                "<=",
-                "0"
-              ]
-            }
-          ],
-          "actions": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "NumberVariable"
-              },
-              "parameters": [
-                "timeLeft",
-                "<",
-                "0"
+                ""
               ]
             }
           ],
@@ -5156,9 +5184,19 @@
                 "value": "SetNumberVariable"
               },
               "parameters": [
-                "timeLeft",
+                "MoveToPosY",
                 "=",
-                "0"
+                "Player.Y()"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "MoveToPosX",
+                "=",
+                "Player.X()"
               ]
             }
           ]
@@ -5222,6 +5260,7 @@
           ]
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -5580,6 +5619,53 @@
           "conditions": [
             {
               "type": {
+                "value": "IsCursorOnObject"
+              },
+              "parameters": [
+                "Container_Shelf",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Distance"
+              },
+              "parameters": [
+                "Player",
+                "Container_Shelf",
+                "50",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "BucketOptions",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
                 "value": "MouseButtonFromTextReleased"
               },
               "parameters": [
@@ -5693,6 +5779,421 @@
           "conditions": [
             {
               "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "Visible"
+                  },
+                  "parameters": [
+                    "BucketOptions"
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::Activate"
+              },
+              "parameters": [
+                "MedBucket_button",
+                "yes",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::Activate"
+              },
+              "parameters": [
+                "SmallBucket_button",
+                "yes",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::Activate"
+              },
+              "parameters": [
+                "BigBucket_button",
+                "yes",
+                ""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PanelSpriteButton::PanelSpriteButton::IsPressed"
+                  },
+                  "parameters": [
+                    "SmallBucket_button",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "BucketOptions"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Player",
+                    "HoldingBucket",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Bucket",
+                    "Player.X()",
+                    "Player.Y()",
+                    "\"WWS_UI Layer\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Bucket",
+                    "maxCapacity",
+                    "=",
+                    "10"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "BoxText",
+                    "Text",
+                    "=",
+                    "\"Small bucket acquired!\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PanelSpriteButton::PanelSpriteButton::IsPressed"
+                  },
+                  "parameters": [
+                    "BigBucket_button",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "BucketOptions"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Player",
+                    "HoldingBucket",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Bucket",
+                    "Player.X()",
+                    "Player.Y()",
+                    "\"WWS_UI Layer\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Bucket",
+                    "maxCapacity",
+                    "=",
+                    "20"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "BoxText",
+                    "Text",
+                    "=",
+                    "\"Large bucket acquired!\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PanelSpriteButton::PanelSpriteButton::IsPressed"
+                  },
+                  "parameters": [
+                    "MedBucket_button",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "BucketOptions"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Player",
+                    "HoldingBucket",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Bucket",
+                    "Player.X()",
+                    "Player.Y()",
+                    "\"WWS_UI Layer\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Bucket",
+                    "maxCapacity",
+                    "=",
+                    "15"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "BoxText",
+                    "Text",
+                    "=",
+                    "\"Medium bucket acquired!\""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "Visible"
+                  },
+                  "parameters": [
+                    "BucketOptions"
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::Activate"
+              },
+              "parameters": [
+                "SmallBucket_button",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::Activate"
+              },
+              "parameters": [
+                "MedBucket_button",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::Activate"
+              },
+              "parameters": [
+                "BigBucket_button",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
+                "value": "IsCursorOnObject"
+              },
+              "parameters": [
+                "Villager",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Distance"
+              },
+              "parameters": [
+                "Player",
+                "Villager",
+                "50",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Villager",
+                "isServed",
+                "=",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "DialogBox",
+                "Text",
+                "=",
+                "\"I need to water my crops. I need 10 units of water.\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "DialogBox",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "disabled": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Villager",
+                "isServed",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Villager",
+                "Animation",
+                "=",
+                "\"Child Walking Left\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
                 "value": "TwoChoicesDialogBoxes::TwoChoicesDialogBox::IsYesClicked"
               },
               "parameters": [
@@ -5785,492 +6286,6 @@
                 "Text",
                 "+",
                 "\" (\" + OrderProgress.WaterRequired + \" units)\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::Name"
-              },
-              "parameters": [
-                "Villager",
-                "Animation",
-                "=",
-                "\"Child Walking Left\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Hide"
-              },
-              "parameters": [
-                "Interrogation_Dialog"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "IsCursorOnObject"
-              },
-              "parameters": [
-                "Container_Shelf",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "MouseButtonFromTextReleased"
-              },
-              "parameters": [
-                "",
-                "\"Left\""
-              ]
-            },
-            {
-              "type": {
-                "value": "Distance"
-              },
-              "parameters": [
-                "Player",
-                "Container_Shelf",
-                "50",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Show"
-              },
-              "parameters": [
-                "BucketOptions",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Or"
-              },
-              "parameters": [],
-              "subInstructions": [
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "Visible"
-                  },
-                  "parameters": [
-                    "BucketOptions"
-                  ]
-                }
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "PanelSpriteButton::PanelSpriteButton::Activate"
-              },
-              "parameters": [
-                "SmallBucket_button",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "PanelSpriteButton::PanelSpriteButton::Activate"
-              },
-              "parameters": [
-                "MedBucket_button",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "PanelSpriteButton::PanelSpriteButton::Activate"
-              },
-              "parameters": [
-                "BigBucket_button",
-                "",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Or"
-              },
-              "parameters": [],
-              "subInstructions": [
-                {
-                  "type": {
-                    "value": "Visible"
-                  },
-                  "parameters": [
-                    "BucketOptions"
-                  ]
-                }
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "PanelSpriteButton::PanelSpriteButton::Activate"
-              },
-              "parameters": [
-                "SmallBucket_button",
-                "yes",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "PanelSpriteButton::PanelSpriteButton::Activate"
-              },
-              "parameters": [
-                "MedBucket_button",
-                "yes",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "PanelSpriteButton::PanelSpriteButton::Activate"
-              },
-              "parameters": [
-                "BigBucket_button",
-                "yes",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "PanelSpriteButton::PanelSpriteButton::IsPressed"
-              },
-              "parameters": [
-                "SmallBucket_button",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Hide"
-              },
-              "parameters": [
-                "BucketOptions"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanObjectVariable"
-              },
-              "parameters": [
-                "Player",
-                "HoldingBucket",
-                "True",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "Bucket",
-                "Player.X()",
-                "Player.Y()",
-                "\"WWS_UI Layer\""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberObjectVariable"
-              },
-              "parameters": [
-                "Bucket",
-                "maxCapacity",
-                "=",
-                "10"
-              ]
-            },
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "BoxText",
-                "Text",
-                "=",
-                "\"Small bucket acquired!\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "PanelSpriteButton::PanelSpriteButton::IsPressed"
-              },
-              "parameters": [
-                "MedBucket_button",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Hide"
-              },
-              "parameters": [
-                "BucketOptions"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanObjectVariable"
-              },
-              "parameters": [
-                "Player",
-                "HoldingBucket",
-                "True",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "Bucket",
-                "Player.X()",
-                "Player.Y()",
-                "\"WWS_UI Layer\""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberObjectVariable"
-              },
-              "parameters": [
-                "Bucket",
-                "maxCapacity",
-                "=",
-                "15"
-              ]
-            },
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "BoxText",
-                "Text",
-                "=",
-                "\"Medium bucket acquired!\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "PanelSpriteButton::PanelSpriteButton::IsPressed"
-              },
-              "parameters": [
-                "BigBucket_button",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Hide"
-              },
-              "parameters": [
-                "BucketOptions"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanObjectVariable"
-              },
-              "parameters": [
-                "Player",
-                "HoldingBucket",
-                "True",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "Bucket",
-                "Player.X()",
-                "Player.Y()",
-                "\"WWS_UI Layer\""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberObjectVariable"
-              },
-              "parameters": [
-                "Bucket",
-                "maxCapacity",
-                "=",
-                "20"
-              ]
-            },
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "BoxText",
-                "Text",
-                "=",
-                "\"Large bucket acquired!\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "MouseButtonFromTextReleased"
-              },
-              "parameters": [
-                "",
-                "\"Left\""
-              ]
-            },
-            {
-              "type": {
-                "value": "IsCursorOnObject"
-              },
-              "parameters": [
-                "Villager",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Distance"
-              },
-              "parameters": [
-                "Player",
-                "Villager",
-                "50",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "BooleanObjectVariable"
-              },
-              "parameters": [
-                "Villager",
-                "isServed",
-                "=",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "DialogBox",
-                "Text",
-                "=",
-                "\"I need to water my crops. I need 10 units of water.\""
-              ]
-            },
-            {
-              "type": {
-                "value": "Show"
-              },
-              "parameters": [
-                "DialogBox",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BooleanObjectVariable"
-              },
-              "parameters": [
-                "Player",
-                "HoldingBucket",
-                "True",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetXY"
-              },
-              "parameters": [
-                "Bucket",
-                "=",
-                "Player.X() - 12",
-                "=",
-                "Player.Y() - 32"
               ]
             }
           ]
@@ -6611,8 +6626,8 @@
                 "value": "BooleanObjectVariable"
               },
               "parameters": [
-                "Villager",
-                "isServed",
+                "Player",
+                "HoldingBucket",
                 "True",
                 ""
               ]
@@ -6621,13 +6636,14 @@
           "actions": [
             {
               "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                "value": "SetXY"
               },
               "parameters": [
-                "Villager",
-                "Animation",
+                "Bucket",
                 "=",
-                "\"Child Walking Left\""
+                "Player.X() - 12",
+                "=",
+                "Player.Y() - 32"
               ]
             }
           ]
