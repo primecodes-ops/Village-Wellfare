@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 262,
+    "build": 264,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -81,7 +81,6 @@
     "authorUsernames": [],
     "categories": [],
     "playableDevices": [
-      "mobile",
       "mobile"
     ],
     "extensionProperties": [],
@@ -7732,7 +7731,7 @@
             }
           ],
           "content": {
-            "text": "How to Play",
+            "text": "Instructions",
             "opacity": 255,
             "scale": 3,
             "fontSize": 20,
@@ -10000,19 +9999,6 @@
         {
           "name": "Opacity",
           "type": "OpacityCapability::OpacityBehavior"
-        },
-        {
-          "name": "Physics2",
-          "type": "Physics2::Physics2Behavior",
-          "gravityX": 0,
-          "gravityY": 9.8,
-          "worldScale": 100,
-          "scaleX": 100,
-          "scaleY": 100
-        },
-        {
-          "name": "PhysicsCar",
-          "type": "PhysicsCar::PhysicsCar"
         },
         {
           "name": "Resizable",
