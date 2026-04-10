@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 264,
+    "build": 265,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -8678,7 +8678,7 @@
           "height": 608,
           "keepRatio": true,
           "layer": "",
-          "name": "NewSprite",
+          "name": "ds_bg",
           "persistentUuid": "69fe10f5-d335-405f-b86f-132c396e2617",
           "width": 992,
           "x": 0,
@@ -8693,50 +8693,15 @@
           "customSize": true,
           "depth": 1,
           "flippedX": true,
-          "height": 100,
-          "keepRatio": true,
-          "layer": "",
-          "name": "house",
-          "persistentUuid": "e6731ddb-0463-4362-aac4-0a5c7a0298fc",
-          "width": 128,
-          "x": 160,
-          "y": 188,
-          "zOrder": 4,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "flippedX": true,
-          "height": 100,
+          "height": 64,
           "keepRatio": true,
           "layer": "",
           "name": "house",
           "persistentUuid": "f9997c19-3e74-4c94-8883-a0c64e5b268a",
-          "width": 128,
-          "x": 96,
-          "y": 96,
+          "width": 96,
+          "x": 64,
+          "y": 32,
           "zOrder": 4,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 96,
-          "keepRatio": true,
-          "layer": "",
-          "name": "cropfield_placeholder",
-          "persistentUuid": "b544bfdf-98d5-4103-93e6-cda1fd9ee23d",
-          "width": 224,
-          "x": 704,
-          "y": 96,
-          "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -8748,7 +8713,7 @@
           "height": 100,
           "keepRatio": true,
           "layer": "",
-          "name": "NewSprite2",
+          "name": "base",
           "persistentUuid": "4e738cfa-2e59-4760-9882-e29dcbb4e0a1",
           "width": 160,
           "x": 800,
@@ -8780,32 +8745,257 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 66,
+          "height": 96,
           "keepRatio": true,
           "layer": "",
-          "name": "farm_placeholder",
-          "persistentUuid": "da183caf-4d93-43d4-9570-b58af6b717cb",
-          "width": 64,
-          "x": 192,
-          "y": 478,
-          "zOrder": 8,
+          "name": "barn_placeholder",
+          "persistentUuid": "9bc23d90-cb1b-41c4-a0b5-0b606bcdad2e",
+          "width": 96,
+          "x": 544,
+          "y": 32,
+          "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
           "angle": 0,
-          "customSize": false,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "cropfield_placeholder",
+          "persistentUuid": "c97aaadd-c6af-4723-a4f5-ade2d3755bf7",
+          "width": 160,
+          "x": 288,
+          "y": 64,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
           "flippedX": true,
-          "height": 0,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "house",
+          "persistentUuid": "2ee19a1c-ece1-4fba-8810-6df2c170e9d2",
+          "width": 96,
+          "x": 128,
+          "y": 32,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 96,
           "keepRatio": true,
           "layer": "",
           "name": "barn_placeholder",
-          "persistentUuid": "9bc23d90-cb1b-41c4-a0b5-0b606bcdad2e",
-          "width": 0,
-          "x": 64,
-          "y": 404,
+          "persistentUuid": "9e070739-d126-46ac-b486-8f8b6237d3c8",
+          "width": 96,
+          "x": 544,
+          "y": 384,
           "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "cropfield_placeholder",
+          "persistentUuid": "93e1efc8-7547-4456-91c7-1327a473dd17",
+          "width": 160,
+          "x": 608,
+          "y": 288,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "house",
+          "persistentUuid": "6eb2afbb-353a-4d7f-ac6c-5a3d33a3889c",
+          "width": 96,
+          "x": 704,
+          "y": 160,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "house",
+          "persistentUuid": "9ba9a924-e3ec-4325-868e-5885d9d72e84",
+          "width": 96,
+          "x": 640,
+          "y": 160,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "cropfield_placeholder",
+          "persistentUuid": "adeac585-809d-49c8-93e7-ceb2adf3ffc6",
+          "width": 160,
+          "x": 64,
+          "y": 192,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "flippedX": true,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "house",
+          "persistentUuid": "faf285a4-1da9-43ae-9b45-f5fe45e0eb04",
+          "width": 96,
+          "x": 384,
+          "y": 192,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "house",
+          "persistentUuid": "af9c4ac4-4fd4-48a7-acd9-34247758236a",
+          "width": 96,
+          "x": 768,
+          "y": 384,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "cropfield_placeholder",
+          "persistentUuid": "0f3f49b1-7195-4045-ac11-090942a1bdab",
+          "width": 160,
+          "x": 288,
+          "y": 480,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "flippedX": true,
+          "height": 96,
+          "keepRatio": true,
+          "layer": "",
+          "name": "barn_placeholder",
+          "persistentUuid": "3d616497-0286-467a-9e26-09ca887fbb71",
+          "width": 96,
+          "x": 32,
+          "y": 448,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 96,
+          "keepRatio": true,
+          "layer": "",
+          "name": "barn_placeholder",
+          "persistentUuid": "e0d53a84-c697-490c-9c58-5a4e9c8759dc",
+          "width": 96,
+          "x": 832,
+          "y": 64,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "flippedX": true,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "house",
+          "persistentUuid": "051857ab-85f0-4f76-b4b0-102105a3b42b",
+          "width": 96,
+          "x": 160,
+          "y": 352,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "cropfield_placeholder",
+          "persistentUuid": "cbe2452b-a886-450e-8ec4-06e6c8611bde",
+          "width": 160,
+          "x": 352,
+          "y": 288,
+          "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -8817,12 +9007,29 @@
           "height": 32,
           "keepRatio": true,
           "layer": "",
-          "name": "NewTiledSprite",
-          "persistentUuid": "ace31cdd-1d22-4c83-9e66-5faa169cc3cb",
-          "width": 704,
-          "x": 160,
+          "name": "roads",
+          "persistentUuid": "3e029cb2-d765-4712-88ba-dbda8f83d389",
+          "width": 800,
+          "x": 64,
           "y": 544,
-          "zOrder": 3,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 320,
+          "keepRatio": true,
+          "layer": "",
+          "name": "roads",
+          "persistentUuid": "d20ec490-aae4-4008-a628-69988e2fd76e",
+          "width": 32,
+          "x": 256,
+          "y": 256,
+          "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -8834,11 +9041,11 @@
           "height": 352,
           "keepRatio": true,
           "layer": "",
-          "name": "NewTiledSprite",
-          "persistentUuid": "c611cfef-75f2-47dd-afd8-c27bcdfc1ac9",
+          "name": "roads",
+          "persistentUuid": "e83c9f7f-d3a1-421f-9d04-3ce8d285377a",
           "width": 32,
           "x": 512,
-          "y": 192,
+          "y": 224,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -8848,15 +9055,436 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "flippedX": true,
-          "height": 100,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "roads",
+          "persistentUuid": "5a1af154-3d09-4502-bbf2-f8bca2cdc67d",
+          "width": 384,
+          "x": 512,
+          "y": 352,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 224,
+          "keepRatio": true,
+          "layer": "",
+          "name": "roads",
+          "persistentUuid": "2c0a02db-ca62-4b5d-b269-4eec524d2dde",
+          "width": 32,
+          "x": 864,
+          "y": 160,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "roads",
+          "persistentUuid": "74918867-a46f-4893-8bfd-692282bfd049",
+          "width": 384,
+          "x": 512,
+          "y": 224,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "roads",
+          "persistentUuid": "0c8bfcc6-e5e2-418e-a7d3-c788965db20c",
+          "width": 416,
+          "x": 128,
+          "y": 256,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 160,
+          "keepRatio": true,
+          "layer": "",
+          "name": "roads",
+          "persistentUuid": "3d702bdf-acfe-46ca-adcd-fee9a879310b",
+          "width": 32,
+          "x": 320,
+          "y": 128,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "roads",
+          "persistentUuid": "cb7e5ef5-5ced-434a-8bf6-728e81fb02ef",
+          "width": 384,
+          "x": 224,
+          "y": 128,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "roads",
+          "persistentUuid": "95ccaec3-ac22-4717-b42b-a0bd02512d2c",
+          "width": 160,
+          "x": 96,
+          "y": 96,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "roads",
+          "persistentUuid": "0133f31e-009e-449c-abae-3cdbc234f7b6",
+          "width": 32,
+          "x": 224,
+          "y": 96,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 128,
+          "keepRatio": true,
+          "layer": "",
+          "name": "roads",
+          "persistentUuid": "cef5b391-618c-4879-be8c-d900a5f8786b",
+          "width": 32,
+          "x": 544,
+          "y": 128,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "roads",
+          "persistentUuid": "abea8051-386b-4dc8-b7ce-08db6584e16f",
+          "width": 64,
+          "x": 832,
+          "y": 160,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "vehicle_target",
+          "opacity": 0,
+          "persistentUuid": "391723fb-6918-4738-982f-15404138c074",
+          "width": 32,
+          "x": 672,
+          "y": 352,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "vehicle_target",
+          "opacity": 0,
+          "persistentUuid": "783a7eba-2c9b-4860-b3ee-9d3ea7220a35",
+          "width": 32,
+          "x": 512,
+          "y": 448,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "vehicle_target",
+          "opacity": 0,
+          "persistentUuid": "57c2e2ec-d7fb-4fd0-9b45-721344341665",
+          "width": 32,
+          "x": 800,
+          "y": 352,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "vehicle_target",
+          "opacity": 0,
+          "persistentUuid": "18729e80-8b76-4941-ac35-a00fb7c91122",
+          "width": 32,
+          "x": 832,
+          "y": 160,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "vehicle_target",
+          "opacity": 0,
+          "persistentUuid": "e5a1a642-c12a-4538-b443-d9bf20ec7bca",
+          "width": 32,
+          "x": 672,
+          "y": 224,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "vehicle_target",
+          "opacity": 0,
+          "persistentUuid": "43a9e90c-d76f-46a8-879d-6e44401292d9",
+          "width": 32,
+          "x": 576,
+          "y": 128,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "vehicle_target",
+          "opacity": 0,
+          "persistentUuid": "d60ead0e-c29c-4c6b-9d9a-4f31215b1bcf",
+          "width": 32,
+          "x": 352,
+          "y": 128,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "vehicle_target",
+          "opacity": 0,
+          "persistentUuid": "ae25de36-8e79-489d-b6f5-398c91d87ee3",
+          "width": 32,
+          "x": 128,
+          "y": 96,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "vehicle_target",
+          "opacity": 0,
+          "persistentUuid": "f7acf555-a8c1-4d19-9171-8fef9d14d340",
+          "width": 32,
+          "x": 128,
+          "y": 256,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "vehicle_target",
+          "opacity": 0,
+          "persistentUuid": "8ea4a04b-a1ee-4783-81b8-8568fd7d3a83",
+          "width": 32,
+          "x": 256,
+          "y": 416,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "vehicle_target",
+          "opacity": 0,
+          "persistentUuid": "b8c350b4-84bc-425d-b733-14222c96a313",
+          "width": 32,
+          "x": 352,
+          "y": 544,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "vehicle_target",
+          "opacity": 0,
+          "persistentUuid": "5dfc93a1-33ca-4889-afe8-852a1675195d",
+          "width": 32,
+          "x": 96,
+          "y": 544,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "vehicle_target",
+          "opacity": 0,
+          "persistentUuid": "12c1d227-80e5-45fd-aaa6-3609f4c7e4d5",
+          "width": 32,
+          "x": 416,
+          "y": 256,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "vehicle_target",
+          "opacity": 0,
+          "persistentUuid": "24da0eac-b177-4717-a25a-3f436f9a9ff8",
+          "width": 32,
+          "x": 512,
+          "y": 320,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
           "keepRatio": true,
           "layer": "",
           "name": "house",
-          "persistentUuid": "b272408f-6961-443f-ba5d-d54ff216b47d",
-          "width": 128,
-          "x": 266,
-          "y": 102,
+          "persistentUuid": "86a3976a-25aa-46e9-9ffe-c677c89efd21",
+          "width": 96,
+          "x": 640,
+          "y": 480,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -8869,12 +9497,442 @@
           "height": 32,
           "keepRatio": true,
           "layer": "",
-          "name": "NewTiledSprite",
-          "persistentUuid": "ea681051-af02-4d21-a380-77a00f69e97e",
-          "width": 704,
-          "x": 160,
+          "name": "vehicle_target",
+          "opacity": 0,
+          "persistentUuid": "9c9e00e4-3947-4025-b1ff-b36d0e0700c2",
+          "width": 32,
+          "x": 640,
+          "y": 544,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "vehicle_target",
+          "opacity": 0,
+          "persistentUuid": "b23c40eb-515d-4e25-a050-d8fa0b6c560d",
+          "width": 32,
+          "x": 864,
+          "y": 288,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "house",
+          "persistentUuid": "f61e0194-be8b-4ffb-b920-cdafb66b47a1",
+          "width": 96,
+          "x": 896,
+          "y": 256,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "vehicle_target",
+          "opacity": 0,
+          "persistentUuid": "607de7e2-268e-4be8-9ad9-f4da29ec51d6",
+          "width": 32,
+          "x": 832,
+          "y": 544,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "flippedX": true,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "house",
+          "persistentUuid": "287e0d8b-bb9f-4fb7-88e8-4c44c7d4fa40",
+          "width": 96,
+          "x": 768,
+          "y": 256,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "house",
+          "persistentUuid": "609f0a4c-b7cb-42df-95db-16fff4e983fe",
+          "width": 96,
+          "x": 288,
+          "y": 352,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "villagerspawn",
+          "opacity": 0,
+          "persistentUuid": "a1f979bb-77ee-4ebf-95e6-682100f2a581",
+          "width": 32,
+          "x": 640,
+          "y": 512,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "villagerspawn",
+          "opacity": 0,
+          "persistentUuid": "8b5581f7-032b-4026-a9a1-0f53be784cfd",
+          "width": 32,
+          "x": 768,
+          "y": 416,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "villagerspawn",
+          "opacity": 0,
+          "persistentUuid": "15c892ef-d8d2-4cde-98bc-25633c94d953",
+          "width": 32,
+          "x": 896,
+          "y": 288,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "villagerspawn",
+          "opacity": 0,
+          "persistentUuid": "f20e9f82-b6d3-4737-b871-01568c085a8e",
+          "width": 32,
+          "x": 800,
+          "y": 288,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "villagerspawn",
+          "opacity": 0,
+          "persistentUuid": "f8af8ee0-f90d-4228-af57-96b8de2ad62e",
+          "width": 32,
+          "x": 672,
           "y": 192,
-          "zOrder": 3,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "villagerspawn",
+          "opacity": 0,
+          "persistentUuid": "bcb4762e-77e7-4ba6-8b62-778822207a27",
+          "width": 32,
+          "x": 128,
+          "y": 64,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "villagerspawn",
+          "opacity": 0,
+          "persistentUuid": "c224ce0e-37c0-4513-80cb-1e578505c026",
+          "width": 32,
+          "x": 288,
+          "y": 384,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "villagerspawn",
+          "opacity": 0,
+          "persistentUuid": "d98de761-1546-41f1-9658-23b8809ec9ba",
+          "width": 32,
+          "x": 192,
+          "y": 384,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "villagerspawn",
+          "opacity": 0,
+          "persistentUuid": "992645c8-c964-43fb-9ea8-99b3f8a5f979",
+          "width": 32,
+          "x": 416,
+          "y": 224,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 32,
+          "height": 213,
+          "keepRatio": true,
+          "layer": "",
+          "name": "OrderPreview",
+          "persistentUuid": "0d0d2c6e-1950-4185-a24d-57acea08a1e0",
+          "width": 288,
+          "x": 992,
+          "y": 0,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "farmerspawn",
+          "opacity": 0,
+          "persistentUuid": "0631f935-ac65-45e7-8710-e1569680757b",
+          "width": 34,
+          "x": 350,
+          "y": 512,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "farmerspawn",
+          "opacity": 0,
+          "persistentUuid": "859cd544-385f-455c-bf93-172f032a5720",
+          "width": 34,
+          "x": 448,
+          "y": 320,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "farmerspawn",
+          "opacity": 0,
+          "persistentUuid": "dbe169b0-8822-48b5-8582-4581d9dddb4d",
+          "width": 34,
+          "x": 672,
+          "y": 320,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "farmerspawn",
+          "opacity": 0,
+          "persistentUuid": "c99dcb07-8297-4139-a92c-5905c7077c43",
+          "width": 34,
+          "x": 352,
+          "y": 96,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "farmerspawn",
+          "opacity": 0,
+          "persistentUuid": "69aa74c2-68ad-437c-91c5-c66d8c04b5f4",
+          "width": 34,
+          "x": 128,
+          "y": 224,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "rancherspawn",
+          "opacity": 0,
+          "persistentUuid": "3f3fa94b-f1e7-4f61-b80b-7a9667132714",
+          "width": 32,
+          "x": 96,
+          "y": 512,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "rancherspawn",
+          "opacity": 0,
+          "persistentUuid": "2cc4b294-387d-42c2-bf70-7148efdb2958",
+          "width": 32,
+          "x": 544,
+          "y": 448,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "rancherspawn",
+          "opacity": 0,
+          "persistentUuid": "10108c91-0761-4a39-bcac-46596a504a67",
+          "width": 32,
+          "x": 544,
+          "y": 96,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "rancherspawn",
+          "opacity": 0,
+          "persistentUuid": "01751b2d-c2f1-4c56-a54f-8fd69f033295",
+          "width": 32,
+          "x": 832,
+          "y": 128,
+          "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -8958,7 +10016,7 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "NewSprite",
+          "name": "ds_bg",
           "persistentUuid": "dc9cc46c-d837-4876-b8a1-60dc32bb18f8",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -9141,7 +10199,7 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "3c4ffa0f836873c75dcf6d0f3947313b118a4a398a3a6ea2f56a32fb085caf26",
-          "name": "NewSprite2",
+          "name": "base",
           "persistentUuid": "d79ce5ec-44ea-4efd-bf86-b4846a4e2f2d",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -9262,1207 +10320,6 @@
         },
         {
           "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "c2ad3b550b8824902ab14a6a8b21c13e1c6f98e43a7ef1aa5a5ffc70da0e9166",
-          "name": "farm_placeholder",
-          "persistentUuid": "32727b6b-0ee3-495a-9fd4-72be3c767d17",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "Idle",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.0769,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Chicken_Idle_1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 2,
-                            "y": 1
-                          },
-                          {
-                            "x": 31,
-                            "y": 1
-                          },
-                          {
-                            "x": 31,
-                            "y": 34
-                          },
-                          {
-                            "x": 2,
-                            "y": 34
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Chicken_Idle_2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 2,
-                            "y": 1
-                          },
-                          {
-                            "x": 31,
-                            "y": 1
-                          },
-                          {
-                            "x": 31,
-                            "y": 34
-                          },
-                          {
-                            "x": 2,
-                            "y": 34
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Chicken_Idle_3.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 2,
-                            "y": 1
-                          },
-                          {
-                            "x": 31,
-                            "y": 1
-                          },
-                          {
-                            "x": 31,
-                            "y": 34
-                          },
-                          {
-                            "x": 2,
-                            "y": 34
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Chicken_Idle_4.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 2,
-                            "y": 1
-                          },
-                          {
-                            "x": 31,
-                            "y": 1
-                          },
-                          {
-                            "x": 31,
-                            "y": 34
-                          },
-                          {
-                            "x": 2,
-                            "y": 34
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Chicken_Idle_5.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 2,
-                            "y": 1
-                          },
-                          {
-                            "x": 31,
-                            "y": 1
-                          },
-                          {
-                            "x": 31,
-                            "y": 34
-                          },
-                          {
-                            "x": 2,
-                            "y": 34
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Chicken_Idle_6.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 2,
-                            "y": 1
-                          },
-                          {
-                            "x": 31,
-                            "y": 1
-                          },
-                          {
-                            "x": 31,
-                            "y": 34
-                          },
-                          {
-                            "x": 2,
-                            "y": 34
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Chicken_Idle_7.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 2,
-                            "y": 1
-                          },
-                          {
-                            "x": 31,
-                            "y": 1
-                          },
-                          {
-                            "x": 31,
-                            "y": 34
-                          },
-                          {
-                            "x": 2,
-                            "y": 34
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Chicken_Idle_8.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 2,
-                            "y": 1
-                          },
-                          {
-                            "x": 31,
-                            "y": 1
-                          },
-                          {
-                            "x": 31,
-                            "y": 34
-                          },
-                          {
-                            "x": 2,
-                            "y": 34
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Chicken_Idle_9.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 2,
-                            "y": 1
-                          },
-                          {
-                            "x": 31,
-                            "y": 1
-                          },
-                          {
-                            "x": 31,
-                            "y": 34
-                          },
-                          {
-                            "x": 2,
-                            "y": 34
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Chicken_Idle_10.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 2,
-                            "y": 1
-                          },
-                          {
-                            "x": 31,
-                            "y": 1
-                          },
-                          {
-                            "x": 31,
-                            "y": 34
-                          },
-                          {
-                            "x": 2,
-                            "y": 34
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Chicken_Idle_11.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 2,
-                            "y": 1
-                          },
-                          {
-                            "x": 31,
-                            "y": 1
-                          },
-                          {
-                            "x": 31,
-                            "y": 34
-                          },
-                          {
-                            "x": 2,
-                            "y": 34
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Chicken_Idle_12.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 2,
-                            "y": 1
-                          },
-                          {
-                            "x": 31,
-                            "y": 1
-                          },
-                          {
-                            "x": 31,
-                            "y": 34
-                          },
-                          {
-                            "x": 2,
-                            "y": 34
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Chicken_Idle_13.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 2,
-                            "y": 1
-                          },
-                          {
-                            "x": 31,
-                            "y": 1
-                          },
-                          {
-                            "x": 31,
-                            "y": 34
-                          },
-                          {
-                            "x": 2,
-                            "y": 34
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Run",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.0714,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Chicken_Run_1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 2,
-                            "y": 1
-                          },
-                          {
-                            "x": 31,
-                            "y": 1
-                          },
-                          {
-                            "x": 31,
-                            "y": 34
-                          },
-                          {
-                            "x": 2,
-                            "y": 34
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Chicken_Run_2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 2,
-                            "y": 1
-                          },
-                          {
-                            "x": 31,
-                            "y": 1
-                          },
-                          {
-                            "x": 31,
-                            "y": 34
-                          },
-                          {
-                            "x": 2,
-                            "y": 34
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Chicken_Run_3.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 2,
-                            "y": 1
-                          },
-                          {
-                            "x": 31,
-                            "y": 1
-                          },
-                          {
-                            "x": 31,
-                            "y": 34
-                          },
-                          {
-                            "x": 2,
-                            "y": 34
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Chicken_Run_4.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 2,
-                            "y": 1
-                          },
-                          {
-                            "x": 31,
-                            "y": 1
-                          },
-                          {
-                            "x": 31,
-                            "y": 34
-                          },
-                          {
-                            "x": 2,
-                            "y": 34
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Chicken_Run_5.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 2,
-                            "y": 1
-                          },
-                          {
-                            "x": 31,
-                            "y": 1
-                          },
-                          {
-                            "x": 31,
-                            "y": 34
-                          },
-                          {
-                            "x": 2,
-                            "y": 34
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Chicken_Run_6.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 2,
-                            "y": 1
-                          },
-                          {
-                            "x": 31,
-                            "y": 1
-                          },
-                          {
-                            "x": 31,
-                            "y": 34
-                          },
-                          {
-                            "x": 2,
-                            "y": 34
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Chicken_Run_7.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 2,
-                            "y": 1
-                          },
-                          {
-                            "x": 31,
-                            "y": 1
-                          },
-                          {
-                            "x": 31,
-                            "y": 34
-                          },
-                          {
-                            "x": 2,
-                            "y": 34
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Chicken_Run_8.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 2,
-                            "y": 1
-                          },
-                          {
-                            "x": 31,
-                            "y": 1
-                          },
-                          {
-                            "x": 31,
-                            "y": 34
-                          },
-                          {
-                            "x": 2,
-                            "y": 34
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Chicken_Run_9.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 2,
-                            "y": 1
-                          },
-                          {
-                            "x": 31,
-                            "y": 1
-                          },
-                          {
-                            "x": 31,
-                            "y": 34
-                          },
-                          {
-                            "x": 2,
-                            "y": 34
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Chicken_Run_10.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 2,
-                            "y": 1
-                          },
-                          {
-                            "x": 31,
-                            "y": 1
-                          },
-                          {
-                            "x": 31,
-                            "y": 34
-                          },
-                          {
-                            "x": 2,
-                            "y": 34
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Chicken_Run_11.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 2,
-                            "y": 1
-                          },
-                          {
-                            "x": 31,
-                            "y": 1
-                          },
-                          {
-                            "x": 31,
-                            "y": 34
-                          },
-                          {
-                            "x": 2,
-                            "y": 34
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Chicken_Run_12.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 2,
-                            "y": 1
-                          },
-                          {
-                            "x": 31,
-                            "y": 1
-                          },
-                          {
-                            "x": 31,
-                            "y": 34
-                          },
-                          {
-                            "x": 2,
-                            "y": 34
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Chicken_Run_13.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 2,
-                            "y": 1
-                          },
-                          {
-                            "x": 31,
-                            "y": 1
-                          },
-                          {
-                            "x": 31,
-                            "y": 34
-                          },
-                          {
-                            "x": 2,
-                            "y": 34
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Chicken_Run_14.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 2,
-                            "y": 1
-                          },
-                          {
-                            "x": 31,
-                            "y": 1
-                          },
-                          {
-                            "x": 31,
-                            "y": 34
-                          },
-                          {
-                            "x": 2,
-                            "y": 34
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Hit",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.2,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Chicken_Hit_1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 2,
-                            "y": 1
-                          },
-                          {
-                            "x": 31,
-                            "y": 1
-                          },
-                          {
-                            "x": 31,
-                            "y": 34
-                          },
-                          {
-                            "x": 2,
-                            "y": 34
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Chicken_Hit_2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 2,
-                            "y": 1
-                          },
-                          {
-                            "x": 31,
-                            "y": 1
-                          },
-                          {
-                            "x": 31,
-                            "y": 34
-                          },
-                          {
-                            "x": 2,
-                            "y": 34
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Chicken_Hit_3.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 2,
-                            "y": 1
-                          },
-                          {
-                            "x": 31,
-                            "y": 1
-                          },
-                          {
-                            "x": 31,
-                            "y": 34
-                          },
-                          {
-                            "x": 2,
-                            "y": 34
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Chicken_Hit_4.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 2,
-                            "y": 1
-                          },
-                          {
-                            "x": 31,
-                            "y": 1
-                          },
-                          {
-                            "x": 31,
-                            "y": 34
-                          },
-                          {
-                            "x": 2,
-                            "y": 34
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Chicken_Hit_5.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 2,
-                            "y": 1
-                          },
-                          {
-                            "x": 31,
-                            "y": 1
-                          },
-                          {
-                            "x": 31,
-                            "y": 34
-                          },
-                          {
-                            "x": 2,
-                            "y": 34
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "d8e8400ae8c42365e52958d90238c4ca5f928fcb7784371c833a80f67d592b34",
           "name": "barn_placeholder",
           "persistentUuid": "5310abb1-e718-4442-80cb-18c681973dac",
@@ -10523,16 +10380,443 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "orderbutton",
+          "persistentUuid": "cae6b228-1b9b-4e16-ae30-30e5fa9f27b0",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "ButtonFSM",
+              "type": "ButtonStates::ButtonFSM",
+              "ShouldCheckHovering": true,
+              "State": "Idle",
+              "TouchId": 0,
+              "TouchIsInside": false,
+              "MouseIsInside": false,
+              "Index": 2.0247e-320
+            }
+          ],
+          "animations": [
+            {
+              "name": "villager",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Female Character 11_Walking Down_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 2
+                          },
+                          {
+                            "x": 15,
+                            "y": 2
+                          },
+                          {
+                            "x": 15,
+                            "y": 17
+                          },
+                          {
+                            "x": 1,
+                            "y": 17
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "rancher",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Female Character 1_Walking Down_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 2
+                          },
+                          {
+                            "x": 15,
+                            "y": 2
+                          },
+                          {
+                            "x": 15,
+                            "y": 17
+                          },
+                          {
+                            "x": 1,
+                            "y": 17
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "farmer",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Male Character 1_Walking Down_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 2
+                          },
+                          {
+                            "x": 15,
+                            "y": 2
+                          },
+                          {
+                            "x": 15,
+                            "y": 17
+                          },
+                          {
+                            "x": 1,
+                            "y": 17
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "assetStoreId": "",
           "height": 32,
-          "name": "NewTiledSprite",
-          "persistentUuid": "069cbe40-5e87-42db-af8e-8bf3c70a23e9",
+          "name": "roads",
+          "persistentUuid": "4f15217a-adaf-4cfd-8382-ba22e7d8f7bc",
           "texture": "tiled_Yellow background.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 32,
           "variables": [],
           "effects": [],
           "behaviors": []
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "vehicle_target",
+          "persistentUuid": "871b2498-a4f7-4a62-8c90-dd8367166fa8",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "default",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite3",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "villagerspawn",
+          "persistentUuid": "e7fe11b9-3e05-4c7a-83af-6d7ae39a2b04",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "default",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Small Blue Button_Pressed.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 2
+                          },
+                          {
+                            "x": 48,
+                            "y": 2
+                          },
+                          {
+                            "x": 48,
+                            "y": 48
+                          },
+                          {
+                            "x": 0,
+                            "y": 48
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "OrderPreview",
+          "persistentUuid": "9f56dc30-a939-4684-92d7-1a8bfb86ae27",
+          "type": "TwoChoicesDialogBoxes::TwoChoicesDialogBox",
+          "variant": "Semi-transparent black and white",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "TextMessage": "",
+            "LabelButtonID0": "Accept",
+            "LabelButtonID1": "Decline"
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "farmerspawn",
+          "persistentUuid": "af7a9255-fca6-4c9d-a594-7a7f47cc854d",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "default",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Small Light Grey Button_Hovered.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 48,
+                            "y": 0
+                          },
+                          {
+                            "x": 48,
+                            "y": 48
+                          },
+                          {
+                            "x": 0,
+                            "y": 48
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "rancherspawn",
+          "persistentUuid": "dee34004-3d22-4a7a-969c-f4f236eaa8d0",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "default",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\Small Light Grey Button_Idle.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 48,
+                            "y": 0
+                          },
+                          {
+                            "x": 48,
+                            "y": 48
+                          },
+                          {
+                            "x": 0,
+                            "y": 48
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -10545,7 +10829,7 @@
             "objectName": "BackButton"
           },
           {
-            "objectName": "NewSprite"
+            "objectName": "ds_bg"
           },
           {
             "objectName": "house"
@@ -10554,19 +10838,34 @@
             "objectName": "cropfield_placeholder"
           },
           {
-            "objectName": "NewSprite2"
+            "objectName": "base"
           },
           {
             "objectName": "truck"
           },
           {
-            "objectName": "farm_placeholder"
-          },
-          {
             "objectName": "barn_placeholder"
           },
           {
-            "objectName": "NewTiledSprite"
+            "objectName": "orderbutton"
+          },
+          {
+            "objectName": "roads"
+          },
+          {
+            "objectName": "vehicle_target"
+          },
+          {
+            "objectName": "villagerspawn"
+          },
+          {
+            "objectName": "farmerspawn"
+          },
+          {
+            "objectName": "rancherspawn"
+          },
+          {
+            "objectName": "OrderPreview"
           }
         ]
       },
@@ -10590,6 +10889,264 @@
                 "value": "PopScene"
               },
               "parameters": [
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneJustBegins"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"Spawn\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PickRandomInstance"
+              },
+              "parameters": [
+                "",
+                "villagerspawn"
+              ]
+            },
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"Spawn\"",
+                ">",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"Spawn\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "orderbutton",
+                "villagerspawn.X()",
+                "villagerspawn.Y()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ScalableCapability::ScalableBehavior::SetValue"
+              },
+              "parameters": [
+                "orderbutton",
+                "Scale",
+                "=",
+                "3"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PickRandomInstance"
+              },
+              "parameters": [
+                "",
+                "farmerspawn"
+              ]
+            },
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"Spawn\"",
+                ">",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "orderbutton",
+                "farmerspawn.X()",
+                "farmerspawn.Y()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "orderbutton",
+                "Animation",
+                "=",
+                "\"farmer\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ScalableCapability::ScalableBehavior::SetValue"
+              },
+              "parameters": [
+                "orderbutton",
+                "Scale",
+                "=",
+                "3"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PickRandomInstance"
+              },
+              "parameters": [
+                "",
+                "rancherspawn"
+              ]
+            },
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"Spawn\"",
+                ">",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "orderbutton",
+                "rancherspawn.X()",
+                "rancherspawn.Y()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "orderbutton",
+                "Animation",
+                "=",
+                "\"rancher\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ScalableCapability::ScalableBehavior::SetValue"
+              },
+              "parameters": [
+                "orderbutton",
+                "Scale",
+                "=",
+                "3"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ButtonStates::ButtonFSM::IsClicked"
+              },
+              "parameters": [
+                "orderbutton",
+                "ButtonFSM",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "OrderPreview",
+                "Text",
+                "=",
+                "\"10 buckets\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "TwoChoicesDialogBoxes::TwoChoicesDialogBox::IsNoClicked"
+              },
+              "parameters": [
+                "OrderPreview",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "orderbutton",
                 ""
               ]
             }
@@ -10669,6 +11226,10 @@
           "type": "AnimatableCapability::AnimatableBehavior"
         },
         {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM"
+        },
+        {
           "name": "Effect",
           "type": "EffectCapability::EffectBehavior"
         },
@@ -10687,6 +11248,10 @@
         {
           "name": "Scale",
           "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
         }
       ]
     }
@@ -10747,8 +11312,11 @@
         {
           "description": "A bar that represents a resource in the game (health, mana, ammo, etc).",
           "fullName": "Resource bar",
+          "helpPath": "",
+          "iconUrl": "",
           "name": "ResourceBar",
           "objectType": "",
+          "previewIconUrl": "",
           "private": true,
           "eventsFunctions": [
             {
@@ -11453,9 +12021,12 @@
           "defaultName": "ResourceBar",
           "description": "A bar that represents a resource in the game (health, mana, ammo, etc).",
           "fullName": "Resource bar (continuous)",
+          "helpPath": "",
+          "iconUrl": "",
           "isInnerAreaFollowingParentSize": true,
           "isUsingLegacyInstancesRenderer": false,
           "name": "PanelSpriteContinuousBar",
+          "previewIconUrl": "",
           "objects": [
             {
               "assetStoreId": "",
@@ -14781,8 +15352,11 @@
         {
           "description": "The finite state machine used internally by the button object.",
           "fullName": "Button finite state machine",
+          "helpPath": "",
+          "iconUrl": "",
           "name": "ButtonFSM",
           "objectType": "",
+          "previewIconUrl": "",
           "private": true,
           "eventsFunctions": [
             {
@@ -16006,8 +16580,11 @@
         {
           "description": "Change the text style when the button is hovered.",
           "fullName": "Hover text style",
+          "helpPath": "",
+          "iconUrl": "",
           "name": "TextStyleState",
           "objectType": "TextObject::Text",
+          "previewIconUrl": "",
           "private": true,
           "eventsFunctions": [
             {
@@ -16532,8 +17109,11 @@
         {
           "description": "Change the text style when the button is hovered.",
           "fullName": "Hover bitmap text style",
+          "helpPath": "",
+          "iconUrl": "",
           "name": "BitmapTextStyleState",
           "objectType": "BitmapText::BitmapTextObject",
+          "previewIconUrl": "",
           "private": true,
           "eventsFunctions": [
             {
@@ -16991,9 +17571,12 @@
           "defaultName": "Button",
           "description": "Button with a label.",
           "fullName": "Labeled button",
+          "helpPath": "",
+          "iconUrl": "",
           "isInnerAreaFollowingParentSize": true,
           "isUsingLegacyInstancesRenderer": false,
           "name": "PanelSpriteButton",
+          "previewIconUrl": "",
           "objects": [
             {
               "assetStoreId": "",
@@ -21742,8 +22325,11 @@
         {
           "description": "Joystick that can be controlled by interacting with a touchscreen.",
           "fullName": "Multitouch Joystick",
+          "helpPath": "",
+          "iconUrl": "",
           "name": "MultitouchJoystick",
           "objectType": "",
+          "previewIconUrl": "",
           "private": true,
           "eventsFunctions": [
             {
@@ -23046,8 +23632,11 @@
         {
           "description": "Detect presses made on a touchscreen on the object so it acts like a button and automatically trigger the button having the same identifier for the mapper behaviors.",
           "fullName": "Multitouch button",
+          "helpPath": "",
+          "iconUrl": "",
           "name": "MultitouchButton",
           "objectType": "",
+          "previewIconUrl": "",
           "eventsFunctions": [
             {
               "fullName": "",
@@ -23634,8 +24223,11 @@
         {
           "description": "Control a platformer character with a multitouch controller.",
           "fullName": "Platformer multitouch controller mapper",
+          "helpPath": "",
+          "iconUrl": "",
           "name": "PlatformerMultitouchMapper",
           "objectType": "",
+          "previewIconUrl": "",
           "quickCustomizationVisibility": "hidden",
           "eventsFunctions": [
             {
@@ -23885,8 +24477,11 @@
         {
           "description": "Control a 3D physics character with a multitouch controller.",
           "fullName": "3D platformer multitouch controller mapper",
+          "helpPath": "",
+          "iconUrl": "",
           "name": "Platformer3DMultitouchMapper",
           "objectType": "",
+          "previewIconUrl": "",
           "quickCustomizationVisibility": "hidden",
           "eventsFunctions": [
             {
@@ -24057,8 +24652,11 @@
         {
           "description": "Control a 3D physics character with a multitouch controller.",
           "fullName": "3D shooter multitouch controller mapper",
+          "helpPath": "",
+          "iconUrl": "",
           "name": "Shooter3DMultitouchMapper",
           "objectType": "",
+          "previewIconUrl": "",
           "quickCustomizationVisibility": "hidden",
           "eventsFunctions": [
             {
@@ -24218,8 +24816,11 @@
         {
           "description": "Control camera rotations with a multitouch controller.",
           "fullName": "First person camera multitouch controller mapper",
+          "helpPath": "",
+          "iconUrl": "",
           "name": "FirstPersonMultitouchMapper",
           "objectType": "",
+          "previewIconUrl": "",
           "quickCustomizationVisibility": "hidden",
           "eventsFunctions": [
             {
@@ -25420,8 +26021,11 @@
         {
           "description": "Control a 3D physics car with a multitouch controller.",
           "fullName": "3D car multitouch controller mapper",
+          "helpPath": "",
+          "iconUrl": "",
           "name": "PhysicsCar3DMultitouchMapper",
           "objectType": "",
+          "previewIconUrl": "",
           "quickCustomizationVisibility": "hidden",
           "eventsFunctions": [
             {
@@ -25630,8 +26234,11 @@
         {
           "description": "Control a top-down character with a multitouch controller.",
           "fullName": "Top-down multitouch controller mapper",
+          "helpPath": "",
+          "iconUrl": "",
           "name": "TopDownMultitouchMapper",
           "objectType": "",
+          "previewIconUrl": "",
           "quickCustomizationVisibility": "hidden",
           "eventsFunctions": [
             {
@@ -26237,8 +26844,11 @@
           "defaultName": "Joystick",
           "description": "Joystick for touchscreens.",
           "fullName": "Multitouch Joystick",
+          "helpPath": "",
+          "iconUrl": "",
           "isUsingLegacyInstancesRenderer": true,
           "name": "SpriteMultitouchJoystick",
+          "previewIconUrl": "",
           "objects": [
             {
               "adaptCollisionMaskAutomatically": false,
@@ -27754,10 +28364,13 @@
           "defaultName": "",
           "description": "A dialog box showing two options.",
           "fullName": "Two choices dialog box ",
+          "helpPath": "",
+          "iconUrl": "",
           "isInnerAreaFollowingParentSize": true,
           "isTextContainer": true,
           "isUsingLegacyInstancesRenderer": false,
           "name": "TwoChoicesDialogBox",
+          "previewIconUrl": "",
           "objects": [
             {
               "assetStoreId": "90d94b6e3a23c34948e59eaaef4679740f8ab588696d59b21e0c0c2ef106b94d",
@@ -31781,8 +32394,11 @@
         {
           "description": "Control a platformer character with a gamepad.",
           "fullName": "Platformer gamepad mapper",
+          "helpPath": "",
+          "iconUrl": "",
           "name": "PlatformerGamepadMapper",
           "objectType": "",
+          "previewIconUrl": "",
           "quickCustomizationVisibility": "hidden",
           "eventsFunctions": [
             {
@@ -32386,8 +33002,11 @@
         {
           "description": "Control a 3D physics character with a gamepad.",
           "fullName": "3D platformer gamepad mapper",
+          "helpPath": "",
+          "iconUrl": "",
           "name": "Platformer3DGamepadMapper",
           "objectType": "",
+          "previewIconUrl": "",
           "quickCustomizationVisibility": "hidden",
           "eventsFunctions": [
             {
@@ -32610,8 +33229,11 @@
         {
           "description": "Control a 3D physics character with a gamepad.",
           "fullName": "3D shooter gamepad mapper",
+          "helpPath": "",
+          "iconUrl": "",
           "name": "Shooter3DGamepadMapper",
           "objectType": "",
+          "previewIconUrl": "",
           "quickCustomizationVisibility": "hidden",
           "eventsFunctions": [
             {
@@ -32843,8 +33465,11 @@
         {
           "description": "Control camera rotations with a gamepad.",
           "fullName": "First person camera gamepad mapper",
+          "helpPath": "",
+          "iconUrl": "",
           "name": "FirstPersonGamepadMapper",
           "objectType": "",
+          "previewIconUrl": "",
           "quickCustomizationVisibility": "hidden",
           "eventsFunctions": [
             {
@@ -34039,8 +34664,11 @@
         {
           "description": "Control a 3D physics car with a gamepad.",
           "fullName": "3D car gamepad mapper",
+          "helpPath": "",
+          "iconUrl": "",
           "name": "PhysicsCar3DGamepadMapper",
           "objectType": "",
+          "previewIconUrl": "",
           "quickCustomizationVisibility": "hidden",
           "eventsFunctions": [
             {
@@ -34444,8 +35072,11 @@
         {
           "description": "Control a top-down character with a gamepad.",
           "fullName": "Top-down gamepad mapper",
+          "helpPath": "",
+          "iconUrl": "",
           "name": "TopDownGamepadMapper",
           "objectType": "",
+          "previewIconUrl": "",
           "quickCustomizationVisibility": "hidden",
           "eventsFunctions": [
             {
@@ -35174,8 +35805,11 @@
         {
           "description": "Use objects as buttons.",
           "fullName": "Button states",
+          "helpPath": "",
+          "iconUrl": "",
           "name": "ButtonFSM",
           "objectType": "",
+          "previewIconUrl": "",
           "eventsFunctions": [
             {
               "fullName": "",
@@ -36378,8 +37012,11 @@
         {
           "description": "Enable effects on buttons based on their state.",
           "fullName": "Button object effects",
+          "helpPath": "",
+          "iconUrl": "",
           "name": "ButtonObjectEffects",
           "objectType": "",
+          "previewIconUrl": "",
           "eventsFunctions": [
             {
               "fullName": "",
@@ -36980,8 +37617,11 @@
         {
           "description": "Change the animation of buttons according to their state.",
           "fullName": "Button animation",
+          "helpPath": "",
+          "iconUrl": "",
           "name": "ButtonAnimationName",
           "objectType": "",
+          "previewIconUrl": "",
           "eventsFunctions": [
             {
               "fullName": "",
@@ -37491,8 +38131,11 @@
         {
           "description": "Smoothly change an effect on buttons according to their state.",
           "fullName": "Button object effect tween",
+          "helpPath": "",
+          "iconUrl": "",
           "name": "ButtonObjectEffectTween",
           "objectType": "",
+          "previewIconUrl": "",
           "eventsFunctions": [
             {
               "fullName": "",
@@ -39541,8 +40184,11 @@
         {
           "description": "Smoothly resize buttons according to their state.",
           "fullName": "Button scale tween",
+          "helpPath": "",
+          "iconUrl": "",
           "name": "ButtonScaleTween",
           "objectType": "",
+          "previewIconUrl": "",
           "eventsFunctions": [
             {
               "fullName": "",
@@ -40969,8 +41615,11 @@
         {
           "description": "Smoothly change the color tint of buttons according to their state.",
           "fullName": "Button color tint tween",
+          "helpPath": "",
+          "iconUrl": "",
           "name": "ButtonColorTintTween",
           "objectType": "Sprite",
+          "previewIconUrl": "",
           "eventsFunctions": [
             {
               "fullName": "",
@@ -43687,8 +44336,11 @@
         {
           "description": "The object will move from one object instance to another according to how they are linked to one another to reach a targeted object.",
           "fullName": "Link path finding",
+          "helpPath": "",
+          "iconUrl": "",
           "name": "LinkPathFinding",
           "objectType": "",
+          "previewIconUrl": "",
           "eventsFunctions": [
             {
               "fullName": "",
@@ -45648,8 +46300,11 @@
         {
           "description": "Simulate 2D car motion, from a top-down view.",
           "fullName": "Physics car",
+          "helpPath": "",
+          "iconUrl": "",
           "name": "PhysicsCar",
           "objectType": "",
+          "previewIconUrl": "",
           "eventsFunctions": [
             {
               "fullName": "",
