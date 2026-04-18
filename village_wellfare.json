@@ -22199,7 +22199,7 @@
           "name": "villager_exitpoint",
           "persistentUuid": "0dd5bfa0-0583-4538-b6e3-1ee8eddc811d",
           "width": 32,
-          "x": -208,
+          "x": 464,
           "y": 128,
           "zOrder": 31,
           "numberProperties": [],
@@ -24918,9 +24918,19 @@
               "type": "structure",
               "children": [
                 {
+                  "name": "deliveryTimerStarted",
+                  "type": "boolean",
+                  "value": false
+                },
+                {
                   "name": "exitTriggered",
                   "type": "boolean",
                   "value": false
+                },
+                {
+                  "name": "orderIndex",
+                  "type": "number",
+                  "value": -1
                 },
                 {
                   "name": "orderState",
@@ -26077,18 +26087,6 @@
         ]
       },
       "events": [
-        {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "THIS COPY INTEGRATES THE USE OF STRUCTS TO STORE VILLAGER ESSENTIAL DATA\nNOTE:\nSET THE JSON FILE WORKING"
-        },
         {
           "colorB": 228,
           "colorG": 176,
@@ -28396,9 +28394,14 @@
                 },
                 {
                   "type": {
-                    "value": "BuiltinCommonInstructions::Once"
+                    "value": "BooleanObjectVariable"
                   },
-                  "parameters": []
+                  "parameters": [
+                    "Villager",
+                    "data.deliveryTimerStarted",
+                    "=",
+                    ""
+                  ]
                 }
               ],
               "actions": [
@@ -28409,6 +28412,17 @@
                   "parameters": [
                     "Villager",
                     "\"deliveryTimer\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Villager",
+                    "data.deliveryTimerStarted",
+                    "True",
+                    ""
                   ]
                 }
               ]
@@ -28469,7 +28483,7 @@
                     "Villager",
                     "\"deliveryTimer\"",
                     ">",
-                    "20"
+                    "25"
                   ]
                 }
               ],
@@ -28500,7 +28514,7 @@
                     "value": "SetBooleanVariable"
                   },
                   "parameters": [
-                    "orders[Villager.data.villagerID].cancelled",
+                    "orders[Villager.data.orderIndex].cancelled",
                     "True",
                     ""
                   ]
@@ -28866,6 +28880,17 @@
                     "orders[acceptedOrderCount].delivered",
                     "False",
                     "fa"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Villager",
+                    "data.orderIndex",
+                    "=",
+                    "acceptedOrderCount"
                   ]
                 },
                 {
