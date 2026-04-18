@@ -1,0 +1,28 @@
+{
+  "0": [
+    "My crops are wilting! I need {water} units of water, please!",
+    "The irrigation ditches are dry, send {water} units fast!",
+    "Without {water} units of water, my harvest is done for!",
+    "I've got fields to save! {water} units of water, quickly!",
+    "The soil is cracking, I need {water} units before sundown!"
+  ],
+  "1": [
+    "My cattle are dying of thirst! {water} units, now!",
+    "The water trough's bone dry, I need {water} units!",
+    "My horses won't last the day without {water} units!",
+    "Got a whole herd depending on {water} units of water!",
+    "Send {water} units or I'll lose every animal I own!"
+  ],
+  "2": [
+    "Mister, please! We need {water} units for our home!",
+    "Mama sent me, she says we need {water} units of water!",
+    "Our whole street is thirsty, {water} units please!",
+    "I walked all this way for {water} units, don't say no!",
+    "Papa's sick and we need {water} units of water fast!"
+  ],
+  "3": [
+    "Good day, can I order some water? Our household is running out of it. {water}",
+    "I am in dire need of some water right now, is anyone here?? {water}",
+    "You guys have what I want right? I definitely need some and I definitely won't waste it. :3 {water}"
+  ]
+}

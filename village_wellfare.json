@@ -2707,6 +2707,454 @@
         "name": "assets/farmer_sprites/farmer5.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite10.png\"}",
+        "name": "NewSprite8",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Bartender_Idle Down_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bartender_Idle Down_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Fantasy RPG character/character/8d7953fea39024e5b29f1ce07b27ad4a6aeabfe9d7cd155c67d85793616f9d9b_Bartender_Idle Down_1.png",
+          "name": "Bartender_Idle Down_1.png"
+        }
+      },
+      {
+        "file": "assets/Bartender_Idle Down_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bartender_Idle Down_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Fantasy RPG character/character/8d7953fea39024e5b29f1ce07b27ad4a6aeabfe9d7cd155c67d85793616f9d9b_Bartender_Idle Down_2.png",
+          "name": "Bartender_Idle Down_2.png"
+        }
+      },
+      {
+        "file": "assets/Bartender_Idle Down_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bartender_Idle Down_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Fantasy RPG character/character/c69a88afdef5c133af4e0568a95483af23daa33dac973268fd3ba115be53ba06_Bartender_Idle Down_3.png",
+          "name": "Bartender_Idle Down_3.png"
+        }
+      },
+      {
+        "file": "assets/Bartender_Idle Down_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bartender_Idle Down_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Fantasy RPG character/character/c69a88afdef5c133af4e0568a95483af23daa33dac973268fd3ba115be53ba06_Bartender_Idle Down_4.png",
+          "name": "Bartender_Idle Down_4.png"
+        }
+      },
+      {
+        "file": "assets/Bartender_Idle Left_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bartender_Idle Left_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Fantasy RPG character/character/f27133bfea694e9bce8ae409baf69d24d61572a633c36eab332b408d2c4ec500_Bartender_Idle Left_1.png",
+          "name": "Bartender_Idle Left_1.png"
+        }
+      },
+      {
+        "file": "assets/Bartender_Idle Left_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bartender_Idle Left_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Fantasy RPG character/character/f27133bfea694e9bce8ae409baf69d24d61572a633c36eab332b408d2c4ec500_Bartender_Idle Left_2.png",
+          "name": "Bartender_Idle Left_2.png"
+        }
+      },
+      {
+        "file": "assets/Bartender_Idle Left_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bartender_Idle Left_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Fantasy RPG character/character/fe951c064ce6ad6b1b461e7775d0393c031695515f418e18c32b946fab7d00fc_Bartender_Idle Left_3.png",
+          "name": "Bartender_Idle Left_3.png"
+        }
+      },
+      {
+        "file": "assets/Bartender_Idle Left_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bartender_Idle Left_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Fantasy RPG character/character/fe951c064ce6ad6b1b461e7775d0393c031695515f418e18c32b946fab7d00fc_Bartender_Idle Left_4.png",
+          "name": "Bartender_Idle Left_4.png"
+        }
+      },
+      {
+        "file": "assets/Bartender_Idle Right_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bartender_Idle Right_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Fantasy RPG character/character/2f9dfe210c33cd9535c3883dd5af25c0b7971ff2b8aea0a3056be96022f2042c_Bartender_Idle Right_1.png",
+          "name": "Bartender_Idle Right_1.png"
+        }
+      },
+      {
+        "file": "assets/Bartender_Idle Right_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bartender_Idle Right_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Fantasy RPG character/character/2f9dfe210c33cd9535c3883dd5af25c0b7971ff2b8aea0a3056be96022f2042c_Bartender_Idle Right_2.png",
+          "name": "Bartender_Idle Right_2.png"
+        }
+      },
+      {
+        "file": "assets/Bartender_Idle Right_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bartender_Idle Right_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Fantasy RPG character/character/54f259ad3c07a732b82527feb2f24a5da0e909494d9101efc3ebc08736f35eb2_Bartender_Idle Right_3.png",
+          "name": "Bartender_Idle Right_3.png"
+        }
+      },
+      {
+        "file": "assets/Bartender_Idle Right_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bartender_Idle Right_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Fantasy RPG character/character/54f259ad3c07a732b82527feb2f24a5da0e909494d9101efc3ebc08736f35eb2_Bartender_Idle Right_4.png",
+          "name": "Bartender_Idle Right_4.png"
+        }
+      },
+      {
+        "file": "assets/Bartender_Idle Up_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bartender_Idle Up_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Fantasy RPG character/character/94af5ef2e23598fc4e3fa60e99e4502b59979d9c32c277c3b77c07be8341253e_Bartender_Idle Up_1.png",
+          "name": "Bartender_Idle Up_1.png"
+        }
+      },
+      {
+        "file": "assets/Bartender_Idle Up_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bartender_Idle Up_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Fantasy RPG character/character/94af5ef2e23598fc4e3fa60e99e4502b59979d9c32c277c3b77c07be8341253e_Bartender_Idle Up_2.png",
+          "name": "Bartender_Idle Up_2.png"
+        }
+      },
+      {
+        "file": "assets/Bartender_Idle Up_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bartender_Idle Up_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Fantasy RPG character/character/e1d55cbc99988c98a657995616866556e26ca5f15cf89a5e10c7e3cbd775daec_Bartender_Idle Up_3.png",
+          "name": "Bartender_Idle Up_3.png"
+        }
+      },
+      {
+        "file": "assets/Bartender_Idle Up_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bartender_Idle Up_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Fantasy RPG character/character/e1d55cbc99988c98a657995616866556e26ca5f15cf89a5e10c7e3cbd775daec_Bartender_Idle Up_4.png",
+          "name": "Bartender_Idle Up_4.png"
+        }
+      },
+      {
+        "file": "assets/Bartender_Walk Down_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bartender_Walk Down_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Fantasy RPG character/character/6a581429c05f3c03452fafee087bdfd1d7d71fdd649c3fc11e726010e511bcc2_Bartender_Walk Down_1.png",
+          "name": "Bartender_Walk Down_1.png"
+        }
+      },
+      {
+        "file": "assets/Bartender_Walk Down_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bartender_Walk Down_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Fantasy RPG character/character/7d2b8f03ae021ab5dfae54bf0a0bd3bfe367e3d45f29fcd87d877d798288ee17_Bartender_Walk Down_2.png",
+          "name": "Bartender_Walk Down_2.png"
+        }
+      },
+      {
+        "file": "assets/Bartender_Walk Down_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bartender_Walk Down_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Fantasy RPG character/character/c3e28b9c74b1f6dd410d8f0f661c8fdb9e6a98c466347743499e17941ee1c233_Bartender_Walk Down_3.png",
+          "name": "Bartender_Walk Down_3.png"
+        }
+      },
+      {
+        "file": "assets/Bartender_Walk Down_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bartender_Walk Down_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Fantasy RPG character/character/7d2b8f03ae021ab5dfae54bf0a0bd3bfe367e3d45f29fcd87d877d798288ee17_Bartender_Walk Down_4.png",
+          "name": "Bartender_Walk Down_4.png"
+        }
+      },
+      {
+        "file": "assets/Bartender_Walk Left_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bartender_Walk Left_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Fantasy RPG character/character/86347763db4987f951b2a05b16b29f00a13d97142b7f916e52fca355e1c2a6fd_Bartender_Walk Left_1.png",
+          "name": "Bartender_Walk Left_1.png"
+        }
+      },
+      {
+        "file": "assets/Bartender_Walk Left_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bartender_Walk Left_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Fantasy RPG character/character/a94eb20c721fe260e01ab81bf66e1969bc4451fa2575029f74a38104e4f474c0_Bartender_Walk Left_2.png",
+          "name": "Bartender_Walk Left_2.png"
+        }
+      },
+      {
+        "file": "assets/Bartender_Walk Left_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bartender_Walk Left_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Fantasy RPG character/character/8339b3513df356de3b1c2d0f183ab9d4bc6e3ef8b3a173ba8969a57f8e0c396b_Bartender_Walk Left_3.png",
+          "name": "Bartender_Walk Left_3.png"
+        }
+      },
+      {
+        "file": "assets/Bartender_Walk Left_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bartender_Walk Left_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Fantasy RPG character/character/a94eb20c721fe260e01ab81bf66e1969bc4451fa2575029f74a38104e4f474c0_Bartender_Walk Left_4.png",
+          "name": "Bartender_Walk Left_4.png"
+        }
+      },
+      {
+        "file": "assets/Bartender_Walk Right_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bartender_Walk Right_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Fantasy RPG character/character/5dbffa72c551113359ac05cb60c368a9b4c26661ed3ffe4b74cac42ac8a5ec8c_Bartender_Walk Right_1.png",
+          "name": "Bartender_Walk Right_1.png"
+        }
+      },
+      {
+        "file": "assets/Bartender_Walk Right_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bartender_Walk Right_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Fantasy RPG character/character/62b0796891cf8bce52bb8bda797780026e473eff2f82940069c7aa5976c1d1a8_Bartender_Walk Right_2.png",
+          "name": "Bartender_Walk Right_2.png"
+        }
+      },
+      {
+        "file": "assets/Bartender_Walk Right_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bartender_Walk Right_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Fantasy RPG character/character/700a7d99a36cbd0c8f6e5648e8c3d03820b5db3b1f017574d865c17bf5bc3475_Bartender_Walk Right_3.png",
+          "name": "Bartender_Walk Right_3.png"
+        }
+      },
+      {
+        "file": "assets/Bartender_Walk Right_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bartender_Walk Right_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Fantasy RPG character/character/62b0796891cf8bce52bb8bda797780026e473eff2f82940069c7aa5976c1d1a8_Bartender_Walk Right_4.png",
+          "name": "Bartender_Walk Right_4.png"
+        }
+      },
+      {
+        "file": "assets/Bartender_Walk Up_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bartender_Walk Up_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Fantasy RPG character/character/7936ec2ec6924436efb706fe8f6650424c24e2ac475035de74966c38f17b16ce_Bartender_Walk Up_1.png",
+          "name": "Bartender_Walk Up_1.png"
+        }
+      },
+      {
+        "file": "assets/Bartender_Walk Up_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bartender_Walk Up_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Fantasy RPG character/character/0867ff476c3036d7cf1f41c99041010fe51a7138b2a70ac7ac3a3fb6f3cb0361_Bartender_Walk Up_2.png",
+          "name": "Bartender_Walk Up_2.png"
+        }
+      },
+      {
+        "file": "assets/Bartender_Walk Up_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bartender_Walk Up_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Fantasy RPG character/character/34de6cb074ea048de45bad50682939460bbf4752edeb075ecaf042b728990124_Bartender_Walk Up_3.png",
+          "name": "Bartender_Walk Up_3.png"
+        }
+      },
+      {
+        "file": "assets/Bartender_Walk Up_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Bartender_Walk Up_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Fantasy RPG character/character/0867ff476c3036d7cf1f41c99041010fe51a7138b2a70ac7ac3a3fb6f3cb0361_Bartender_Walk Up_4.png",
+          "name": "Bartender_Walk Up_4.png"
+        }
+      },
+      {
+        "file": "assets/general_sprites/idle/down/Bartender_Idle Down_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/general_sprites/idle/down/Bartender_Idle Down_1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/general_sprites/idle/down/Bartender_Idle Down_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/general_sprites/idle/down/Bartender_Idle Down_2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/general_sprites/idle/down/Bartender_Idle Down_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/general_sprites/idle/down/Bartender_Idle Down_3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/general_sprites/idle/down/Bartender_Idle Down_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/general_sprites/idle/down/Bartender_Idle Down_4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/general_sprites/Portrait Backround2 copy.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/general_sprites/Portrait Backround2 copy.png\",\"extension\":\".png\"}",
+        "name": "assets/general_sprites/Portrait Backround2 copy.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },
@@ -2717,6 +3165,7 @@
   "objectsGroups": [],
   "variables": [
     {
+      "folded": true,
       "name": "Meter",
       "type": "structure",
       "children": [
@@ -2732,6 +3181,47 @@
         },
         {
           "name": "XP",
+          "type": "number",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "name": "orders",
+      "type": "structure",
+      "children": [
+        {
+          "name": "cancelled",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "delivered",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "id",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "requiredWater",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "rewardHealth",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "rewardXP",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "villagerType",
           "type": "number",
           "value": 0
         }
@@ -2781,7 +3271,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.4,
         "snap": true,
-        "zoomFactor": 0.5653158055126439,
+        "zoomFactor": 0.5653158055126459,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -2794,39 +3284,59 @@
       ],
       "variables": [
         {
-          "name": "MoveToPosX",
-          "type": "number",
-          "value": 0
-        },
-        {
-          "name": "MoveToPosY",
-          "type": "number",
-          "value": 0
-        },
-        {
-          "name": "FacingUpdated",
-          "type": "number",
-          "value": 0
-        },
-        {
-          "name": "Facing",
-          "type": "string",
-          "value": "Down"
-        },
-        {
           "name": "timeLeft",
           "type": "number",
           "value": 60
         },
         {
-          "name": "Order",
+          "name": "queueCount",
           "type": "number",
           "value": 0
         },
         {
-          "name": "queueCount",
+          "name": "totalVillagerSpawned",
           "type": "number",
           "value": 0
+        },
+        {
+          "name": "selectedOrderIndex",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "acceptedOrderCount",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "orderPickCounter",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "nextVillagerID",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "requestPool0",
+          "type": "structure",
+          "children": []
+        },
+        {
+          "name": "requestPool1",
+          "type": "structure",
+          "children": []
+        },
+        {
+          "name": "requestPool2",
+          "type": "structure",
+          "children": []
+        },
+        {
+          "name": "requestPool3",
+          "type": "structure",
+          "children": []
         }
       ],
       "instances": [
@@ -21532,7 +22042,12 @@
           "x": 960,
           "y": 160,
           "zOrder": 23,
-          "numberProperties": [],
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
           "stringProperties": [],
           "initialVariables": []
         },
@@ -21684,7 +22199,7 @@
           "name": "villager_exitpoint",
           "persistentUuid": "0dd5bfa0-0583-4538-b6e3-1ee8eddc811d",
           "width": 32,
-          "x": -80,
+          "x": -208,
           "y": 128,
           "zOrder": 31,
           "numberProperties": [],
@@ -21712,15 +22227,83 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 24,
+          "height": 128,
           "keepRatio": true,
           "layer": "",
           "name": "requestTextBox",
           "persistentUuid": "14f28243-1885-45fb-b79b-7f6f68e27dfc",
-          "width": 180,
-          "x": 1004,
-          "y": 180,
+          "width": 160,
+          "x": 1012,
+          "y": 176,
           "zOrder": 33,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 96,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Well",
+          "persistentUuid": "d15ee7ea-c3b3-4c76-94ba-184655069de7",
+          "width": 96,
+          "x": 96,
+          "y": 448,
+          "zOrder": 34,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 96,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Shelf",
+          "persistentUuid": "e7c10809-c422-45dd-8b82-8610bb12ee0f",
+          "width": 96,
+          "x": 768,
+          "y": 64,
+          "zOrder": 35,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Truck",
+          "persistentUuid": "d9ac2ade-709d-4662-a291-0cca90f359cf",
+          "width": 160,
+          "x": 704,
+          "y": 480,
+          "zOrder": 36,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "debugTxt",
+          "opacity": 0,
+          "persistentUuid": "ff8fc838-c18f-41c3-a7fc-6762da67afea",
+          "width": 0,
+          "x": 256,
+          "y": 128,
+          "zOrder": 37,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -21799,10 +22382,10 @@
           "effects": [],
           "behaviors": [
             {
-              "cost": 2,
-              "impassable": true,
               "name": "PathfindingObstacle",
-              "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+              "type": "PathfindingBehavior::PathfindingObstacleBehavior",
+              "cost": 2,
+              "impassable": true
             }
           ],
           "animations": [
@@ -21867,10 +22450,10 @@
           "effects": [],
           "behaviors": [
             {
-              "cost": 2,
-              "impassable": true,
               "name": "PathfindingObstacle",
-              "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+              "type": "PathfindingBehavior::PathfindingObstacleBehavior",
+              "cost": 2,
+              "impassable": true
             }
           ],
           "animations": [
@@ -21935,10 +22518,10 @@
           "effects": [],
           "behaviors": [
             {
-              "cost": 2,
-              "impassable": true,
               "name": "PathfindingObstacle",
-              "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+              "type": "PathfindingBehavior::PathfindingObstacleBehavior",
+              "cost": 2,
+              "impassable": true
             }
           ],
           "animations": [
@@ -22003,10 +22586,10 @@
           "effects": [],
           "behaviors": [
             {
-              "cost": 2,
-              "impassable": true,
               "name": "PathfindingObstacle",
-              "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+              "type": "PathfindingBehavior::PathfindingObstacleBehavior",
+              "cost": 2,
+              "impassable": true
             }
           ],
           "animations": [
@@ -22071,10 +22654,10 @@
           "effects": [],
           "behaviors": [
             {
-              "cost": 2,
-              "impassable": true,
               "name": "PathfindingObstacle",
-              "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+              "type": "PathfindingBehavior::PathfindingObstacleBehavior",
+              "cost": 2,
+              "impassable": true
             }
           ],
           "animations": [
@@ -22139,10 +22722,10 @@
           "effects": [],
           "behaviors": [
             {
-              "cost": 2,
-              "impassable": true,
               "name": "PathfindingObstacle",
-              "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+              "type": "PathfindingBehavior::PathfindingObstacleBehavior",
+              "cost": 2,
+              "impassable": true
             }
           ],
           "animations": [
@@ -22213,10 +22796,10 @@
           "effects": [],
           "behaviors": [
             {
-              "cost": 2,
-              "impassable": true,
               "name": "PathfindingObstacle",
-              "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+              "type": "PathfindingBehavior::PathfindingObstacleBehavior",
+              "impassable": true,
+              "cost": 2
             }
           ]
         },
@@ -22237,10 +22820,10 @@
           "effects": [],
           "behaviors": [
             {
-              "cost": 2,
-              "impassable": true,
               "name": "PathfindingObstacle",
-              "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+              "type": "PathfindingBehavior::PathfindingObstacleBehavior",
+              "cost": 2,
+              "impassable": true
             }
           ]
         },
@@ -22315,10 +22898,10 @@
           "effects": [],
           "behaviors": [
             {
-              "cost": 2,
-              "impassable": true,
               "name": "PathfindingObstacle",
-              "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+              "type": "PathfindingBehavior::PathfindingObstacleBehavior",
+              "cost": 2,
+              "impassable": true
             }
           ],
           "animations": [
@@ -22507,6 +23090,55 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "assets/rancher.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 40,
+                            "y": 0
+                          },
+                          {
+                            "x": 40,
+                            "y": 40
+                          },
+                          {
+                            "x": 0,
+                            "y": 40
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "general",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"general\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":12,\\\"height\\\":40,\\\"width\\\":40,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAALxJREFUWEdjZGBg+M8wiAHjkHHgt1+/cIbj7GPX6R7G+Q76YDvhIThkHOgckU730EK2MCKvAMzFGYJDxoFykmIDEpJWoVHEheCoA3HEz9ANwYkHLoL9tGLSBDA96KJ41IFElgk40+BoCI6GIJEhQKmy0TQ4GoKjNQmBNDCaSUYzyWgmGc0klOaC0RAcDUEcHffRJj+RSWO0LiYyoHAqIxiClFpALf0Y44OwTEItCyg1B8OBlBpIK/2DfpQfAENd+gE+8g9AAAAAAElFTkSuQmCC\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1 (imported)\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAAZdJREFUWEdjZBjkgHGQu49h1IGUxtBoCI6GIKUhQKn+0TRI9xAMMrb/T4ml684eJCnWSFIMctigdSDMYbVObygJQIbmfSJg/cSGJNEhOGgdSMhhd+6w4g1RFZXfWOWJDUmCIThkHUgo5NCDDT0kaR6Cg9aBMIepeseBA0lfTRhvGrx46y1Y/vbWRWAaFpI0C8FB50BY8MAyS12mP1Ehhx6ssJBsmr6RtuXgkHPghO5t4BApKPVCCTR08QELwUHvwODCeeCQW9ufhBKC6OIDFoKDzoGRch/BIQUrB//fnIu3HGRUT0YpB5c/4qdtLh50DoSVf1OEfoF9vpJDDkw7aFxBCbkDN3RQ+Ljkw388AqvLecdGVEgS3ZoZ9A6E5VJYsbLG4Ac4BKb8uIM3DeZwqIDlQy5woJSXsMxFqGVNdAgOWgei18W2UhJgIVgIFm36Bub/U3qNEpJM90TB/D4/LpQQPPzsBVFpD2YYwRAcMg7E5VBYrsSVEGG5ntSQIzkEh4wD8WZZGkgSnQZpYDdRRo46kKhgwqMIAM1YQDi9IIzLAAAAAElFTkSuQmCC\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[]}}\",\"resourceNames\":[\"assets/general_sprites/Portrait Backround2 copy.png\"],\"name\":\"general\"}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/general_sprites/Portrait Backround2 copy.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -24282,54 +24914,67 @@
           "updateIfNotVisible": false,
           "variables": [
             {
-              "name": "villagerID",
-              "type": "number",
-              "value": 0
-            },
-            {
-              "name": "villagerType",
-              "type": "number",
-              "value": 0
-            },
-            {
-              "name": "requestText",
-              "type": "string",
-              "value": ""
-            },
-            {
-              "name": "requiredWater",
-              "type": "number",
-              "value": 0
-            },
-            {
-              "name": "queueIndex",
-              "type": "number",
-              "value": 0
-            },
-            {
-              "name": "queueState",
-              "type": "number",
-              "value": 0
-            },
-            {
-              "name": "orderState",
-              "type": "number",
-              "value": 0
-            },
-            {
-              "name": "rewardXP",
-              "type": "number",
-              "value": 0
-            },
-            {
-              "name": "rewardHealth",
-              "type": "number",
-              "value": 0
+              "name": "data",
+              "type": "structure",
+              "children": [
+                {
+                  "name": "exitTriggered",
+                  "type": "boolean",
+                  "value": false
+                },
+                {
+                  "name": "orderState",
+                  "type": "number",
+                  "value": 0
+                },
+                {
+                  "name": "queueIndex",
+                  "type": "number",
+                  "value": 0
+                },
+                {
+                  "name": "queueState",
+                  "type": "number",
+                  "value": 0
+                },
+                {
+                  "name": "requestText",
+                  "type": "string",
+                  "value": ""
+                },
+                {
+                  "name": "requiredWater",
+                  "type": "number",
+                  "value": 0
+                },
+                {
+                  "name": "rewardHealth",
+                  "type": "number",
+                  "value": 0
+                },
+                {
+                  "name": "rewardXP",
+                  "type": "number",
+                  "value": 0
+                },
+                {
+                  "name": "villagerID",
+                  "type": "number",
+                  "value": 0
+                },
+                {
+                  "name": "villagerType",
+                  "type": "number",
+                  "value": 0
+                }
+              ]
             }
           ],
           "effects": [],
           "behaviors": [
             {
+              "name": "Pathfinding",
+              "type": "PathfindingBehavior::PathfindingBehavior",
               "acceleration": 400,
               "allowDiagonals": false,
               "angleOffset": 0,
@@ -24340,10 +24985,8 @@
               "gridOffsetX": 0,
               "gridOffsetY": 0,
               "maxSpeed": 200,
-              "name": "Pathfinding",
               "rotateObject": false,
-              "smoothingMaxCellGap": 1,
-              "type": "PathfindingBehavior::PathfindingBehavior"
+              "smoothingMaxCellGap": 1
             }
           ],
           "animations": [
@@ -24814,6 +25457,162 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "general_idle_down",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.25,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/general_sprites/idle/down/Bartender_Idle Down_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 8,
+                        "y": 24
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 4
+                          },
+                          {
+                            "x": 14,
+                            "y": 4
+                          },
+                          {
+                            "x": 14,
+                            "y": 24
+                          },
+                          {
+                            "x": 1,
+                            "y": 24
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/general_sprites/idle/down/Bartender_Idle Down_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 8,
+                        "y": 24
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 4
+                          },
+                          {
+                            "x": 14,
+                            "y": 4
+                          },
+                          {
+                            "x": 14,
+                            "y": 24
+                          },
+                          {
+                            "x": 1,
+                            "y": 24
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/general_sprites/idle/down/Bartender_Idle Down_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 8,
+                        "y": 24
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 4
+                          },
+                          {
+                            "x": 14,
+                            "y": 4
+                          },
+                          {
+                            "x": 14,
+                            "y": 24
+                          },
+                          {
+                            "x": 1,
+                            "y": 24
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/general_sprites/idle/down/Bartender_Idle Down_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 8,
+                        "y": 24
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 4
+                          },
+                          {
+                            "x": 14,
+                            "y": 4
+                          },
+                          {
+                            "x": 14,
+                            "y": 24
+                          },
+                          {
+                            "x": 1,
+                            "y": 24
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -24832,7 +25631,7 @@
           "string": "Text",
           "font": "assets/Kenney Pixel.ttf",
           "textAlignment": "center",
-          "characterSize": 30,
+          "characterSize": 24,
           "color": {
             "b": 74,
             "g": 74,
@@ -24856,7 +25655,7 @@
             "font": "assets/Kenney Pixel.ttf",
             "textAlignment": "center",
             "verticalTextAlignment": "center",
-            "characterSize": 30,
+            "characterSize": 24,
             "lineHeight": 0,
             "color": "74;74;74"
           }
@@ -24922,11 +25721,249 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Well",
+          "persistentUuid": "5bf8b802-eea8-43b3-9439-05aafe554aad",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite6",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Shelf",
+          "persistentUuid": "b5f8be33-033f-44dd-9474-d8a54a3d333d",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite7",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Truck",
+          "persistentUuid": "5f444e16-b349-4d84-bf15-488da0d861ed",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite8",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "debugTxt",
+          "persistentUuid": "e19feb23-9a69-44be-a295-77629da11bfe",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Debug Text",
+          "font": "assets/Kenney Pixel.ttf",
+          "textAlignment": "left",
+          "characterSize": 16,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": true,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Debug Text",
+            "font": "assets/Kenney Pixel.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 16,
+            "lineHeight": 0,
+            "color": "255;255;255"
+          }
         }
       ],
       "objectsFolderStructure": {
         "folderName": "__ROOT",
         "children": [
+          {
+            "folderName": "debug",
+            "children": [
+              {
+                "objectName": "debugTxt"
+              }
+            ]
+          },
           {
             "folderName": "points",
             "children": [
@@ -25027,10 +26064,31 @@
           },
           {
             "objectName": "Villager"
+          },
+          {
+            "objectName": "Well"
+          },
+          {
+            "objectName": "Shelf"
+          },
+          {
+            "objectName": "Truck"
           }
         ]
       },
       "events": [
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "THIS COPY INTEGRATES THE USE OF STRUCTS TO STORE VILLAGER ESSENTIAL DATA\nNOTE:\nSET THE JSON FILE WORKING"
+        },
         {
           "colorB": 228,
           "colorG": 176,
@@ -25064,6 +26122,577 @@
                 "Animation",
                 "=",
                 "\"blank\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetMaxValue"
+              },
+              "parameters": [
+                "health_bar",
+                "=",
+                "100",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+              },
+              "parameters": [
+                "health_bar",
+                "=",
+                "45",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "JSONToVariableStructure2"
+              },
+              "parameters": [
+                "\"[\\\"Good ol' crops of corns need some good ol' splashes of water, wouldn't you say? I'll be needing {water} units!\\\",\\\"My field of potatoes are not doing well, unless you could send {water} units to us quick.\\\",\\\"Cabbages are better than lettuces, right? Anyways, both of them need {water} units of water.\\\",\\\"I will need {water} units of water for my banana plants. I'm sure this jungle of a town needs them.\\\",\\\"The rice fields are dying! Please, we need {water} units now!\\\"]\"",
+                "requestPool0"
+              ]
+            },
+            {
+              "type": {
+                "value": "JSONToVariableStructure2"
+              },
+              "parameters": [
+                "\"[\\\"Mister, can I have {water} units of water? I'm really thirsty!!\\\",\\\"Can't you guys just give {water} units of it? I'm sure you have enough already...\\\",\\\"Please give {water} units of water quick! I need help carrying them though.\\\",\\\"Who has full buckets here? I want {water} units of all of them!\\\",\\\"Is anyone here...? My mom is sick and she needs {water} units of water for drinking...\\\",\\\"Water. {water} units. Now. Please?\\\"]\"",
+                "requestPool1"
+              ]
+            },
+            {
+              "type": {
+                "value": "JSONToVariableStructure2"
+              },
+              "parameters": [
+                "\"[\\\"My chickens are dying of thirst! If this keeps up, we won't have eggs for breakfast. Send {water} units fast!\\\",\\\"I think my cows are on their last legs. We need {water} units otherwise we won't be lasting this summer.\\\",\\\"My sheep need {water} units of hydration! Especially Shaun, he's the best one in the flock.\\\",\\\"The pigs in my ranch need {water} units real quick, we need to sell the meat soon.\\\",\\\"I'm having some stable trouble, so if you could deliver {water} units fast that would be real nice.\\\"]\"",
+                "requestPool2"
+              ]
+            },
+            {
+              "type": {
+                "value": "JSONToVariableStructure2"
+              },
+              "parameters": [
+                "\"[\\\"Good day, could I order {water} units of water? Our household is running quite low.\\\",\\\"I am in dire need of {water} units of water right now, is anyone available??\\\",\\\"You guys have what I want, right? I definitely need {water} units and I definitely won't waste it. :3\\\",\\\"My flowers are withering because the weather is too hot lately... {water} units should do the trick.\\\",\\\"Yo, can I get {water} units? Mostly for drinking, maybe a bit for baths too.\\\"]\"",
+                "requestPool3"
+              ]
+            }
+          ]
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "HEALTH BAR",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::Value"
+              },
+              "parameters": [
+                "health_bar",
+                "<",
+                "0",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+              },
+              "parameters": [
+                "health_bar",
+                "=",
+                "0",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "ORDER NAVIGATION",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "orderPickCounter",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "No active orders check"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "acceptedOrderCount",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "CurrentVillagerID",
+                "=",
+                "-1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "requestTextBox",
+                "Text",
+                "=",
+                "\"No active orders\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "selectedOrderIndex",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Right Arrow event"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
+                "value": "IsCursorOnObject"
+              },
+              "parameters": [
+                "Right_Arrow",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "acceptedOrderCount",
+                ">",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "selectedOrderIndex",
+                "+",
+                "1"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "selectedOrderIndex",
+                    ">=",
+                    "acceptedOrderCount"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "selectedOrderIndex",
+                    "=",
+                    "0"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Left Arrow event"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
+                "value": "IsCursorOnObject"
+              },
+              "parameters": [
+                "Left_Arrow",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "acceptedOrderCount",
+                ">",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "selectedOrderIndex",
+                "-",
+                "1"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "selectedOrderIndex",
+                    "<",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "selectedOrderIndex",
+                    "=",
+                    "acceptedOrderCount - 1"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Order display event"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "CurrentVillagerID",
+                "!=",
+                "-1"
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Villager",
+                    "data.villagerID",
+                    "=",
+                    "CurrentVillagerID"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "requestTextBox",
+                    "Text",
+                    "=",
+                    "Villager.data.requestText"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                  },
+                  "parameters": [
+                    "villagerPortrait",
+                    "Animation",
+                    "=",
+                    "Villager.data.villagerType"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "Villager",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Villager",
+                "data.orderState",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Villager",
+                "data.queueState",
+                "=",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "acceptedOrderCount",
+                ">",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "CurrentVillagerID",
+                "=",
+                "-1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "orderPickCounter",
+                "+",
+                "1"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "orderPickCounter - 1",
+                    "=",
+                    "selectedOrderIndex"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "requestTextBox",
+                    "Text",
+                    "=",
+                    "Villager.data.requestText"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                  },
+                  "parameters": [
+                    "villagerPortrait",
+                    "Animation",
+                    "=",
+                    "Villager.data.villagerType"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "selectedOrderIndex safety guard"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "selectedOrderIndex",
+                ">=",
+                "acceptedOrderCount"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "selectedOrderIndex",
+                "=",
+                "0"
               ]
             }
           ]
@@ -25106,6 +26735,18 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Player moving event"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -25306,6 +26947,18 @@
           ]
         },
         {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Player idle event"
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -25466,6 +27119,16 @@
           "actions": [
             {
               "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "totalVillagerSpawned",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
                 "value": "Create"
               },
               "parameters": [
@@ -25474,6 +27137,17 @@
                 "villager_spawnpoint.CenterX()",
                 "villager_spawnpoint.CenterY()",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Villager",
+                "data.villagerID",
+                "=",
+                "totalVillagerSpawned"
               ]
             },
             {
@@ -25489,13 +27163,13 @@
             },
             {
               "type": {
-                "value": "SetNumberObjectVariable"
+                "value": "SetBooleanObjectVariable"
               },
               "parameters": [
                 "Villager",
-                "villagerID",
-                "=",
-                "0"
+                "data.exitTriggered",
+                "False",
+                ""
               ]
             },
             {
@@ -25514,7 +27188,7 @@
               },
               "parameters": [
                 "Villager",
-                "queueIndex",
+                "data.queueIndex",
                 "=",
                 "0"
               ]
@@ -25525,7 +27199,7 @@
               },
               "parameters": [
                 "Villager",
-                "queueState",
+                "data.queueState",
                 "=",
                 "0"
               ]
@@ -25536,7 +27210,7 @@
               },
               "parameters": [
                 "Villager",
-                "orderState",
+                "data.orderState",
                 "=",
                 "0"
               ]
@@ -25547,31 +27221,20 @@
               },
               "parameters": [
                 "Villager",
-                "requiredWater",
+                "data.requiredWater",
                 "=",
                 "RandomWithStep(10, 20, 5)"
               ]
             },
             {
               "type": {
-                "value": "SetStringObjectVariable"
-              },
-              "parameters": [
-                "Villager",
-                "requestText",
-                "=",
-                "\"I need \" + Villager.requiredWater + \" units of water! Urgent!\""
-              ]
-            },
-            {
-              "type": {
                 "value": "SetNumberObjectVariable"
               },
               "parameters": [
                 "Villager",
-                "villagerType",
+                "data.villagerType",
                 "=",
-                "RandomInRange(0,2)"
+                "RandomInRange(0,3)"
               ]
             },
             {
@@ -25582,7 +27245,7 @@
                 "Villager",
                 "Animation",
                 "=",
-                "Villager.villagerType"
+                "Villager.data.villagerType"
               ]
             },
             {
@@ -25591,9 +27254,9 @@
               },
               "parameters": [
                 "Villager",
-                "rewardXP",
+                "data.rewardXP",
                 "=",
-                "round(Villager.requiredWater * 1)"
+                "round(Villager.data.requiredWater * 1)"
               ]
             },
             {
@@ -25602,9 +27265,19 @@
               },
               "parameters": [
                 "Villager",
-                "rewardHealth",
+                "data.rewardHealth",
                 "=",
-                "round(Villager.requiredWater * 0.7)"
+                "round(Villager.data.requiredWater * 0.7)"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetZOrder"
+              },
+              "parameters": [
+                "Villager",
+                "=",
+                "100 - (Villager.data.queueIndex * 10)"
               ]
             },
             {
@@ -25615,15 +27288,167 @@
                 "",
                 "\"spawnTimer\""
               ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Villager",
+                    "data.villagerType",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetStringObjectVariable"
+                  },
+                  "parameters": [
+                    "Villager",
+                    "data.requestText",
+                    "=",
+                    "VariableString(requestPool0[RandomInRange(0, 4)])"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringObjectVariable"
+                  },
+                  "parameters": [
+                    "Villager",
+                    "data.requestText",
+                    "=",
+                    "StrReplaceAll(Villager.data.requestText, \"{water}\", ToString(Villager.data.requiredWater))"
+                  ]
+                }
+              ]
             },
             {
-              "type": {
-                "value": "SetZOrder"
-              },
-              "parameters": [
-                "Villager",
-                "=",
-                "100 - (Villager.queueIndex * 10)"
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Villager",
+                    "data.villagerType",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetStringObjectVariable"
+                  },
+                  "parameters": [
+                    "Villager",
+                    "data.requestText",
+                    "=",
+                    "VariableString(requestPool1[RandomInRange(0, 4)])"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringObjectVariable"
+                  },
+                  "parameters": [
+                    "Villager",
+                    "data.requestText",
+                    "=",
+                    "StrReplaceAll(Villager.data.requestText, \"{water}\", ToString(Villager.data.requiredWater))"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Villager",
+                    "data.villagerType",
+                    "=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetStringObjectVariable"
+                  },
+                  "parameters": [
+                    "Villager",
+                    "data.requestText",
+                    "=",
+                    "VariableString(requestPool2[RandomInRange(0, 4)])"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringObjectVariable"
+                  },
+                  "parameters": [
+                    "Villager",
+                    "data.requestText",
+                    "=",
+                    "StrReplaceAll(Villager.data.requestText, \"{water}\", ToString(Villager.data.requiredWater))"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Villager",
+                    "data.villagerType",
+                    "=",
+                    "3"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetStringObjectVariable"
+                  },
+                  "parameters": [
+                    "Villager",
+                    "data.requestText",
+                    "=",
+                    "VariableString(requestPool3[RandomInRange(0, 4)])"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringObjectVariable"
+                  },
+                  "parameters": [
+                    "Villager",
+                    "data.requestText",
+                    "=",
+                    "StrReplaceAll(Villager.data.requestText, \"{water}\", ToString(Villager.data.requiredWater))"
+                  ]
+                }
               ]
             }
           ]
@@ -25677,6 +27502,16 @@
           "actions": [
             {
               "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "totalVillagerSpawned",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
                 "value": "Create"
               },
               "parameters": [
@@ -25689,6 +27524,17 @@
             },
             {
               "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Villager",
+                "data.villagerID",
+                "=",
+                "totalVillagerSpawned"
+              ]
+            },
+            {
+              "type": {
                 "value": "ScalableCapability::ScalableBehavior::SetValue"
               },
               "parameters": [
@@ -25696,6 +27542,17 @@
                 "Scale",
                 "=",
                 "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "Villager",
+                "data.exitTriggered",
+                "False",
+                ""
               ]
             },
             {
@@ -25714,7 +27571,7 @@
               },
               "parameters": [
                 "Villager",
-                "villagerID",
+                "data.queueIndex",
                 "=",
                 "queueCount"
               ]
@@ -25725,9 +27582,9 @@
               },
               "parameters": [
                 "Villager",
-                "queueIndex",
+                "data.queueState",
                 "=",
-                "queueCount"
+                "0"
               ]
             },
             {
@@ -25736,9 +27593,9 @@
               },
               "parameters": [
                 "Villager",
-                "queueState",
+                "data.orderState",
                 "=",
-                "0\n"
+                "0"
               ]
             },
             {
@@ -25747,42 +27604,20 @@
               },
               "parameters": [
                 "Villager",
-                "orderState",
-                "=",
-                "0\n"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberObjectVariable"
-              },
-              "parameters": [
-                "Villager",
-                "requiredWater",
+                "data.requiredWater",
                 "=",
                 "RandomWithStep(10, 20, 5)"
               ]
             },
             {
               "type": {
-                "value": "SetStringObjectVariable"
-              },
-              "parameters": [
-                "Villager",
-                "requestText",
-                "=",
-                "\"I need \" + Villager.requiredWater + \" units of water! Urgent!\""
-              ]
-            },
-            {
-              "type": {
                 "value": "SetNumberObjectVariable"
               },
               "parameters": [
                 "Villager",
-                "villagerType",
+                "data.villagerType",
                 "=",
-                "RandomInRange(0,2)"
+                "RandomInRange(0,3)"
               ]
             },
             {
@@ -25793,7 +27628,7 @@
                 "Villager",
                 "Animation",
                 "=",
-                "Villager.villagerType"
+                "Villager.data.villagerType"
               ]
             },
             {
@@ -25802,9 +27637,9 @@
               },
               "parameters": [
                 "Villager",
-                "rewardXP",
+                "data.rewardXP",
                 "=",
-                "round(Villager.requiredWater * 1)"
+                "round(Villager.data.requiredWater * 1)"
               ]
             },
             {
@@ -25813,9 +27648,19 @@
               },
               "parameters": [
                 "Villager",
-                "rewardHealth",
+                "data.rewardHealth",
                 "=",
-                "round(Villager.requiredWater * 0.7)"
+                "round(Villager.data.requiredWater * 0.7)"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetZOrder"
+              },
+              "parameters": [
+                "Villager",
+                "=",
+                "100 - (Villager.data.queueIndex * 10)"
               ]
             },
             {
@@ -25826,15 +27671,167 @@
                 "",
                 "\"spawnTimer\""
               ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Villager",
+                    "data.villagerType",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetStringObjectVariable"
+                  },
+                  "parameters": [
+                    "Villager",
+                    "data.requestText",
+                    "=",
+                    "VariableString(requestPool0[RandomInRange(0, 4)])"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringObjectVariable"
+                  },
+                  "parameters": [
+                    "Villager",
+                    "data.requestText",
+                    "=",
+                    "StrReplaceAll(Villager.data.requestText, \"{water}\", ToString(Villager.data.requiredWater))"
+                  ]
+                }
+              ]
             },
             {
-              "type": {
-                "value": "SetZOrder"
-              },
-              "parameters": [
-                "Villager",
-                "=",
-                "100 - (Villager.queueIndex * 10)"
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Villager",
+                    "data.villagerType",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetStringObjectVariable"
+                  },
+                  "parameters": [
+                    "Villager",
+                    "data.requestText",
+                    "=",
+                    "VariableString(requestPool1[RandomInRange(0, 4)])"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringObjectVariable"
+                  },
+                  "parameters": [
+                    "Villager",
+                    "data.requestText",
+                    "=",
+                    "StrReplaceAll(Villager.data.requestText, \"{water}\", ToString(Villager.data.requiredWater))"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Villager",
+                    "data.villagerType",
+                    "=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetStringObjectVariable"
+                  },
+                  "parameters": [
+                    "Villager",
+                    "data.requestText",
+                    "=",
+                    "VariableString(requestPool2[RandomInRange(0, 4)])"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringObjectVariable"
+                  },
+                  "parameters": [
+                    "Villager",
+                    "data.requestText",
+                    "=",
+                    "StrReplaceAll(Villager.data.requestText, \"{water}\", ToString(Villager.data.requiredWater))"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Villager",
+                    "data.villagerType",
+                    "=",
+                    "3"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetStringObjectVariable"
+                  },
+                  "parameters": [
+                    "Villager",
+                    "data.requestText",
+                    "=",
+                    "VariableString(requestPool3[RandomInRange(0, 4)])"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringObjectVariable"
+                  },
+                  "parameters": [
+                    "Villager",
+                    "data.requestText",
+                    "=",
+                    "StrReplaceAll(Villager.data.requestText, \"{water}\", ToString(Villager.data.requiredWater))"
+                  ]
+                }
               ]
             }
           ]
@@ -25851,6 +27848,18 @@
           "parameters": []
         },
         {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Villager reaches the first queue position event"
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -25859,7 +27868,7 @@
               },
               "parameters": [
                 "Villager",
-                "queueState",
+                "data.queueState",
                 "=",
                 "0"
               ]
@@ -25870,7 +27879,18 @@
               },
               "parameters": [
                 "Villager",
-                "queueIndex",
+                "data.queueIndex",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Villager",
+                "data.orderState",
                 "=",
                 "0"
               ]
@@ -25894,12 +27914,33 @@
               },
               "parameters": [
                 "Villager",
-                "queueState",
+                "data.queueState",
                 "=",
                 "1"
               ]
+            },
+            {
+              "type": {
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "Villager",
+                "\"patienceTimer\""
+              ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Queue shifting/moving trigger event"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -25946,7 +27987,7 @@
                   },
                   "parameters": [
                     "Villager",
-                    "queueState",
+                    "data.queueState",
                     "!=",
                     "2"
                   ]
@@ -25957,7 +27998,7 @@
                   },
                   "parameters": [
                     "Villager",
-                    "queueIndex",
+                    "data.queueIndex",
                     ">",
                     "0"
                   ]
@@ -25970,7 +28011,7 @@
                   },
                   "parameters": [
                     "Villager",
-                    "queueIndex",
+                    "data.queueIndex",
                     "-",
                     "1"
                   ]
@@ -25982,62 +28023,24 @@
                   "parameters": [
                     "Villager",
                     "=",
-                    "100 - (Villager.queueIndex * 10)"
-                  ]
-                }
-              ]
-            },
-            {
-              "disabled": true,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "PickAllInstances"
-                  },
-                  "parameters": [
-                    "",
-                    "Villager"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "NumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Villager",
-                    "queueIndex",
-                    "=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "NumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Villager",
-                    "queueState",
-                    "!=",
-                    "2"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetNumberObjectVariable"
-                  },
-                  "parameters": [
-                    "Villager",
-                    "queueState",
-                    "=",
-                    "2"
+                    "100 - (Villager.data.queueIndex * 10)"
                   ]
                 }
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Villager position arrange event"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -26048,7 +28051,7 @@
               },
               "parameters": [
                 "Villager",
-                "queueState",
+                "data.queueState",
                 "=",
                 "0"
               ]
@@ -26065,7 +28068,7 @@
                   },
                   "parameters": [
                     "Villager",
-                    "queueIndex",
+                    "data.queueIndex",
                     "=",
                     "0"
                   ]
@@ -26095,7 +28098,7 @@
                   },
                   "parameters": [
                     "Villager",
-                    "queueIndex",
+                    "data.queueIndex",
                     "=",
                     "1"
                   ]
@@ -26125,7 +28128,7 @@
                   },
                   "parameters": [
                     "Villager",
-                    "queueIndex",
+                    "data.queueIndex",
                     "=",
                     "2"
                   ]
@@ -26149,6 +28152,18 @@
           ]
         },
         {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Villager exit event"
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -26157,19 +28172,46 @@
               },
               "parameters": [
                 "Villager",
-                "queueState",
+                "data.queueState",
                 "=",
                 "2"
               ]
             },
             {
               "type": {
-                "value": "BuiltinCommonInstructions::Once"
+                "value": "NumberObjectVariable"
               },
-              "parameters": []
+              "parameters": [
+                "Villager",
+                "data.orderState",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Villager",
+                "data.exitTriggered",
+                "=",
+                ""
+              ]
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "Villager",
+                "data.exitTriggered",
+                "True",
+                ""
+              ]
+            },
             {
               "type": {
                 "value": "PathfindingBehavior::SetDestination"
@@ -26213,7 +28255,102 @@
               },
               "parameters": [
                 "Villager",
-                "queueState",
+                "data.queueState",
+                "=",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Villager",
+                "data.orderState",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Villager",
+                "data.exitTriggered",
+                "=",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "Villager",
+                "data.exitTriggered",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PathfindingBehavior::SetDestination"
+              },
+              "parameters": [
+                "Villager",
+                "Pathfinding",
+                "",
+                "villager_exitpoint.X()",
+                "villager_exitpoint.Y()"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "queueCount",
+                "-",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "ShiftQueue",
+                "=",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Villager halt/delete event"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Villager",
+                "data.queueState",
                 "=",
                 "2"
               ]
@@ -26241,13 +28378,133 @@
                   },
                   "parameters": [
                     "Villager",
-                    "orderState",
+                    "data.orderState",
                     "=",
                     "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Villager",
+                    "data.exitTriggered",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ResetObjectTimer"
+                  },
+                  "parameters": [
+                    "Villager",
+                    "\"deliveryTimer\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Villager patience: while waiting for order"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Distance"
+                  },
+                  "parameters": [
+                    "Villager",
+                    "villager_exitpoint",
+                    "50",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Villager",
+                    "data.orderState",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Villager",
+                    "data.exitTriggered",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CompareObjectTimer"
+                  },
+                  "parameters": [
+                    "Villager",
+                    "\"deliveryTimer\"",
+                    ">",
+                    "20"
                   ]
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+                  },
+                  "parameters": [
+                    "health_bar",
+                    "-",
+                    "round(Villager.data.requiredWater * 0.5)",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "acceptedOrderCount",
+                    "-",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "orders[Villager.data.villagerID].cancelled",
+                    "True",
+                    ""
+                  ]
+                },
                 {
                   "type": {
                     "value": "Delete"
@@ -26279,9 +28536,20 @@
                   },
                   "parameters": [
                     "Villager",
-                    "orderState",
+                    "data.orderState",
                     "=",
                     "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Villager",
+                    "data.exitTriggered",
+                    "True",
+                    ""
                   ]
                 }
               ],
@@ -26309,6 +28577,18 @@
           "type": "BuiltinCommonInstructions::Group",
           "events": [],
           "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Villager Click Event"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -26350,7 +28630,7 @@
               },
               "parameters": [
                 "Villager",
-                "queueIndex",
+                "data.orderState",
                 "=",
                 "0"
               ]
@@ -26361,9 +28641,30 @@
               },
               "parameters": [
                 "Villager",
-                "orderState",
+                "data.queueIndex",
                 "=",
                 "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "CurrentVillagerID",
+                "=",
+                "-1"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Villager",
+                "data.queueState",
+                "=",
+                "1"
               ]
             }
           ],
@@ -26375,7 +28676,7 @@
               "parameters": [
                 "CurrentVillagerID",
                 "=",
-                "Villager.villagerID"
+                "Villager.data.villagerID"
               ]
             },
             {
@@ -26386,7 +28687,7 @@
                 "requestTextBox",
                 "Text",
                 "=",
-                "Villager.requestText"
+                "Villager.data.requestText"
               ]
             },
             {
@@ -26397,10 +28698,22 @@
                 "villagerPortrait",
                 "Animation",
                 "=",
-                "Villager.villagerType"
+                "Villager.data.villagerType"
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Accept Button Event"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -26436,7 +28749,7 @@
                   },
                   "parameters": [
                     "Villager",
-                    "villagerID",
+                    "data.villagerID",
                     "=",
                     "CurrentVillagerID"
                   ]
@@ -26447,7 +28760,7 @@
                   },
                   "parameters": [
                     "Villager",
-                    "queueIndex",
+                    "data.queueIndex",
                     "=",
                     "0"
                   ]
@@ -26458,31 +28771,120 @@
                   },
                   "parameters": [
                     "Villager",
-                    "queueState",
+                    "data.orderState",
                     "=",
-                    "1"
+                    "0"
                   ]
                 },
                 {
                   "type": {
-                    "value": "NumberObjectVariable"
+                    "value": "BuiltinCommonInstructions::Or"
                   },
-                  "parameters": [
-                    "Villager",
-                    "orderState",
-                    "=",
-                    "0"
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Villager",
+                        "data.queueState",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Villager",
+                        "data.queueState",
+                        "=",
+                        "1"
+                      ]
+                    }
                   ]
                 }
               ],
               "actions": [
                 {
                   "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "orders[acceptedOrderCount].id",
+                    "=",
+                    "Villager.data.villagerID"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "orders[acceptedOrderCount].villagerType",
+                    "=",
+                    "Villager.data.villagerType"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "orders[acceptedOrderCount].requiredWater",
+                    "=",
+                    "Villager.data.requiredWater"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "orders[acceptedOrderCount].rewardXP",
+                    "=",
+                    "Villager.data.rewardXP"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "orders[acceptedOrderCount].rewardHealth",
+                    "=",
+                    "Villager.data.rewardHealth"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "orders[acceptedOrderCount].delivered",
+                    "False",
+                    "fa"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "acceptedOrderCount",
+                    "+",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "SetNumberObjectVariable"
                   },
                   "parameters": [
                     "Villager",
-                    "orderState",
+                    "data.orderState",
                     "=",
                     "1"
                   ]
@@ -26493,7 +28895,7 @@
                   },
                   "parameters": [
                     "Villager",
-                    "queueState",
+                    "data.queueState",
                     "=",
                     "2"
                   ]
@@ -26511,6 +28913,18 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Reject Button Event"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -26533,14 +28947,158 @@
                 "!=",
                 "-1"
               ]
-            },
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Villager",
+                    "data.villagerID",
+                    "=",
+                    "CurrentVillagerID"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Villager",
+                    "data.queueIndex",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Villager",
+                    "data.orderState",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Villager",
+                        "data.queueState",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Villager",
+                        "data.queueState",
+                        "=",
+                        "1"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Villager",
+                    "data.orderState",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Villager",
+                    "data.queueState",
+                    "=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "CurrentVillagerID",
+                    "=",
+                    "-1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+                  },
+                  "parameters": [
+                    "health_bar",
+                    "-",
+                    "round(Villager.data.requiredWater * 0.3)",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "VILLAGER BEHAVIOR: PATIENCE",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Waiting in line"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
             {
               "type": {
                 "value": "NumberObjectVariable"
               },
               "parameters": [
                 "Villager",
-                "queueIndex",
+                "data.orderState",
                 "=",
                 "0"
               ]
@@ -26551,10 +29109,27 @@
               },
               "parameters": [
                 "Villager",
-                "orderState",
+                "data.queueState",
                 "=",
-                "0"
+                "1"
               ]
+            },
+            {
+              "type": {
+                "value": "CompareObjectTimer"
+              },
+              "parameters": [
+                "Villager",
+                "\"patienceTimer\"",
+                ">",
+                "20"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
@@ -26564,7 +29139,7 @@
               },
               "parameters": [
                 "Villager",
-                "orderState",
+                "data.orderState",
                 "=",
                 "0"
               ]
@@ -26575,7 +29150,7 @@
               },
               "parameters": [
                 "Villager",
-                "queueState",
+                "data.queueState",
                 "=",
                 "2"
               ]
@@ -26589,13 +29164,159 @@
                 "=",
                 "-1"
               ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+              },
+              "parameters": [
+                "health_bar",
+                "-",
+                "round(Villager.data.requiredWater * 0.5)",
+                ""
+              ]
             }
           ]
         },
         {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "DEBUG TESTING",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
-          "actions": []
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "debugTxt",
+                "Text",
+                "=",
+                "\"\""
+              ]
+            }
+          ]
+        },
+        {
+          "disabled": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PickAllInstances"
+              },
+              "parameters": [
+                "",
+                "Villager"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "debugTxt",
+                "Text",
+                "+",
+                "\"[V\" + Villager.data.villagerID + \"]\" + NewLine() + \n\"qIdx: \" + Villager.data.queueIndex + NewLine() + \n\"qState: \" + Villager.data.queueState + NewLine() + \n\"oState: \" + Villager.data.orderState + NewLine() + \n\"CVID: \" + CurrentVillagerID + NewLine() + \n\"---\" + NewLine() "
+              ]
+            }
+          ]
+        },
+        {
+          "disabled": true,
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "Villager",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "debugTxt",
+                "Text",
+                "+",
+                "\"[V\" + Villager.data.villagerID + \"]\" + NewLine() + \n\"qIdx: \" + Villager.data.queueIndex + NewLine() + \n\"qState: \" + Villager.data.queueState + NewLine() + \n\"oState: \" + Villager.data.orderState + NewLine() + \n\"CVID: \" + CurrentVillagerID + NewLine() + \n\"---\" + NewLine() "
+              ]
+            }
+          ]
+        },
+        {
+          "disabled": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "debugTxt",
+                "Text",
+                "=",
+                "\"patienceTimer: \" + ToString(Villager.ObjectTimerElapsedTime(\"patienceTimer\")) + NewLine() + \"DT: \" + ToString(Villager.ObjectTimerElapsedTime(\"deliveryTimer\"))"
+              ]
+            }
+          ]
+        },
+        {
+          "disabled": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PickAllInstances"
+              },
+              "parameters": [
+                "",
+                "Villager"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "debugTxt",
+                "Text",
+                "+",
+                "\"CVID: \" + CurrentVillagerID + NewLine() + \"selectedOrderIndex: \" + selectedOrderIndex + NewLine() + \"acceptedOrderCount: \" + acceptedOrderCount"
+              ]
+            }
+          ]
+        },
+        {
+          "disabled": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "debugTxt",
+                "Text",
+                "=",
+                "VariableString(requestPool0[RandomInRange(0, 4)])"
+              ]
+            }
+          ]
         }
       ],
       "layers": [
@@ -26642,7 +29363,7 @@
           "isLocked": false,
           "name": "WWS_UI Layer",
           "renderingType": "",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": [
             {
