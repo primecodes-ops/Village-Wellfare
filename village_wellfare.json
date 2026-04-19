@@ -3155,6 +3155,82 @@
         "name": "assets/general_sprites/Portrait Backround2 copy.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/Blue Potion.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Blue Potion.png\",\"extension\":\".png\"}",
+        "name": "Blue Potion.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Pixel art RPG Items/Collectable items/ddeeaa40b67620dcafb74fa488b1a838b7cf5cb1a1aa87be927e67045c99ea80_Blue Potion.png",
+          "name": "Blue Potion.png"
+        }
+      },
+      {
+        "file": "assets/lab_tileset/seperated/tile019.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/lab_tileset/seperated/tile019.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/lab_tileset/seperated/tile028.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/lab_tileset/seperated/tile028.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/lab_tileset/seperated/tile030.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/lab_tileset/seperated/tile030.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/lab_tileset/seperated/tile030.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/lab_tileset/seperated/tile030.png2.png\"}",
+        "name": "assets/lab_tileset/seperated/tile030.png2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/lab_tileset/seperated/tile030.png3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "assets/lab_tileset/seperated/tile030.png3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/emptyBucket copy.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/emptyBucket copy.png\",\"extension\":\".png\"}",
+        "name": "assets/emptyBucket copy.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/filledBucket.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/filledBucket.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/filled.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "filled",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },
@@ -3271,7 +3347,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.4,
         "snap": true,
-        "zoomFactor": 0.5653158055126459,
+        "zoomFactor": 0.7619362677197824,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -22032,15 +22108,15 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 1,
-          "height": 32,
+          "depth": 2,
+          "height": 53,
           "keepRatio": true,
           "layer": "",
           "name": "Left_Arrow",
           "persistentUuid": "18894e96-0b7f-4102-997b-2e972efd1b23",
-          "width": 32,
-          "x": 960,
-          "y": 160,
+          "width": 53,
+          "x": 939,
+          "y": 165,
           "zOrder": 23,
           "numberProperties": [
             {
@@ -22054,16 +22130,16 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 1,
-          "height": 32,
+          "depth": 2.2083333333333335,
+          "height": 53,
           "keepRatio": true,
           "layer": "",
           "name": "Right_Arrow",
           "persistentUuid": "03c65ab7-8d53-4ec5-9447-21140aaef395",
-          "width": 32,
-          "x": 1184,
-          "y": 160,
-          "zOrder": 24,
+          "width": 53,
+          "x": 1183,
+          "y": 165,
+          "zOrder": 23,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -22112,9 +22188,9 @@
           "name": "Player",
           "persistentUuid": "e1d8c94b-0c52-4cd1-bff6-f1b0d569282f",
           "width": 43,
-          "x": 491,
-          "y": 352,
-          "zOrder": 27,
+          "x": 148,
+          "y": 349,
+          "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -22199,7 +22275,7 @@
           "name": "villager_exitpoint",
           "persistentUuid": "0dd5bfa0-0583-4538-b6e3-1ee8eddc811d",
           "width": 32,
-          "x": 464,
+          "x": -176,
           "y": 128,
           "zOrder": 31,
           "numberProperties": [],
@@ -22227,23 +22303,6 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 128,
-          "keepRatio": true,
-          "layer": "",
-          "name": "requestTextBox",
-          "persistentUuid": "14f28243-1885-45fb-b79b-7f6f68e27dfc",
-          "width": 160,
-          "x": 1012,
-          "y": 176,
-          "zOrder": 33,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
           "height": 96,
           "keepRatio": true,
           "layer": "",
@@ -22252,7 +22311,7 @@
           "width": 96,
           "x": 96,
           "y": 448,
-          "zOrder": 34,
+          "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -22269,7 +22328,7 @@
           "width": 96,
           "x": 768,
           "y": 64,
-          "zOrder": 35,
+          "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -22286,7 +22345,7 @@
           "width": 160,
           "x": 704,
           "y": 480,
-          "zOrder": 36,
+          "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -22304,6 +22363,139 @@
           "x": 256,
           "y": 128,
           "zOrder": 37,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 96,
+          "keepRatio": true,
+          "layer": "",
+          "name": "waterRequiredText",
+          "persistentUuid": "45c187a6-c2c1-4761-afd8-7f1dc2a874f4",
+          "width": 96,
+          "x": 1024,
+          "y": 86,
+          "zOrder": 38,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 103,
+          "keepRatio": true,
+          "layer": "",
+          "name": "requestTextBox",
+          "persistentUuid": "92117f72-b989-4832-87ec-54b70a41ec1c",
+          "width": 165,
+          "x": 1008,
+          "y": 190,
+          "zOrder": 39,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "waterRequired",
+          "persistentUuid": "40249118-fda1-49a5-80fe-85517687e6e3",
+          "width": 0,
+          "x": 1023,
+          "y": 46,
+          "zOrder": 40,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 288,
+          "keepRatio": true,
+          "layer": "Bucket Options",
+          "name": "bucketOptionBG",
+          "persistentUuid": "2a166ed7-8548-4822-802a-cb37cc24ef2a",
+          "width": 320,
+          "x": 321,
+          "y": 161,
+          "zOrder": 41,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 64,
+          "height": 54,
+          "keepRatio": true,
+          "layer": "Bucket Options",
+          "name": "smallBucketOption",
+          "persistentUuid": "a0514ac0-5dcc-4aaf-9c97-51f03f6474c2",
+          "width": 236,
+          "x": 365,
+          "y": 200,
+          "zOrder": 42,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 72,
+          "height": 54,
+          "layer": "Bucket Options",
+          "name": "medBucketOption",
+          "persistentUuid": "fa12a0d5-77c9-43b0-beaa-74200005e437",
+          "width": 236,
+          "x": 365,
+          "y": 274,
+          "zOrder": 43,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 64,
+          "height": 54,
+          "layer": "Bucket Options",
+          "name": "largeBucketOption",
+          "persistentUuid": "869392d2-b4bc-4c6e-b5a8-d052319307f7",
+          "width": 236,
+          "x": 365,
+          "y": 352,
+          "zOrder": 44,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 64,
+          "height": 48,
+          "keepRatio": true,
+          "layer": "",
+          "name": "menuBtn",
+          "persistentUuid": "754bb2cf-0056-4fe4-8d1a-fcbe0d82954a",
+          "width": 256,
+          "x": 960,
+          "y": 640,
+          "zOrder": 45,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -22843,8 +23035,8 @@
             "BarBottomPadding": 6,
             "BarLeftPadding": 4,
             "BarRightPadding": 4,
-            "MaxValue": 16,
-            "InitialValue": 8
+            "MaxValue": 1000,
+            "InitialValue": 1000
           }
         },
         {
@@ -22863,8 +23055,8 @@
             "BarBottomPadding": 6,
             "BarLeftPadding": 4,
             "BarRightPadding": 4,
-            "MaxValue": 16,
-            "InitialValue": 8
+            "MaxValue": 100,
+            "InitialValue": 45
           }
         },
         {
@@ -22883,8 +23075,8 @@
             "BarBottomPadding": 6,
             "BarLeftPadding": 4,
             "BarRightPadding": 4,
-            "MaxValue": 16,
-            "InitialValue": 8
+            "MaxValue": 350,
+            "InitialValue": 0
           }
         },
         {
@@ -23247,7 +23439,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets/Left-Arrow.png",
+                      "image": "assets/lab_tileset/seperated/tile019.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -23263,20 +23455,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0,
-                            "y": 0
+                            "x": 5,
+                            "y": 7
                           },
                           {
-                            "x": 14,
-                            "y": 0
+                            "x": 27,
+                            "y": 7
                           },
                           {
-                            "x": 14,
-                            "y": 14
+                            "x": 27,
+                            "y": 24
                           },
                           {
-                            "x": 0,
-                            "y": 14
+                            "x": 5,
+                            "y": 24
                           }
                         ]
                       ]
@@ -23308,7 +23500,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets/Right-Arrow.png",
+                      "image": "assets/lab_tileset/seperated/tile028.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -23324,20 +23516,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0,
-                            "y": 0
+                            "x": 6,
+                            "y": 7
                           },
                           {
-                            "x": 14,
-                            "y": 0
+                            "x": 27,
+                            "y": 7
                           },
                           {
-                            "x": 14,
-                            "y": 14
+                            "x": 27,
+                            "y": 24
                           },
                           {
-                            "x": 0,
-                            "y": 14
+                            "x": 6,
+                            "y": 24
                           }
                         ]
                       ]
@@ -23388,6 +23580,11 @@
               "name": "facing",
               "type": "string",
               "value": ""
+            },
+            {
+              "name": "holdingBucket",
+              "type": "boolean",
+              "value": false
             }
           ],
           "effects": [],
@@ -25627,50 +25824,6 @@
           ]
         },
         {
-          "assetStoreId": "",
-          "bold": true,
-          "italic": false,
-          "name": "requestTextBox",
-          "persistentUuid": "4bfcef67-eeda-4f12-8b81-c98bf3d203e1",
-          "smoothed": true,
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "string": "Text",
-          "font": "assets/Kenney Pixel.ttf",
-          "textAlignment": "center",
-          "characterSize": 24,
-          "color": {
-            "b": 74,
-            "g": 74,
-            "r": 74
-          },
-          "content": {
-            "bold": true,
-            "isOutlineEnabled": false,
-            "isShadowEnabled": false,
-            "italic": false,
-            "outlineColor": "255;255;255",
-            "outlineThickness": 2,
-            "shadowAngle": 90,
-            "shadowBlurRadius": 2,
-            "shadowColor": "0;0;0",
-            "shadowDistance": 4,
-            "shadowOpacity": 127,
-            "smoothed": true,
-            "underlined": false,
-            "text": "Text",
-            "font": "assets/Kenney Pixel.ttf",
-            "textAlignment": "center",
-            "verticalTextAlignment": "center",
-            "characterSize": 24,
-            "lineHeight": 0,
-            "color": "74;74;74"
-          }
-        },
-        {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "queue_pos_1",
@@ -25961,11 +26114,293 @@
             "lineHeight": 0,
             "color": "255;255;255"
           }
+        },
+        {
+          "assetStoreId": "",
+          "name": "waterRequiredText",
+          "persistentUuid": "548f0422-d629-4272-8cac-d5849270ac31",
+          "type": "BBText::BBText",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "[b]10[/b]",
+            "opacity": 255,
+            "fontSize": 110,
+            "visible": true,
+            "color": "74;144;226",
+            "fontFamily": "assets/Kenney Pixel.ttf",
+            "align": "center",
+            "verticalTextAlignment": "center"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "requestTextBox",
+          "persistentUuid": "2851f4cd-84e3-4057-8393-4e8466b7cc8f",
+          "type": "BBText::BBText",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "[b]No active orders[/b]",
+            "opacity": 255,
+            "fontSize": 28,
+            "visible": true,
+            "color": "0;0;0",
+            "fontFamily": "assets/Kenney Pixel.ttf",
+            "align": "center",
+            "verticalTextAlignment": "center"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "waterRequired",
+          "persistentUuid": "e03fad0b-d6c0-4dcb-b136-eb548ef5a1f1",
+          "type": "BBText::BBText",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "[b]Water needed:[/b]",
+            "opacity": 255,
+            "fontSize": 20,
+            "visible": true,
+            "color": "0;0;0",
+            "fontFamily": "assets/Kenney Pixel.ttf",
+            "align": "center",
+            "verticalTextAlignment": "center"
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "001eac874dd10e78e7db7c2ab144734df05023e62d015b7406c636ed620416b4",
+          "name": "waterBucket",
+          "persistentUuid": "595edb22-a2db-435e-ae2a-c2ce031e07ea",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "name": "maxCapacity",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "amount",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "isEmpty",
+              "type": "boolean",
+              "value": true
+            }
+          ],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "empty",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/emptyBucket copy.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 1
+                          },
+                          {
+                            "x": 13,
+                            "y": 1
+                          },
+                          {
+                            "x": 13,
+                            "y": 14
+                          },
+                          {
+                            "x": 3,
+                            "y": 14
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "filled",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "filled",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 1
+                          },
+                          {
+                            "x": 13,
+                            "y": 1
+                          },
+                          {
+                            "x": 13,
+                            "y": 14
+                          },
+                          {
+                            "x": 3,
+                            "y": 14
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bottomMargin": 3,
+          "height": 32,
+          "leftMargin": 3,
+          "name": "bucketOptionBG",
+          "persistentUuid": "1bfb59e2-ca87-4f8c-b4a1-809b735d3eaf",
+          "rightMargin": 3,
+          "texture": "assets/lab_tileset/seperated/tile030.png3",
+          "tiled": true,
+          "topMargin": 3,
+          "type": "PanelSpriteObject::PanelSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "0afc2350902b780376c88111a4f3b03e4273d1ffe8e77239be4647e55ef35abd",
+          "name": "medBucketOption",
+          "persistentUuid": "c7f4bc12-23a2-40d7-af97-a2b8190f8c52",
+          "type": "PanelSpriteButton::PanelSpriteButton",
+          "variant": "AcceptButton",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "LabelText": "Medium Bucket (15 units)",
+            "PressedLabelOffsetY": 2
+          }
+        },
+        {
+          "assetStoreId": "0afc2350902b780376c88111a4f3b03e4273d1ffe8e77239be4647e55ef35abd",
+          "name": "smallBucketOption",
+          "persistentUuid": "1a580288-c79c-4d8a-80d5-27c0cf34785b",
+          "type": "PanelSpriteButton::PanelSpriteButton",
+          "variant": "AcceptButton",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "LabelText": "Small Bucket (10 units)",
+            "PressedLabelOffsetY": 2
+          }
+        },
+        {
+          "assetStoreId": "0afc2350902b780376c88111a4f3b03e4273d1ffe8e77239be4647e55ef35abd",
+          "name": "largeBucketOption",
+          "persistentUuid": "2bf288a9-290d-4682-9f7d-2c1ff390aad6",
+          "type": "PanelSpriteButton::PanelSpriteButton",
+          "variant": "AcceptButton",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "LabelText": "Large Bucket (20 units)",
+            "PressedLabelOffsetY": 2
+          }
+        },
+        {
+          "assetStoreId": "0afc2350902b780376c88111a4f3b03e4273d1ffe8e77239be4647e55ef35abd",
+          "name": "menuBtn",
+          "persistentUuid": "75cec6e2-8cc4-478a-8ca5-09d68a458c05",
+          "type": "PanelSpriteButton::PanelSpriteButton",
+          "variant": "AcceptButton",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "LabelText": "Main Menu",
+            "PressedLabelOffsetY": 2
+          }
         }
       ],
       "objectsFolderStructure": {
         "folderName": "__ROOT",
         "children": [
+          {
+            "folderName": "Settings UI",
+            "children": [
+              {
+                "objectName": "menuBtn"
+              }
+            ]
+          },
+          {
+            "folderName": "BucketOptions Layer",
+            "children": [
+              {
+                "objectName": "smallBucketOption"
+              },
+              {
+                "objectName": "medBucketOption"
+              },
+              {
+                "objectName": "largeBucketOption"
+              },
+              {
+                "objectName": "bucketOptionBG"
+              }
+            ]
+          },
           {
             "folderName": "debug",
             "children": [
@@ -26016,7 +26451,13 @@
                 "objectName": "RejectButton"
               },
               {
+                "objectName": "waterRequiredText"
+              },
+              {
                 "objectName": "requestTextBox"
+              },
+              {
+                "objectName": "waterRequired"
               }
             ]
           },
@@ -26083,6 +26524,9 @@
           },
           {
             "objectName": "Truck"
+          },
+          {
+            "objectName": "waterBucket"
           }
         ]
       },
@@ -26142,6 +26586,15 @@
                 "=",
                 "45",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "HideLayer"
+              },
+              "parameters": [
+                "",
+                "\"Bucket Options\""
               ]
             },
             {
@@ -26288,13 +26741,22 @@
           "actions": [
             {
               "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                "value": "BBText::SetBBText"
               },
               "parameters": [
                 "requestTextBox",
-                "Text",
                 "=",
                 "\"No active orders\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BBText::SetBBText"
+              },
+              "parameters": [
+                "waterRequiredText",
+                "=",
+                "\"\""
               ]
             },
             {
@@ -26531,13 +26993,22 @@
               "actions": [
                 {
                   "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                    "value": "BBText::SetBBText"
                   },
                   "parameters": [
                     "requestTextBox",
-                    "Text",
                     "=",
                     "Villager.data.requestText"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BBText::SetBBText"
+                  },
+                  "parameters": [
+                    "waterRequiredText",
+                    "=",
+                    "Villager.data.requiredWater"
                   ]
                 },
                 {
@@ -26629,27 +27100,102 @@
                   ]
                 }
               ],
-              "actions": [
+              "actions": [],
+              "events": [
                 {
-                  "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                  },
-                  "parameters": [
-                    "requestTextBox",
-                    "Text",
-                    "=",
-                    "Villager.data.requestText"
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "orders[Villager.data.orderIndex].delivered",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "BBText::SetBBText"
+                      },
+                      "parameters": [
+                        "requestTextBox",
+                        "=",
+                        "\"[color=#00ff88][b]✓ READY[/b][/color]  \" + Villager.data.requestText"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BBText::SetBBText"
+                      },
+                      "parameters": [
+                        "waterRequiredText",
+                        "=",
+                        "Villager.data.requiredWater"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                      },
+                      "parameters": [
+                        "villagerPortrait",
+                        "Animation",
+                        "=",
+                        "Villager.data.villagerType"
+                      ]
+                    }
                   ]
                 },
                 {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
-                  },
-                  "parameters": [
-                    "villagerPortrait",
-                    "Animation",
-                    "=",
-                    "Villager.data.villagerType"
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "orders[Villager.data.orderIndex].delivered",
+                        "False",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "BBText::SetBBText"
+                      },
+                      "parameters": [
+                        "requestTextBox",
+                        "=",
+                        "Villager.data.requestText"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BBText::SetBBText"
+                      },
+                      "parameters": [
+                        "waterRequiredText",
+                        "=",
+                        "Villager.data.requiredWater"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                      },
+                      "parameters": [
+                        "villagerPortrait",
+                        "Animation",
+                        "=",
+                        "Villager.data.villagerType"
+                      ]
+                    }
                   ]
                 }
               ]
@@ -28437,7 +28983,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Villager patience: while waiting for order"
+              "comment": "Villager patience: while waiting for order delivery"
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -28484,6 +29030,16 @@
                     "\"deliveryTimer\"",
                     ">",
                     "25"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "orders[Villager.data.orderIndex].delivered",
+                    "=",
+                    ""
                   ]
                 }
               ],
@@ -28695,13 +29251,22 @@
             },
             {
               "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                "value": "BBText::SetBBText"
               },
               "parameters": [
                 "requestTextBox",
-                "Text",
                 "=",
                 "Villager.data.requestText"
+              ]
+            },
+            {
+              "type": {
+                "value": "BBText::SetBBText"
+              },
+              "parameters": [
+                "waterRequiredText",
+                "=",
+                "Villager.data.requiredWater"
               ]
             },
             {
@@ -29199,6 +29764,649 @@
                 "-",
                 "round(Villager.data.requiredWater * 0.5)",
                 ""
+              ]
+            }
+          ]
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "ACQUIRE CONTAINER",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
+                "value": "IsCursorOnObject"
+              },
+              "parameters": [
+                "Shelf",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Distance"
+              },
+              "parameters": [
+                "Player",
+                "Shelf",
+                "50",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ShowLayer"
+              },
+              "parameters": [
+                "",
+                "\"Bucket Options\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "LayerVisible"
+              },
+              "parameters": [
+                "",
+                "\"Bucket Options\""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+                  },
+                  "parameters": [
+                    "smallBucketOption",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "waterBucket",
+                    "Player.X()-12",
+                    "Player.Y()-32",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Player",
+                    "holdingBucket",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "waterBucket",
+                    "maxCapacity",
+                    "=",
+                    "10"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "HideLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Bucket Options\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+                  },
+                  "parameters": [
+                    "medBucketOption",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "waterBucket",
+                    "Player.X()-12",
+                    "Player.Y()-32",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Player",
+                    "holdingBucket",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "waterBucket",
+                    "maxCapacity",
+                    "=",
+                    "15"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "HideLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Bucket Options\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+                  },
+                  "parameters": [
+                    "largeBucketOption",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "waterBucket",
+                    "Player.X()-12",
+                    "Player.Y()-32",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Player",
+                    "holdingBucket",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "waterBucket",
+                    "maxCapacity",
+                    "=",
+                    "20"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "HideLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Bucket Options\""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Player",
+                "holdingBucket",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetXY"
+              },
+              "parameters": [
+                "waterBucket",
+                "=",
+                "Player.X()-12",
+                "=",
+                "Player.Y()-32"
+              ]
+            },
+            {
+              "type": {
+                "value": "ScalableCapability::ScalableBehavior::SetValue"
+              },
+              "parameters": [
+                "waterBucket",
+                "Scale",
+                "=",
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetZOrder"
+              },
+              "parameters": [
+                "waterBucket",
+                "=",
+                "2"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "waterBucket",
+                    "isEmpty",
+                    "True",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "waterBucket",
+                    "Animation",
+                    "=",
+                    "\"empty\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "waterBucket",
+                    "isEmpty",
+                    "False",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "waterBucket",
+                    "Animation",
+                    "=",
+                    "\"filled\""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "GET WATER",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
+                "value": "IsCursorOnObject"
+              },
+              "parameters": [
+                "Well",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Distance"
+              },
+              "parameters": [
+                "Player",
+                "Well",
+                "50",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Player",
+                "holdingBucket",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "waterBucket",
+                "amount",
+                "<",
+                "waterBucket.maxCapacity"
+              ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::Value"
+              },
+              "parameters": [
+                "water_bar",
+                ">",
+                "0",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "waterBucket",
+                "amount",
+                "=",
+                "waterBucket.maxCapacity"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "waterBucket",
+                "isEmpty",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+              },
+              "parameters": [
+                "water_bar",
+                "-",
+                "waterBucket.maxCapacity",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "FOR DELIVERY",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
+                "value": "IsCursorOnObject"
+              },
+              "parameters": [
+                "Truck",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Distance"
+              },
+              "parameters": [
+                "Player",
+                "Truck",
+                "50",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Player",
+                "holdingBucket",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "waterBucket",
+                "amount",
+                ">=",
+                "waterBucket.maxCapacity"
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "some actions here should be in the DS (health_bar, delivered boolean)\nthe actions are added for testing purposes only (remove health_bar, delivered boolean if it is ONLY succesfully working in the DS)"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Villager",
+                    "data.orderIndex",
+                    "=",
+                    "selectedOrderIndex"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "orders[selectedOrderIndex].delivered",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+                  },
+                  "parameters": [
+                    "health_bar",
+                    "+",
+                    "round(Villager.data.rewardHealth)",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "waterBucket",
+                    "isEmpty",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "waterBucket",
+                    "amount",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "waterBucket",
+                    "Animation",
+                    "=",
+                    "\"empty\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "waterBucket",
+                    ""
+                  ]
+                }
               ]
             }
           ]
