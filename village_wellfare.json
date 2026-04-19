@@ -3347,7 +3347,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.4,
         "snap": true,
-        "zoomFactor": 0.7619362677197824,
+        "zoomFactor": 0.6244537826600175,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -22275,7 +22275,7 @@
           "name": "villager_exitpoint",
           "persistentUuid": "0dd5bfa0-0583-4538-b6e3-1ee8eddc811d",
           "width": 32,
-          "x": -176,
+          "x": 560,
           "y": 128,
           "zOrder": 31,
           "numberProperties": [],
@@ -22357,7 +22357,6 @@
           "keepRatio": true,
           "layer": "",
           "name": "debugTxt",
-          "opacity": 0,
           "persistentUuid": "ff8fc838-c18f-41c3-a7fc-6762da67afea",
           "width": 0,
           "x": 256,
@@ -23035,8 +23034,8 @@
             "BarBottomPadding": 6,
             "BarLeftPadding": 4,
             "BarRightPadding": 4,
-            "MaxValue": 1000,
-            "InitialValue": 1000
+            "MaxValue": 250,
+            "InitialValue": 250
           }
         },
         {
@@ -25115,9 +25114,14 @@
               "type": "structure",
               "children": [
                 {
-                  "name": "deliveryTimerStarted",
+                  "name": "delivered",
                   "type": "boolean",
                   "value": false
+                },
+                {
+                  "name": "deliveryTimerStarted",
+                  "type": "number",
+                  "value": 0
                 },
                 {
                   "name": "exitTriggered",
@@ -27107,10 +27111,11 @@
                   "conditions": [
                     {
                       "type": {
-                        "value": "BooleanVariable"
+                        "value": "BooleanObjectVariable"
                       },
                       "parameters": [
-                        "orders[Villager.data.orderIndex].delivered",
+                        "Villager",
+                        "data.delivered",
                         "True",
                         ""
                       ]
@@ -27155,10 +27160,11 @@
                   "conditions": [
                     {
                       "type": {
-                        "value": "BooleanVariable"
+                        "value": "BooleanObjectVariable"
                       },
                       "parameters": [
-                        "orders[Villager.data.orderIndex].delivered",
+                        "Villager",
+                        "data.delivered",
                         "False",
                         ""
                       ]
@@ -29023,23 +29029,24 @@
                 },
                 {
                   "type": {
+                    "value": "BooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Villager",
+                    "data.delivered",
+                    "=",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "CompareObjectTimer"
                   },
                   "parameters": [
                     "Villager",
                     "\"deliveryTimer\"",
                     ">",
-                    "25"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BooleanVariable"
-                  },
-                  "parameters": [
-                    "orders[Villager.data.orderIndex].delivered",
-                    "=",
-                    ""
+                    "10"
                   ]
                 }
               ],
@@ -29449,6 +29456,17 @@
                 },
                 {
                   "type": {
+                    "value": "SetBooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Villager",
+                    "data.delivered",
+                    "False",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "SetNumberObjectVariable"
                   },
                   "parameters": [
@@ -29712,7 +29730,7 @@
                 "Villager",
                 "\"patienceTimer\"",
                 ">",
-                "20"
+                "10"
               ]
             },
             {
@@ -30339,11 +30357,22 @@
                     "Villager",
                     "data.orderIndex",
                     "=",
-                    "selectedOrderIndex"
+                    "orders[selectedOrderIndex].id"
                   ]
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "SetBooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Villager",
+                    "data.delivered",
+                    "True",
+                    ""
+                  ]
+                },
                 {
                   "type": {
                     "value": "SetBooleanVariable"
@@ -30361,7 +30390,7 @@
                   "parameters": [
                     "health_bar",
                     "+",
-                    "round(Villager.data.rewardHealth)",
+                    "round(orders[selectedOrderIndex].rewardHealth)",
                     ""
                   ]
                 },
@@ -30488,7 +30517,6 @@
           ]
         },
         {
-          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": [
