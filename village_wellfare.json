@@ -22357,6 +22357,7 @@
           "keepRatio": true,
           "layer": "",
           "name": "debugTxt",
+          "opacity": 0,
           "persistentUuid": "ff8fc838-c18f-41c3-a7fc-6762da67afea",
           "width": 0,
           "x": 256,
@@ -26792,32 +26793,57 @@
           "conditions": [
             {
               "type": {
-                "value": "MouseButtonFromTextReleased"
-              },
-              "parameters": [
-                "",
-                "\"Left\""
-              ]
-            },
-            {
-              "type": {
-                "value": "IsCursorOnObject"
-              },
-              "parameters": [
-                "Right_Arrow",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
                 "value": "NumberVariable"
               },
               "parameters": [
                 "acceptedOrderCount",
                 ">",
                 "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::And"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "MouseButtonFromTextReleased"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Left\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "IsCursorOnObject"
+                      },
+                      "parameters": [
+                        "Right_Arrow",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "KeyFromTextReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "\"d\""
+                  ]
+                }
               ]
             }
           ],
@@ -26880,32 +26906,57 @@
           "conditions": [
             {
               "type": {
-                "value": "MouseButtonFromTextReleased"
-              },
-              "parameters": [
-                "",
-                "\"Left\""
-              ]
-            },
-            {
-              "type": {
-                "value": "IsCursorOnObject"
-              },
-              "parameters": [
-                "Left_Arrow",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
                 "value": "NumberVariable"
               },
               "parameters": [
                 "acceptedOrderCount",
                 ">",
                 "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::And"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "MouseButtonFromTextReleased"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Left\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "IsCursorOnObject"
+                      },
+                      "parameters": [
+                        "Left_Arrow",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "KeyFromTextReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "\"a\""
+                  ]
+                }
               ]
             }
           ],
@@ -30517,6 +30568,7 @@
           ]
         },
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": [
