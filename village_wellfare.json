@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 266,
+    "build": 265,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -3231,6 +3231,454 @@
         "name": "filled",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/cartography/Textures/parchmentAncient.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/cartography/Textures/parchmentAncient.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cartography/Spritesheet/spritesheet_default.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/cartography/Spritesheet/spritesheet_default.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cartography/Spritesheet/spritesheet_retina.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/cartography/Spritesheet/spritesheet_retina.png\",\"extension\":\".png\"}",
+        "name": "assets/cartography/Spritesheet/spritesheet_retina.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cartography/Spritesheet/well.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/cartography/Spritesheet/well.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cartography/Spritesheet/building4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/cartography/Spritesheet/building4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cartography/Spritesheet/building5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/cartography/Spritesheet/building5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cartography/Spritesheet/building6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/cartography/Spritesheet/building6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cartography/Spritesheet/building1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/cartography/Spritesheet/building1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cartography/Spritesheet/compass.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/cartography/Spritesheet/compass.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cartography/Spritesheet/fence.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/cartography/Spritesheet/fence.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cartography/Spritesheet/road1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/cartography/Spritesheet/road1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cartography/Spritesheet/road2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/cartography/Spritesheet/road2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cartography/Spritesheet/road3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/cartography/Spritesheet/road3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cartography/Spritesheet/road4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/cartography/Spritesheet/road4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cartography/Spritesheet/road5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/cartography/Spritesheet/road5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cartography/Spritesheet/building2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/cartography/Spritesheet/building2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cartography/Spritesheet/building3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/cartography/Spritesheet/building3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cartography/Spritesheet/building7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/cartography/Spritesheet/building7.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cartography/Spritesheet/mountains1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/cartography/Spritesheet/mountains1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cartography/Spritesheet/trees.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/cartography/Spritesheet/trees.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cartography/Spritesheet/mountains2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/cartography/Spritesheet/mountains2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cartography/Spritesheet/Car.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/cartography/Spritesheet/Car.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cartography/Spritesheet/Exclamation.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/cartography/Spritesheet/Exclamation.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cartography/Spritesheet/Exclamation2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/cartography/Spritesheet/Exclamation",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cartography/Spritesheet/Car2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/cartography/Spritesheet/Car",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cartography/Spritesheet/Question.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/cartography/Spritesheet/Question.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cartography/Spritesheet/Question2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/cartography/Spritesheet/Question",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cartography/Spritesheet/Heart.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/cartography/Spritesheet/Heart.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cartography/Spritesheet/Heart2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/cartography/Spritesheet/Heart",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cartography/Spritesheet/Heart2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/cartography/Spritesheet/Heart2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cartography/Spritesheet/spritesheet_default2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/cartography/Spritesheet/spritesheet_default",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cartography/Spritesheet/spritesheet_default3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/cartography/Spritesheet/spritesheet_default2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cartography/Spritesheet/spritesheet_default4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/cartography/Spritesheet/spritesheet_default3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cartography/Spritesheet/spritesheet_default5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/cartography/Spritesheet/spritesheet_default4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cartography/Spritesheet/spritesheet_default6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/cartography/Spritesheet/spritesheet_default5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cartography/Spritesheet/spritesheet_default7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/cartography/Spritesheet/spritesheet_default6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cartography/Spritesheet/spritesheet_retina2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/cartography/Spritesheet/spritesheet_retina",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cartography/Spritesheet/spritesheet_retina3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/cartography/Spritesheet/spritesheet_retina2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cartography/Spritesheet/spritesheet_retina4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/cartography/Spritesheet/spritesheet_retina3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cartography/Spritesheet/spritesheet_retina5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/cartography/Spritesheet/spritesheet_retina4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/building4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "building4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cartography/Spritesheet/spritesheet_retina6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/cartography/Spritesheet/spritesheet_retina5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cartography/Spritesheet/spritesheet_retina7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/cartography/Spritesheet/spritesheet_retina6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cartography/Spritesheet/spritesheet_retina8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/cartography/Spritesheet/spritesheet_retina7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cartography/Spritesheet/spritesheet_retina9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/cartography/Spritesheet/spritesheet_retina8",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cartography/Spritesheet/spritesheet_retina10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/cartography/Spritesheet/spritesheet_retina9",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cartography/Spritesheet/spritesheet_retina11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/cartography/Spritesheet/spritesheet_retina10",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cartography/Spritesheet/spritesheet_retina12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/cartography/Spritesheet/spritesheet_retina11",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cartography/Spritesheet/spritesheet_retina13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/cartography/Spritesheet/spritesheet_retina12",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cartography/Spritesheet/spritesheet_retina14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/cartography/Spritesheet/spritesheet_retina13",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cartography/Spritesheet/spritesheet_retina15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/cartography/Spritesheet/spritesheet_retina14",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cartography/Spritesheet/spritesheet_retina16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/cartography/Spritesheet/spritesheet_retina15",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cartography/Spritesheet/spritesheet_retina17.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/cartography/Spritesheet/spritesheet_retina16",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cartography/Spritesheet/spritesheet_retina18.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/cartography/Spritesheet/spritesheet_retina17",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cartography/Spritesheet/spritesheet_retina19.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/cartography/Spritesheet/spritesheet_retina18",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cartography/Spritesheet/spritesheet_retina20.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/cartography/Spritesheet/spritesheet_retina19",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },
@@ -3347,7 +3795,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.4,
         "snap": true,
-        "zoomFactor": 0.6244537826600175,
+        "zoomFactor": 0.5290357402157003,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -22499,6 +22947,22 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "DeliveryBtn",
+          "persistentUuid": "3fd3bca5-6d66-4849-ad3c-31aec95f71e5",
+          "width": 0,
+          "x": 1024,
+          "y": 352,
+          "zOrder": 46,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -26376,6 +26840,20 @@
             "LabelText": "Main Menu",
             "PressedLabelOffsetY": 2
           }
+        },
+        {
+          "assetStoreId": "0afc2350902b780376c88111a4f3b03e4273d1ffe8e77239be4647e55ef35abd",
+          "name": "DeliveryBtn",
+          "persistentUuid": "9919f2ae-7563-4dc1-b40c-3fc1f4c1a206",
+          "type": "PanelSpriteButton::PanelSpriteButton",
+          "variant": "AcceptButton",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "LabelText": "Delivery",
+            "PressedLabelOffsetY": 2
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -26386,6 +26864,9 @@
             "children": [
               {
                 "objectName": "menuBtn"
+              },
+              {
+                "objectName": "DeliveryBtn"
               }
             ]
           },
@@ -30630,6 +31111,31 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+              },
+              "parameters": [
+                "DeliveryBtn",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PushScene"
+              },
+              "parameters": [
+                "",
+                "\"Delivery Screen\""
+              ]
+            }
+          ]
         }
       ],
       "layers": [
@@ -31339,13 +31845,13 @@
       "disableInputWhenNotFocused": true,
       "mangledName": "Delivery_32Screen",
       "name": "Delivery Screen",
-      "r": 247,
+      "r": 255,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
       "title": "",
-      "v": 249,
+      "v": 255,
       "uiSettings": {
-        "grid": true,
+        "grid": false,
         "gridType": "rectangular",
         "gridWidth": 32,
         "gridHeight": 32,
@@ -31355,8 +31861,8 @@
         "gridOffsetZ": 0,
         "gridColor": 10401023,
         "gridAlpha": 0.8,
-        "snap": true,
-        "zoomFactor": 0.5358773932265872,
+        "snap": false,
+        "zoomFactor": 0.44192503855762694,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -31367,23 +31873,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 1,
-          "height": 720,
-          "keepRatio": true,
-          "layer": "",
-          "name": "background",
-          "persistentUuid": "b251731b-1213-4d8b-8a43-f327b63cb3ea",
-          "width": 1281,
-          "x": -1,
-          "y": 0,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
           "depth": 64,
           "height": 63,
           "keepRatio": true,
@@ -31391,7 +31880,7 @@
           "name": "BackButton",
           "persistentUuid": "fdb0bc2d-62c1-4831-ba03-e6ade033913c",
           "width": 224,
-          "x": 1024,
+          "x": 992,
           "y": 640,
           "zOrder": 2,
           "numberProperties": [],
@@ -31402,15 +31891,486 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 608,
+          "height": 736,
           "keepRatio": true,
           "layer": "",
-          "name": "ds_bg",
-          "persistentUuid": "69fe10f5-d335-405f-b86f-132c396e2617",
-          "width": 992,
-          "x": 0,
+          "name": "background",
+          "persistentUuid": "855cc834-4dc7-4930-a278-8d18b863d773",
+          "width": 1248,
+          "x": 1,
           "y": 0,
-          "zOrder": 3,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "house3",
+          "persistentUuid": "1fb14c5a-c4ff-4bbb-92b3-6957882a348b",
+          "width": 0,
+          "x": 108,
+          "y": 31,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "house3",
+          "persistentUuid": "f775f308-204d-44bc-9897-0dc4f1c35295",
+          "width": 0,
+          "x": 25,
+          "y": 98,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 270,
+          "customSize": false,
+          "flippedX": true,
+          "flippedY": true,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "road3",
+          "persistentUuid": "6731de5c-0876-44e6-b23a-c62532ffda65",
+          "width": 0,
+          "x": 481,
+          "y": 280,
+          "zOrder": 24,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 172,
+          "customSize": true,
+          "depth": 1,
+          "flippedY": true,
+          "height": 88,
+          "keepRatio": true,
+          "layer": "",
+          "name": "road4",
+          "persistentUuid": "2f6b78fb-5b72-4929-97c2-d4c752e5b00f",
+          "width": 89,
+          "x": 266,
+          "y": 318,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 270,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "road5",
+          "persistentUuid": "a618433c-edb1-40de-9c22-b7a5d447348a",
+          "width": 0,
+          "x": 247,
+          "y": 86,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 71,
+          "keepRatio": true,
+          "layer": "",
+          "name": "farm",
+          "persistentUuid": "365eda02-7be7-4b3f-9ba6-2a58a148f36f",
+          "width": 102,
+          "x": 471,
+          "y": 288,
+          "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "building2",
+          "persistentUuid": "c42d093a-0b51-4d40-8f05-30f8a82f809f",
+          "width": 0,
+          "x": 657,
+          "y": 424,
+          "zOrder": 28,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 43,
+          "keepRatio": true,
+          "layer": "",
+          "name": "fence",
+          "persistentUuid": "7f1ec175-086b-4306-9949-cee3f979f394",
+          "width": 83,
+          "x": 206,
+          "y": 70,
+          "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "mountains",
+          "persistentUuid": "61e1cde9-b3a7-4078-8a26-626505350bdb",
+          "width": 0,
+          "x": 335,
+          "y": 467,
+          "zOrder": 31,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "well2",
+          "persistentUuid": "5a21186f-699b-4a5f-8cc0-639137fe04d9",
+          "width": 0,
+          "x": 554,
+          "y": 455,
+          "zOrder": 36,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ranch",
+          "persistentUuid": "048c23d1-b2b0-4bf4-9ec0-ce6fbaf8132e",
+          "width": 0,
+          "x": 33,
+          "y": 195,
+          "zOrder": 37,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "building3",
+          "persistentUuid": "11293353-6acf-4d9b-955a-b9808a82b4bd",
+          "width": 0,
+          "x": 842,
+          "y": 189,
+          "zOrder": 38,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "flippedX": true,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "building2",
+          "persistentUuid": "fe081d7a-3448-40b2-a46e-03f7caa951f8",
+          "width": 0,
+          "x": 735,
+          "y": 30,
+          "zOrder": 40,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 270,
+          "customSize": false,
+          "flippedX": true,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "road3",
+          "persistentUuid": "7e1dcacc-2c39-490d-8471-9dd8eabbbd54",
+          "width": 0,
+          "x": 212,
+          "y": 34,
+          "zOrder": 24,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 180,
+          "customSize": false,
+          "flippedX": true,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "road5",
+          "persistentUuid": "e77c7563-ff10-44a9-8d49-618bb379fd2c",
+          "width": 0,
+          "x": 148,
+          "y": 354,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 70,
+          "keepRatio": true,
+          "layer": "",
+          "name": "building3",
+          "persistentUuid": "cd974e36-d3a9-4743-8665-a1b497871c51",
+          "width": 79,
+          "x": 364,
+          "y": 290,
+          "zOrder": 42,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": true,
+          "depth": 1,
+          "height": 91,
+          "keepRatio": true,
+          "layer": "",
+          "name": "road4",
+          "persistentUuid": "a9e0b8ec-7829-48be-abcf-fd2994e41ffd",
+          "width": 91,
+          "x": 57,
+          "y": 485,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 261,
+          "customSize": false,
+          "flippedX": true,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "center_road",
+          "persistentUuid": "29183213-4600-4256-8d80-a538a6b1993a",
+          "width": 0,
+          "x": 526,
+          "y": 439,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": true,
+          "depth": 1,
+          "flippedX": true,
+          "flippedY": true,
+          "height": 91,
+          "keepRatio": true,
+          "layer": "",
+          "name": "road4",
+          "persistentUuid": "84019343-9062-413c-9821-3a45c12871c4",
+          "width": 91,
+          "x": 271,
+          "y": 449,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": true,
+          "depth": 1,
+          "height": 91,
+          "keepRatio": true,
+          "layer": "",
+          "name": "road4",
+          "persistentUuid": "ffbbc975-3c7a-46aa-a944-ef7a462943dd",
+          "width": 91,
+          "x": 309,
+          "y": 363,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 91,
+          "keepRatio": true,
+          "layer": "",
+          "name": "road4",
+          "persistentUuid": "ee9562a7-0df5-4e06-937d-11e611c18d63",
+          "width": 91,
+          "x": 436,
+          "y": 443,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 67,
+          "keepRatio": true,
+          "layer": "",
+          "name": "trees",
+          "persistentUuid": "81a19df7-4b07-48c9-9151-344bba9c9a11",
+          "width": 70,
+          "x": 237,
+          "y": 412,
+          "zOrder": 44,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 67,
+          "keepRatio": true,
+          "layer": "",
+          "name": "trees",
+          "persistentUuid": "309e72d0-75f3-4638-ba9e-8177e955435a",
+          "width": 70,
+          "x": 330,
+          "y": 49,
+          "zOrder": 44,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 54,
+          "keepRatio": true,
+          "layer": "",
+          "name": "cemetery",
+          "persistentUuid": "6d7ecf85-f588-47dd-a890-c57cd2846435",
+          "width": 97,
+          "x": 201,
+          "y": 175,
+          "zOrder": 45,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 67,
+          "keepRatio": true,
+          "layer": "",
+          "name": "trees",
+          "persistentUuid": "a78cfa03-56b6-49ee-a54b-838df42a00ee",
+          "width": 70,
+          "x": 479,
+          "y": 204,
+          "zOrder": 44,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 70,
+          "keepRatio": true,
+          "layer": "",
+          "name": "building3",
+          "persistentUuid": "a4f03659-2a34-4154-aebe-a18a5a18cd98",
+          "width": 79,
+          "x": 183,
+          "y": 287,
+          "zOrder": 47,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "farm",
+          "persistentUuid": "04b6610b-069c-409a-ba6e-951c621b623f",
+          "width": 0,
+          "x": 389,
+          "y": 103,
+          "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "flippedX": true,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "road5",
+          "persistentUuid": "774693dc-6819-46c5-8ae2-bb70d2da00dd",
+          "width": 0,
+          "x": 649,
+          "y": 79,
+          "zOrder": 26,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -31420,15 +32380,65 @@
           "customSize": true,
           "depth": 1,
           "flippedX": true,
-          "height": 64,
+          "flippedY": true,
+          "height": 91,
           "keepRatio": true,
           "layer": "",
-          "name": "house",
-          "persistentUuid": "f9997c19-3e74-4c94-8883-a0c64e5b268a",
-          "width": 96,
-          "x": 64,
-          "y": 32,
-          "zOrder": 4,
+          "name": "road4",
+          "persistentUuid": "f9cb9191-daea-4c0e-848b-c97e2ebdcfbd",
+          "width": 91,
+          "x": 771,
+          "y": 236,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 180,
+          "customSize": false,
+          "flippedY": true,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "road3",
+          "persistentUuid": "606cfce0-65d9-470f-ac85-c17d69448cea",
+          "width": 0,
+          "x": 770,
+          "y": 315,
+          "zOrder": 24,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "building",
+          "persistentUuid": "72a36764-62b5-4b3b-8697-58f6e6eec852",
+          "width": 0,
+          "x": 562,
+          "y": 208,
+          "zOrder": 48,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ranch",
+          "persistentUuid": "f67cb794-f678-49f3-8200-3d0536838693",
+          "width": 0,
+          "x": 35,
+          "y": 568,
+          "zOrder": 37,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -31437,15 +32447,132 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 100,
+          "height": 93,
           "keepRatio": true,
           "layer": "",
-          "name": "base",
-          "persistentUuid": "4e738cfa-2e59-4760-9882-e29dcbb4e0a1",
-          "width": 160,
-          "x": 800,
-          "y": 448,
-          "zOrder": 6,
+          "name": "mountains",
+          "persistentUuid": "2ec68455-53f2-4991-8ac7-8fac468b8274",
+          "width": 118,
+          "x": 553,
+          "y": 100,
+          "zOrder": 31,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "building",
+          "persistentUuid": "98c593b2-43a7-4b5e-ba9a-9314c5f2ef58",
+          "width": 0,
+          "x": 415,
+          "y": 601,
+          "zOrder": 49,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "mountains",
+          "persistentUuid": "f9e2238d-b0f3-456c-9caf-9eaee9a3e095",
+          "width": 0,
+          "x": 52,
+          "y": 387,
+          "zOrder": 31,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 90,
+          "keepRatio": true,
+          "layer": "",
+          "name": "mountains",
+          "persistentUuid": "77afa667-989c-426c-993d-959b4065254b",
+          "width": 115,
+          "x": 579,
+          "y": 280,
+          "zOrder": 31,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "flippedX": true,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "farm",
+          "persistentUuid": "0b0150ce-da6c-436a-92bb-4678770d9499",
+          "width": 0,
+          "x": 605,
+          "y": 529,
+          "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 67,
+          "keepRatio": true,
+          "layer": "",
+          "name": "trees",
+          "persistentUuid": "39a1bcfe-e71a-47c9-bf37-60d31798cf15",
+          "width": 70,
+          "x": 743,
+          "y": 172,
+          "zOrder": 44,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "flippedX": true,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "moutains2",
+          "persistentUuid": "299ba8e2-f002-4e89-8ba6-33a42afe9d56",
+          "width": 0,
+          "x": 863,
+          "y": 481,
+          "zOrder": 43,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 67,
+          "keepRatio": true,
+          "layer": "",
+          "name": "trees",
+          "persistentUuid": "edb83759-8ae9-4718-a104-8069283cec47",
+          "width": 70,
+          "x": 739,
+          "y": 340,
+          "zOrder": 44,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -31455,1193 +32582,115 @@
           "customSize": true,
           "depth": 1,
           "flippedX": true,
-          "height": 47,
+          "height": 122,
           "keepRatio": true,
           "layer": "",
-          "name": "truck",
-          "persistentUuid": "edc9f304-e04a-40f0-9680-fb0802d836df",
-          "width": 96,
+          "name": "road4",
+          "persistentUuid": "c7576291-36ef-40c5-bb31-8f9d7e94ef86",
+          "width": 88,
+          "x": 772,
+          "y": 561,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 270,
+          "customSize": true,
+          "depth": 1,
+          "height": 268,
+          "keepRatio": true,
+          "layer": "",
+          "name": "road6",
+          "persistentUuid": "122ed41c-22df-4d93-9d56-e8df304621c7",
+          "width": 68,
+          "x": 604,
+          "y": 515,
+          "zOrder": 50,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "flippedX": true,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "farm",
+          "persistentUuid": "b41cd09c-3e68-4c56-b0c2-dbf99f45012f",
+          "width": 0,
+          "x": 249,
+          "y": 567,
+          "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 67,
+          "keepRatio": true,
+          "layer": "",
+          "name": "trees",
+          "persistentUuid": "517f0bb7-75af-4203-a727-e7c807fee42d",
+          "width": 70,
+          "x": 874,
+          "y": 405,
+          "zOrder": 44,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 43,
+          "keepRatio": true,
+          "layer": "",
+          "name": "fence",
+          "persistentUuid": "f44dae3f-3d6e-4b29-9398-b62ec23426e3",
+          "width": 83,
+          "x": 516,
+          "y": 568,
+          "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ranch",
+          "persistentUuid": "d01605ee-0197-4cf0-8925-ffe75a5715ff",
+          "width": 0,
           "x": 864,
-          "y": 512,
-          "zOrder": 7,
+          "y": 289,
+          "zOrder": 37,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 96,
-          "keepRatio": true,
-          "layer": "",
-          "name": "barn_placeholder",
-          "persistentUuid": "9bc23d90-cb1b-41c4-a0b5-0b606bcdad2e",
-          "width": 96,
-          "x": 544,
-          "y": 32,
-          "zOrder": 7,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 64,
-          "keepRatio": true,
-          "layer": "",
-          "name": "cropfield_placeholder",
-          "persistentUuid": "c97aaadd-c6af-4723-a4f5-ade2d3755bf7",
-          "width": 160,
-          "x": 288,
-          "y": 64,
-          "zOrder": 5,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "flippedX": true,
-          "height": 64,
-          "keepRatio": true,
-          "layer": "",
-          "name": "house",
-          "persistentUuid": "2ee19a1c-ece1-4fba-8810-6df2c170e9d2",
-          "width": 96,
-          "x": 128,
-          "y": 32,
-          "zOrder": 4,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 96,
-          "keepRatio": true,
-          "layer": "",
-          "name": "barn_placeholder",
-          "persistentUuid": "9e070739-d126-46ac-b486-8f8b6237d3c8",
-          "width": 96,
-          "x": 544,
-          "y": 384,
-          "zOrder": 7,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 64,
-          "keepRatio": true,
-          "layer": "",
-          "name": "cropfield_placeholder",
-          "persistentUuid": "93e1efc8-7547-4456-91c7-1327a473dd17",
-          "width": 160,
-          "x": 608,
-          "y": 288,
-          "zOrder": 5,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 64,
-          "keepRatio": true,
-          "layer": "",
-          "name": "house",
-          "persistentUuid": "6eb2afbb-353a-4d7f-ac6c-5a3d33a3889c",
-          "width": 96,
-          "x": 704,
-          "y": 160,
-          "zOrder": 4,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 64,
-          "keepRatio": true,
-          "layer": "",
-          "name": "house",
-          "persistentUuid": "9ba9a924-e3ec-4325-868e-5885d9d72e84",
-          "width": 96,
-          "x": 640,
-          "y": 160,
-          "zOrder": 4,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 64,
-          "keepRatio": true,
-          "layer": "",
-          "name": "cropfield_placeholder",
-          "persistentUuid": "adeac585-809d-49c8-93e7-ceb2adf3ffc6",
-          "width": 160,
-          "x": 64,
-          "y": 192,
-          "zOrder": 5,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "flippedX": true,
-          "height": 64,
-          "keepRatio": true,
-          "layer": "",
-          "name": "house",
-          "persistentUuid": "faf285a4-1da9-43ae-9b45-f5fe45e0eb04",
-          "width": 96,
-          "x": 384,
-          "y": 192,
-          "zOrder": 4,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 64,
-          "keepRatio": true,
-          "layer": "",
-          "name": "house",
-          "persistentUuid": "af9c4ac4-4fd4-48a7-acd9-34247758236a",
-          "width": 96,
-          "x": 768,
-          "y": 384,
-          "zOrder": 4,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 64,
-          "keepRatio": true,
-          "layer": "",
-          "name": "cropfield_placeholder",
-          "persistentUuid": "0f3f49b1-7195-4045-ac11-090942a1bdab",
-          "width": 160,
-          "x": 288,
-          "y": 480,
-          "zOrder": 5,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "flippedX": true,
-          "height": 96,
-          "keepRatio": true,
-          "layer": "",
-          "name": "barn_placeholder",
-          "persistentUuid": "3d616497-0286-467a-9e26-09ca887fbb71",
-          "width": 96,
-          "x": 32,
-          "y": 448,
-          "zOrder": 7,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 96,
-          "keepRatio": true,
-          "layer": "",
-          "name": "barn_placeholder",
-          "persistentUuid": "e0d53a84-c697-490c-9c58-5a4e9c8759dc",
-          "width": 96,
-          "x": 832,
-          "y": 64,
-          "zOrder": 7,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "flippedX": true,
-          "height": 64,
-          "keepRatio": true,
-          "layer": "",
-          "name": "house",
-          "persistentUuid": "051857ab-85f0-4f76-b4b0-102105a3b42b",
-          "width": 96,
-          "x": 160,
-          "y": 352,
-          "zOrder": 4,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 64,
-          "keepRatio": true,
-          "layer": "",
-          "name": "cropfield_placeholder",
-          "persistentUuid": "cbe2452b-a886-450e-8ec4-06e6c8611bde",
-          "width": 160,
-          "x": 352,
-          "y": 288,
-          "zOrder": 5,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 32,
-          "keepRatio": true,
-          "layer": "",
-          "name": "roads",
-          "persistentUuid": "3e029cb2-d765-4712-88ba-dbda8f83d389",
-          "width": 800,
-          "x": 64,
-          "y": 544,
-          "zOrder": 9,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 320,
-          "keepRatio": true,
-          "layer": "",
-          "name": "roads",
-          "persistentUuid": "d20ec490-aae4-4008-a628-69988e2fd76e",
-          "width": 32,
-          "x": 256,
-          "y": 256,
-          "zOrder": 9,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 352,
-          "keepRatio": true,
-          "layer": "",
-          "name": "roads",
-          "persistentUuid": "e83c9f7f-d3a1-421f-9d04-3ce8d285377a",
-          "width": 32,
-          "x": 512,
-          "y": 224,
-          "zOrder": 9,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 32,
-          "keepRatio": true,
-          "layer": "",
-          "name": "roads",
-          "persistentUuid": "5a1af154-3d09-4502-bbf2-f8bca2cdc67d",
-          "width": 384,
-          "x": 512,
-          "y": 352,
-          "zOrder": 9,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 224,
-          "keepRatio": true,
-          "layer": "",
-          "name": "roads",
-          "persistentUuid": "2c0a02db-ca62-4b5d-b269-4eec524d2dde",
-          "width": 32,
-          "x": 864,
-          "y": 160,
-          "zOrder": 9,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 32,
-          "keepRatio": true,
-          "layer": "",
-          "name": "roads",
-          "persistentUuid": "74918867-a46f-4893-8bfd-692282bfd049",
-          "width": 384,
-          "x": 512,
-          "y": 224,
-          "zOrder": 9,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 32,
-          "keepRatio": true,
-          "layer": "",
-          "name": "roads",
-          "persistentUuid": "0c8bfcc6-e5e2-418e-a7d3-c788965db20c",
-          "width": 416,
-          "x": 128,
-          "y": 256,
-          "zOrder": 9,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 160,
-          "keepRatio": true,
-          "layer": "",
-          "name": "roads",
-          "persistentUuid": "3d702bdf-acfe-46ca-adcd-fee9a879310b",
-          "width": 32,
-          "x": 320,
-          "y": 128,
-          "zOrder": 9,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 32,
-          "keepRatio": true,
-          "layer": "",
-          "name": "roads",
-          "persistentUuid": "cb7e5ef5-5ced-434a-8bf6-728e81fb02ef",
-          "width": 384,
-          "x": 224,
-          "y": 128,
-          "zOrder": 9,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 32,
-          "keepRatio": true,
-          "layer": "",
-          "name": "roads",
-          "persistentUuid": "95ccaec3-ac22-4717-b42b-a0bd02512d2c",
-          "width": 160,
-          "x": 96,
-          "y": 96,
-          "zOrder": 9,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 64,
-          "keepRatio": true,
-          "layer": "",
-          "name": "roads",
-          "persistentUuid": "0133f31e-009e-449c-abae-3cdbc234f7b6",
-          "width": 32,
-          "x": 224,
-          "y": 96,
-          "zOrder": 9,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 128,
-          "keepRatio": true,
-          "layer": "",
-          "name": "roads",
-          "persistentUuid": "cef5b391-618c-4879-be8c-d900a5f8786b",
-          "width": 32,
-          "x": 544,
-          "y": 128,
-          "zOrder": 9,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 32,
-          "keepRatio": true,
-          "layer": "",
-          "name": "roads",
-          "persistentUuid": "abea8051-386b-4dc8-b7ce-08db6584e16f",
-          "width": 64,
-          "x": 832,
-          "y": 160,
-          "zOrder": 9,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 32,
-          "keepRatio": true,
-          "layer": "",
-          "name": "vehicle_target",
-          "opacity": 0,
-          "persistentUuid": "391723fb-6918-4738-982f-15404138c074",
-          "width": 32,
-          "x": 672,
-          "y": 352,
-          "zOrder": 10,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 32,
-          "keepRatio": true,
-          "layer": "",
-          "name": "vehicle_target",
-          "opacity": 0,
-          "persistentUuid": "783a7eba-2c9b-4860-b3ee-9d3ea7220a35",
-          "width": 32,
-          "x": 512,
-          "y": 448,
-          "zOrder": 10,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 32,
-          "keepRatio": true,
-          "layer": "",
-          "name": "vehicle_target",
-          "opacity": 0,
-          "persistentUuid": "57c2e2ec-d7fb-4fd0-9b45-721344341665",
-          "width": 32,
-          "x": 800,
-          "y": 352,
-          "zOrder": 10,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 32,
-          "keepRatio": true,
-          "layer": "",
-          "name": "vehicle_target",
-          "opacity": 0,
-          "persistentUuid": "18729e80-8b76-4941-ac35-a00fb7c91122",
-          "width": 32,
-          "x": 832,
-          "y": 160,
-          "zOrder": 10,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 32,
-          "keepRatio": true,
-          "layer": "",
-          "name": "vehicle_target",
-          "opacity": 0,
-          "persistentUuid": "e5a1a642-c12a-4538-b443-d9bf20ec7bca",
-          "width": 32,
-          "x": 672,
-          "y": 224,
-          "zOrder": 10,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 32,
-          "keepRatio": true,
-          "layer": "",
-          "name": "vehicle_target",
-          "opacity": 0,
-          "persistentUuid": "43a9e90c-d76f-46a8-879d-6e44401292d9",
-          "width": 32,
-          "x": 576,
-          "y": 128,
-          "zOrder": 10,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 32,
-          "keepRatio": true,
-          "layer": "",
-          "name": "vehicle_target",
-          "opacity": 0,
-          "persistentUuid": "d60ead0e-c29c-4c6b-9d9a-4f31215b1bcf",
-          "width": 32,
-          "x": 352,
-          "y": 128,
-          "zOrder": 10,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 32,
-          "keepRatio": true,
-          "layer": "",
-          "name": "vehicle_target",
-          "opacity": 0,
-          "persistentUuid": "ae25de36-8e79-489d-b6f5-398c91d87ee3",
-          "width": 32,
-          "x": 128,
-          "y": 96,
-          "zOrder": 10,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 32,
-          "keepRatio": true,
-          "layer": "",
-          "name": "vehicle_target",
-          "opacity": 0,
-          "persistentUuid": "f7acf555-a8c1-4d19-9171-8fef9d14d340",
-          "width": 32,
-          "x": 128,
-          "y": 256,
-          "zOrder": 10,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 32,
-          "keepRatio": true,
-          "layer": "",
-          "name": "vehicle_target",
-          "opacity": 0,
-          "persistentUuid": "8ea4a04b-a1ee-4783-81b8-8568fd7d3a83",
-          "width": 32,
-          "x": 256,
-          "y": 416,
-          "zOrder": 10,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 32,
-          "keepRatio": true,
-          "layer": "",
-          "name": "vehicle_target",
-          "opacity": 0,
-          "persistentUuid": "b8c350b4-84bc-425d-b733-14222c96a313",
-          "width": 32,
-          "x": 352,
-          "y": 544,
-          "zOrder": 10,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 32,
-          "keepRatio": true,
-          "layer": "",
-          "name": "vehicle_target",
-          "opacity": 0,
-          "persistentUuid": "5dfc93a1-33ca-4889-afe8-852a1675195d",
-          "width": 32,
-          "x": 96,
-          "y": 544,
-          "zOrder": 10,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 32,
-          "keepRatio": true,
-          "layer": "",
-          "name": "vehicle_target",
-          "opacity": 0,
-          "persistentUuid": "12c1d227-80e5-45fd-aaa6-3609f4c7e4d5",
-          "width": 32,
-          "x": 416,
-          "y": 256,
-          "zOrder": 10,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 32,
-          "keepRatio": true,
-          "layer": "",
-          "name": "vehicle_target",
-          "opacity": 0,
-          "persistentUuid": "24da0eac-b177-4717-a25a-3f436f9a9ff8",
-          "width": 32,
-          "x": 512,
-          "y": 320,
-          "zOrder": 10,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 64,
-          "keepRatio": true,
-          "layer": "",
-          "name": "house",
-          "persistentUuid": "86a3976a-25aa-46e9-9ffe-c677c89efd21",
-          "width": 96,
-          "x": 640,
-          "y": 480,
-          "zOrder": 4,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 32,
-          "keepRatio": true,
-          "layer": "",
-          "name": "vehicle_target",
-          "opacity": 0,
-          "persistentUuid": "9c9e00e4-3947-4025-b1ff-b36d0e0700c2",
-          "width": 32,
-          "x": 640,
-          "y": 544,
-          "zOrder": 10,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 32,
-          "keepRatio": true,
-          "layer": "",
-          "name": "vehicle_target",
-          "opacity": 0,
-          "persistentUuid": "b23c40eb-515d-4e25-a050-d8fa0b6c560d",
-          "width": 32,
-          "x": 864,
-          "y": 288,
-          "zOrder": 10,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 64,
-          "keepRatio": true,
-          "layer": "",
-          "name": "house",
-          "persistentUuid": "f61e0194-be8b-4ffb-b920-cdafb66b47a1",
-          "width": 96,
-          "x": 896,
-          "y": 256,
-          "zOrder": 4,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 32,
-          "keepRatio": true,
-          "layer": "",
-          "name": "vehicle_target",
-          "opacity": 0,
-          "persistentUuid": "607de7e2-268e-4be8-9ad9-f4da29ec51d6",
-          "width": 32,
-          "x": 832,
-          "y": 544,
-          "zOrder": 10,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "flippedX": true,
-          "height": 64,
-          "keepRatio": true,
-          "layer": "",
-          "name": "house",
-          "persistentUuid": "287e0d8b-bb9f-4fb7-88e8-4c44c7d4fa40",
-          "width": 96,
-          "x": 768,
-          "y": 256,
-          "zOrder": 4,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 64,
-          "keepRatio": true,
-          "layer": "",
-          "name": "house",
-          "persistentUuid": "609f0a4c-b7cb-42df-95db-16fff4e983fe",
-          "width": 96,
-          "x": 288,
-          "y": 352,
-          "zOrder": 4,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 32,
-          "keepRatio": true,
-          "layer": "",
-          "name": "villagerspawn",
-          "opacity": 0,
-          "persistentUuid": "a1f979bb-77ee-4ebf-95e6-682100f2a581",
-          "width": 32,
-          "x": 640,
-          "y": 512,
-          "zOrder": 11,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 32,
-          "keepRatio": true,
-          "layer": "",
-          "name": "villagerspawn",
-          "opacity": 0,
-          "persistentUuid": "8b5581f7-032b-4026-a9a1-0f53be784cfd",
-          "width": 32,
-          "x": 768,
-          "y": 416,
-          "zOrder": 11,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 32,
-          "keepRatio": true,
-          "layer": "",
-          "name": "villagerspawn",
-          "opacity": 0,
-          "persistentUuid": "15c892ef-d8d2-4cde-98bc-25633c94d953",
-          "width": 32,
-          "x": 896,
-          "y": 288,
-          "zOrder": 11,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 32,
-          "keepRatio": true,
-          "layer": "",
-          "name": "villagerspawn",
-          "opacity": 0,
-          "persistentUuid": "f20e9f82-b6d3-4737-b871-01568c085a8e",
-          "width": 32,
-          "x": 800,
-          "y": 288,
-          "zOrder": 11,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 32,
-          "keepRatio": true,
-          "layer": "",
-          "name": "villagerspawn",
-          "opacity": 0,
-          "persistentUuid": "f8af8ee0-f90d-4228-af57-96b8de2ad62e",
-          "width": 32,
-          "x": 672,
-          "y": 192,
-          "zOrder": 11,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 32,
-          "keepRatio": true,
-          "layer": "",
-          "name": "villagerspawn",
-          "opacity": 0,
-          "persistentUuid": "bcb4762e-77e7-4ba6-8b62-778822207a27",
-          "width": 32,
-          "x": 128,
-          "y": 64,
-          "zOrder": 11,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 32,
-          "keepRatio": true,
-          "layer": "",
-          "name": "villagerspawn",
-          "opacity": 0,
-          "persistentUuid": "c224ce0e-37c0-4513-80cb-1e578505c026",
-          "width": 32,
-          "x": 288,
-          "y": 384,
-          "zOrder": 11,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 32,
-          "keepRatio": true,
-          "layer": "",
-          "name": "villagerspawn",
-          "opacity": 0,
-          "persistentUuid": "d98de761-1546-41f1-9658-23b8809ec9ba",
-          "width": 32,
-          "x": 192,
-          "y": 384,
-          "zOrder": 11,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 32,
-          "keepRatio": true,
-          "layer": "",
-          "name": "villagerspawn",
-          "opacity": 0,
-          "persistentUuid": "992645c8-c964-43fb-9ea8-99b3f8a5f979",
-          "width": 32,
-          "x": 416,
-          "y": 224,
-          "zOrder": 11,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 32,
-          "height": 213,
-          "keepRatio": true,
-          "layer": "",
-          "name": "OrderPreview",
-          "persistentUuid": "0d0d2c6e-1950-4185-a24d-57acea08a1e0",
-          "width": 288,
-          "x": 992,
-          "y": 0,
-          "zOrder": 14,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 32,
-          "keepRatio": true,
-          "layer": "",
-          "name": "farmerspawn",
-          "opacity": 0,
-          "persistentUuid": "0631f935-ac65-45e7-8710-e1569680757b",
-          "width": 34,
-          "x": 350,
-          "y": 512,
-          "zOrder": 15,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 32,
-          "keepRatio": true,
-          "layer": "",
-          "name": "farmerspawn",
-          "opacity": 0,
-          "persistentUuid": "859cd544-385f-455c-bf93-172f032a5720",
-          "width": 34,
-          "x": 448,
-          "y": 320,
-          "zOrder": 15,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 32,
-          "keepRatio": true,
-          "layer": "",
-          "name": "farmerspawn",
-          "opacity": 0,
-          "persistentUuid": "dbe169b0-8822-48b5-8582-4581d9dddb4d",
-          "width": 34,
-          "x": 672,
-          "y": 320,
-          "zOrder": 15,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 32,
-          "keepRatio": true,
-          "layer": "",
-          "name": "farmerspawn",
-          "opacity": 0,
-          "persistentUuid": "c99dcb07-8297-4139-a92c-5905c7077c43",
-          "width": 34,
-          "x": 352,
-          "y": 96,
-          "zOrder": 15,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 32,
-          "keepRatio": true,
-          "layer": "",
-          "name": "farmerspawn",
-          "opacity": 0,
-          "persistentUuid": "69aa74c2-68ad-437c-91c5-c66d8c04b5f4",
-          "width": 34,
-          "x": 128,
-          "y": 224,
-          "zOrder": 15,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 32,
-          "keepRatio": true,
-          "layer": "",
-          "name": "rancherspawn",
-          "opacity": 0,
-          "persistentUuid": "3f3fa94b-f1e7-4f61-b80b-7a9667132714",
-          "width": 32,
-          "x": 96,
-          "y": 512,
-          "zOrder": 16,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 32,
-          "keepRatio": true,
-          "layer": "",
-          "name": "rancherspawn",
-          "opacity": 0,
-          "persistentUuid": "2cc4b294-387d-42c2-bf70-7148efdb2958",
-          "width": 32,
-          "x": 544,
-          "y": 448,
-          "zOrder": 16,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 32,
+          "customSize": false,
+          "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "rancherspawn",
-          "opacity": 0,
-          "persistentUuid": "10108c91-0761-4a39-bcac-46596a504a67",
-          "width": 32,
-          "x": 544,
-          "y": 96,
-          "zOrder": 16,
+          "name": "cemetery",
+          "persistentUuid": "5d685a71-5c71-450b-91cf-2d7e950fb355",
+          "width": 0,
+          "x": 856,
+          "y": 611,
+          "zOrder": 51,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -32650,16 +32699,15 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 32,
+          "height": 271,
           "keepRatio": true,
           "layer": "",
-          "name": "rancherspawn",
-          "opacity": 0,
-          "persistentUuid": "01751b2d-c2f1-4c56-a54f-8fd69f033295",
-          "width": 32,
-          "x": 832,
-          "y": 128,
-          "zOrder": 16,
+          "name": "frame",
+          "persistentUuid": "72fc21f5-5b2c-4a67-ad87-bb26440139d9",
+          "width": 257,
+          "x": 982,
+          "y": 8,
+          "zOrder": 52,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -32667,139 +32715,17 @@
       ],
       "objects": [
         {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "background",
-          "persistentUuid": "8ba65907-292e-4b19-9c6f-36448cf207c2",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "default",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "NewSprite4",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 64,
-                            "y": 0
-                          },
-                          {
-                            "x": 64,
-                            "y": 64
-                          },
-                          {
-                            "x": 0,
-                            "y": 64
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "assetStoreId": "",
           "name": "BackButton",
           "persistentUuid": "dbda1b25-7e13-4e6a-89fa-798a2f8c4862",
           "type": "PanelSpriteButton::PanelSpriteButton",
-          "variant": "Small Light Grey Button",
+          "variant": "AcceptButton",
           "variables": [],
           "effects": [],
           "behaviors": [],
           "content": {
             "LabelText": "Back"
           }
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "ds_bg",
-          "persistentUuid": "dc9cc46c-d837-4876-b8a1-60dc32bb18f8",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "default",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "tiled_Dirt2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 512,
-                            "y": 0
-                          },
-                          {
-                            "x": 512,
-                            "y": 512
-                          },
-                          {
-                            "x": 0,
-                            "y": 512
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
         },
         {
           "adaptCollisionMaskAutomatically": true,
@@ -33544,55 +33470,1588 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "height": 1024,
+          "name": "background",
+          "persistentUuid": "46ebd089-9d5f-4aa6-9d03-f0994a03833d",
+          "texture": "assets/cartography/Textures/parchmentAncient.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 1024,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "house3",
+          "persistentUuid": "327c1a08-6915-44b4-b17b-09b4bc93886b",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "building4",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "building4",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 1
+                          },
+                          {
+                            "x": 94,
+                            "y": 1
+                          },
+                          {
+                            "x": 94,
+                            "y": 77
+                          },
+                          {
+                            "x": 2,
+                            "y": 77
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "ranch",
+          "persistentUuid": "3bfa5fa7-f083-4c06-8555-fc36f1faa26a",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "assets/cartography/Spritesheet/spritesheet_retina",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/cartography/Spritesheet/spritesheet_retina4",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 2
+                          },
+                          {
+                            "x": 119,
+                            "y": 2
+                          },
+                          {
+                            "x": 119,
+                            "y": 102
+                          },
+                          {
+                            "x": 2,
+                            "y": 102
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "farm",
+          "persistentUuid": "632d4614-ff30-4711-b91c-d7abbb3705d8",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "assets/cartography/Spritesheet/spritesheet_default",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/cartography/Spritesheet/spritesheet_default4",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 2
+                          },
+                          {
+                            "x": 118,
+                            "y": 2
+                          },
+                          {
+                            "x": 118,
+                            "y": 82
+                          },
+                          {
+                            "x": 1,
+                            "y": 82
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "fence",
+          "persistentUuid": "3d954369-4e48-483c-ad41-63a829742ff4",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "assets/cartography/Spritesheet/spritesheet_default",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/cartography/Spritesheet/spritesheet_default6",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 0
+                          },
+                          {
+                            "x": 103,
+                            "y": 0
+                          },
+                          {
+                            "x": 103,
+                            "y": 52
+                          },
+                          {
+                            "x": 1,
+                            "y": 52
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "road3",
+          "persistentUuid": "76a9f6a0-cfdd-4eec-b826-8e0f4ab9f102",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "assets/cartography/Spritesheet/spritesheet_retina",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/cartography/Spritesheet/spritesheet_retina12",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 0
+                          },
+                          {
+                            "x": 92,
+                            "y": 0
+                          },
+                          {
+                            "x": 92,
+                            "y": 256
+                          },
+                          {
+                            "x": 1,
+                            "y": 256
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "road4",
+          "persistentUuid": "81194fa8-ac00-4118-a112-d3d529a91abf",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "assets/cartography/Spritesheet/spritesheet_retina",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/cartography/Spritesheet/spritesheet_retina9",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 0
+                          },
+                          {
+                            "x": 92,
+                            "y": 0
+                          },
+                          {
+                            "x": 92,
+                            "y": 90
+                          },
+                          {
+                            "x": 2,
+                            "y": 90
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "road5",
+          "persistentUuid": "3dab24f9-2a88-420e-85e8-030c6644b1c8",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "assets/cartography/Spritesheet/spritesheet_retina",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/cartography/Spritesheet/spritesheet_retina8",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 1
+                          },
+                          {
+                            "x": 127,
+                            "y": 1
+                          },
+                          {
+                            "x": 127,
+                            "y": 338
+                          },
+                          {
+                            "x": 0,
+                            "y": 338
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "building2",
+          "persistentUuid": "50c7bb8e-68b3-46ae-bc4a-9cb46e63403f",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "assets/cartography/Spritesheet/spritesheet_retina",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/cartography/Spritesheet/spritesheet_retina7",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 1
+                          },
+                          {
+                            "x": 117,
+                            "y": 1
+                          },
+                          {
+                            "x": 117,
+                            "y": 117
+                          },
+                          {
+                            "x": 1,
+                            "y": 117
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "building3",
+          "persistentUuid": "0e983d30-0e33-4e4a-ba77-84dc788da61b",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "assets/cartography/Spritesheet/spritesheet_retina",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/cartography/Spritesheet/spritesheet_retina6",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 1
+                          },
+                          {
+                            "x": 87,
+                            "y": 1
+                          },
+                          {
+                            "x": 87,
+                            "y": 77
+                          },
+                          {
+                            "x": 3,
+                            "y": 77
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "mountains",
+          "persistentUuid": "eddfc8ff-d7d8-4f33-b7b5-b2d4b7ad8ff3",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "assets/cartography/Spritesheet/spritesheet_retina",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/cartography/Spritesheet/spritesheet_retina2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 7,
+                            "y": 6
+                          },
+                          {
+                            "x": 123,
+                            "y": 6
+                          },
+                          {
+                            "x": 123,
+                            "y": 99
+                          },
+                          {
+                            "x": 7,
+                            "y": 99
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "trees",
+          "persistentUuid": "a0afe29b-762e-4f53-92de-e9f2b9567bc0",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "assets/cartography/Spritesheet/spritesheet_retina",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/cartography/Spritesheet/spritesheet_retina",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 1
+                          },
+                          {
+                            "x": 117,
+                            "y": 1
+                          },
+                          {
+                            "x": 117,
+                            "y": 117
+                          },
+                          {
+                            "x": 1,
+                            "y": 117
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "moutains2",
+          "persistentUuid": "2a81b3ae-877b-4802-b5c0-da61f921446c",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "assets/cartography/Spritesheet/spritesheet_retina",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/cartography/Spritesheet/spritesheet_retina3",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 2
+                          },
+                          {
+                            "x": 119,
+                            "y": 2
+                          },
+                          {
+                            "x": 119,
+                            "y": 110
+                          },
+                          {
+                            "x": 3,
+                            "y": 110
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "delivery",
+          "persistentUuid": "35bd9d34-392e-47f9-bd94-3f64bf16de0d",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "assets/cartography/Spritesheet/Car",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/cartography/Spritesheet/Car",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 32,
+                            "y": 0
+                          },
+                          {
+                            "x": 32,
+                            "y": 48
+                          },
+                          {
+                            "x": 0,
+                            "y": 48
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "emergency",
+          "persistentUuid": "06ef2549-c965-40a5-b66c-6e275749bb3d",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "assets/cartography/Spritesheet/Exclamation",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/cartography/Spritesheet/Exclamation",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 32,
+                            "y": 0
+                          },
+                          {
+                            "x": 32,
+                            "y": 48
+                          },
+                          {
+                            "x": 0,
+                            "y": 48
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "order",
+          "persistentUuid": "d75f46c4-0b78-4603-ad32-f34e27d1137c",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "assets/cartography/Spritesheet/Question",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/cartography/Spritesheet/Question",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 32,
+                            "y": 0
+                          },
+                          {
+                            "x": 32,
+                            "y": 48
+                          },
+                          {
+                            "x": 0,
+                            "y": 48
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "heart",
+          "persistentUuid": "b876a502-3987-43d0-a519-c749a8741162",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/cartography/Spritesheet/Heart2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 32,
+                            "y": 0
+                          },
+                          {
+                            "x": 32,
+                            "y": 48
+                          },
+                          {
+                            "x": 0,
+                            "y": 48
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "well2",
+          "persistentUuid": "50035c7f-620d-4ded-8f48-38c23f3ca618",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "assets/cartography/Spritesheet/spritesheet_default",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/cartography/Spritesheet/spritesheet_default5",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 1
+                          },
+                          {
+                            "x": 56,
+                            "y": 1
+                          },
+                          {
+                            "x": 56,
+                            "y": 68
+                          },
+                          {
+                            "x": 4,
+                            "y": 68
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "compass",
+          "persistentUuid": "030dce17-2a23-4431-98c1-e886608eb0b4",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "assets/cartography/Spritesheet/spritesheet_retina",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/cartography/Spritesheet/spritesheet_retina13",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 116,
+                            "y": 0
+                          },
+                          {
+                            "x": 116,
+                            "y": 116
+                          },
+                          {
+                            "x": 0,
+                            "y": 116
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "center_road",
+          "persistentUuid": "db6b78a0-3605-4300-ae4e-21fee295ad0b",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "assets/cartography/Spritesheet/spritesheet_retina",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/cartography/Spritesheet/spritesheet_retina14",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 100,
+                            "y": 0
+                          },
+                          {
+                            "x": 100,
+                            "y": 114
+                          },
+                          {
+                            "x": 0,
+                            "y": 114
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "building",
+          "persistentUuid": "1ac349f2-f9c3-4af6-9c34-1ba4ff8aeb9b",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "assets/cartography/Spritesheet/spritesheet_retina",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/cartography/Spritesheet/spritesheet_retina17",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 0
+                          },
+                          {
+                            "x": 86,
+                            "y": 0
+                          },
+                          {
+                            "x": 86,
+                            "y": 76
+                          },
+                          {
+                            "x": 2,
+                            "y": 76
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "cemetery",
+          "persistentUuid": "d152f790-d0e8-491a-b82d-2ef9297363af",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "assets/cartography/Spritesheet/spritesheet_retina",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/cartography/Spritesheet/spritesheet_retina16",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 4
+                          },
+                          {
+                            "x": 108,
+                            "y": 4
+                          },
+                          {
+                            "x": 108,
+                            "y": 56
+                          },
+                          {
+                            "x": 8,
+                            "y": 56
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "road6",
+          "persistentUuid": "197d273c-cee2-4fe8-a526-fd501162799f",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "assets/cartography/Spritesheet/spritesheet_retina",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/cartography/Spritesheet/spritesheet_retina18",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 0
+                          },
+                          {
+                            "x": 55,
+                            "y": 0
+                          },
+                          {
+                            "x": 55,
+                            "y": 256
+                          },
+                          {
+                            "x": 1,
+                            "y": 256
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "frame",
+          "persistentUuid": "118ce870-cde0-4fa3-bd54-cd598a306de6",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "assets/cartography/Spritesheet/spritesheet_retina",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/cartography/Spritesheet/spritesheet_retina19",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 100,
+                            "y": 0
+                          },
+                          {
+                            "x": 100,
+                            "y": 110
+                          },
+                          {
+                            "x": 0,
+                            "y": 110
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
         "folderName": "__ROOT",
         "children": [
           {
-            "objectName": "background"
+            "folderName": "icons",
+            "children": [
+              {
+                "objectName": "delivery"
+              },
+              {
+                "objectName": "order"
+              },
+              {
+                "objectName": "emergency"
+              },
+              {
+                "objectName": "heart"
+              }
+            ]
           },
           {
-            "objectName": "BackButton"
+            "folderName": "legends",
+            "children": [
+              {
+                "folderName": "roads",
+                "children": [
+                  {
+                    "objectName": "road3"
+                  },
+                  {
+                    "objectName": "road6"
+                  },
+                  {
+                    "objectName": "road4"
+                  },
+                  {
+                    "objectName": "road5"
+                  },
+                  {
+                    "objectName": "center_road"
+                  },
+                  {
+                    "objectName": "frame"
+                  }
+                ]
+              },
+              {
+                "folderName": "houses",
+                "children": [
+                  {
+                    "objectName": "building"
+                  },
+                  {
+                    "objectName": "building2"
+                  },
+                  {
+                    "objectName": "building3"
+                  },
+                  {
+                    "objectName": "house3"
+                  }
+                ]
+              },
+              {
+                "objectName": "cemetery"
+              },
+              {
+                "objectName": "ranch"
+              },
+              {
+                "objectName": "mountains"
+              },
+              {
+                "objectName": "moutains2"
+              },
+              {
+                "objectName": "trees"
+              },
+              {
+                "objectName": "farm"
+              },
+              {
+                "objectName": "fence"
+              },
+              {
+                "objectName": "well2"
+              },
+              {
+                "objectName": "compass"
+              }
+            ]
           },
           {
-            "objectName": "ds_bg"
+            "folderName": "ui",
+            "children": [
+              {
+                "objectName": "BackButton"
+              },
+              {
+                "objectName": "background"
+              }
+            ]
           },
           {
-            "objectName": "house"
-          },
-          {
-            "objectName": "cropfield_placeholder"
-          },
-          {
-            "objectName": "base"
-          },
-          {
-            "objectName": "truck"
-          },
-          {
-            "objectName": "barn_placeholder"
-          },
-          {
-            "objectName": "orderbutton"
-          },
-          {
-            "objectName": "roads"
-          },
-          {
-            "objectName": "vehicle_target"
-          },
-          {
-            "objectName": "villagerspawn"
-          },
-          {
-            "objectName": "farmerspawn"
-          },
-          {
-            "objectName": "rancherspawn"
-          },
-          {
-            "objectName": "OrderPreview"
+            "folderName": "placeholders",
+            "children": [
+              {
+                "objectName": "OrderPreview"
+              },
+              {
+                "objectName": "rancherspawn"
+              },
+              {
+                "objectName": "farmerspawn"
+              },
+              {
+                "objectName": "villagerspawn"
+              },
+              {
+                "objectName": "vehicle_target"
+              },
+              {
+                "objectName": "roads"
+              },
+              {
+                "objectName": "orderbutton"
+              },
+              {
+                "objectName": "barn_placeholder"
+              },
+              {
+                "objectName": "truck"
+              },
+              {
+                "objectName": "base"
+              },
+              {
+                "objectName": "cropfield_placeholder"
+              },
+              {
+                "objectName": "house"
+              }
+            ]
           }
         ]
       },
@@ -73067,10 +74526,26 @@
   ],
   "externalLayouts": [
     {
-      "associatedLayout": "",
+      "associatedLayout": "Delivery Screen",
       "name": "NPC_Spawn",
       "instances": [],
-      "editionSettings": {}
+      "editionSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridDepth": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridOffsetZ": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.546875,
+        "windowMask": false,
+        "selectedLayer": "",
+        "gameEditorMode": "instances-editor"
+      }
     }
   ]
 }
