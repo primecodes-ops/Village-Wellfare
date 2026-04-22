@@ -4812,7 +4812,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.4,
         "snap": false,
-        "zoomFactor": 0.5468750000000306,
+        "zoomFactor": 0.6455105703311845,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -24845,15 +24845,15 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 43,
+          "height": 48,
           "keepRatio": true,
           "layer": "DS_Base Layer",
           "name": "villagerhouse_spawnpoint",
           "opacity": 0,
           "persistentUuid": "f2f33a57-6b45-4d6f-ae71-17f3bca7f869",
-          "width": 42,
-          "x": 602,
-          "y": 277,
+          "width": 50,
+          "x": 606,
+          "y": 282,
           "zOrder": 72,
           "numberProperties": [],
           "stringProperties": [],
@@ -30679,7 +30679,13 @@
           "persistentUuid": "351ea095-a417-4446-bbde-0d45947cce74",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "name": "number",
+              "type": "number",
+              "value": 0
+            }
+          ],
           "effects": [],
           "behaviors": [],
           "animations": [
@@ -30950,7 +30956,13 @@
           "name": "houseRequired",
           "persistentUuid": "d20b7f4b-07a6-4b7e-8284-41e75d72c9d4",
           "type": "BBText::BBText",
-          "variables": [],
+          "variables": [
+            {
+              "name": "number",
+              "type": "number",
+              "value": 0
+            }
+          ],
           "effects": [],
           "behaviors": [],
           "content": {
@@ -33678,7 +33690,7 @@
                 "villagerhouse_spawnpoint",
                 "number",
                 "=",
-                "acceptedOrderCount"
+                "villageHousePlaceholder"
               ]
             },
             {
@@ -35173,17 +35185,6 @@
                 "",
                 "",
                 ""
-              ]
-            },
-            {
-              "type": {
-                "value": "NumberObjectVariable"
-              },
-              "parameters": [
-                "villagerhouse_spawnpoint",
-                "number",
-                "=",
-                "villageHousePlaceholder"
               ]
             },
             {
