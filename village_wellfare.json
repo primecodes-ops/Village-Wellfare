@@ -4663,6 +4663,7 @@
         "name": "assets/cartography/Spritesheet/spritesheet_retina20.png",
         "smoothed": false,
         "userAdded": false
+<<<<<<< HEAD
       },
       {
         "file": "assets/lab_tileset/seperated/tile021.png2.png",
@@ -4954,6 +4955,8 @@
         "name": "assets/star_03_a.png",
         "smoothed": false,
         "userAdded": false
+=======
+>>>>>>> 0bfbdccbf890ea1af1f092d39db47b41f21e806b
       }
     ]
   },
@@ -5092,7 +5095,7 @@
       "title": "",
       "v": 255,
       "uiSettings": {
-        "grid": true,
+        "grid": false,
         "gridType": "rectangular",
         "gridWidth": 32,
         "gridHeight": 32,
@@ -5102,8 +5105,13 @@
         "gridOffsetZ": 0,
         "gridColor": 10401023,
         "gridAlpha": 0.4,
+<<<<<<< HEAD
         "snap": true,
         "zoomFactor": 0.4481978045410695,
+=======
+        "snap": false,
+        "zoomFactor": 0.6455105703311845,
+>>>>>>> 0bfbdccbf890ea1af1f092d39db47b41f21e806b
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -5230,7 +5238,11 @@
           "persistentUuid": "b1f85c69-79fd-4a39-948d-74e137dd38cd",
           "width": 0,
           "x": 128,
+<<<<<<< HEAD
           "y": -1344,
+=======
+          "y": 32,
+>>>>>>> 0bfbdccbf890ea1af1f092d39db47b41f21e806b
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -5730,7 +5742,11 @@
           "persistentUuid": "7f14ec6a-8b29-47de-bee9-e54838a22780",
           "width": 0,
           "x": 128,
+<<<<<<< HEAD
           "y": -1312,
+=======
+          "y": 64,
+>>>>>>> 0bfbdccbf890ea1af1f092d39db47b41f21e806b
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -6178,7 +6194,11 @@
           "persistentUuid": "be009676-c8dd-4547-b045-2f92d65dd8a3",
           "width": 0,
           "x": 96,
+<<<<<<< HEAD
           "y": -1248,
+=======
+          "y": 128,
+>>>>>>> 0bfbdccbf890ea1af1f092d39db47b41f21e806b
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -6610,7 +6630,11 @@
           "persistentUuid": "a888cbb0-f12d-49a4-9b4e-a52e9a2bf889",
           "width": 0,
           "x": 128,
+<<<<<<< HEAD
           "y": -1280,
+=======
+          "y": 96,
+>>>>>>> 0bfbdccbf890ea1af1f092d39db47b41f21e806b
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -7026,7 +7050,11 @@
           "persistentUuid": "c18914f5-d35e-4d9e-9329-49b74e6efa43",
           "width": 0,
           "x": 96,
+<<<<<<< HEAD
           "y": -1248,
+=======
+          "y": 128,
+>>>>>>> 0bfbdccbf890ea1af1f092d39db47b41f21e806b
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -7442,7 +7470,11 @@
           "persistentUuid": "642e8404-ca69-4ffe-8697-11f2710042ba",
           "width": 0,
           "x": 96,
+<<<<<<< HEAD
           "y": -1248,
+=======
+          "y": 128,
+>>>>>>> 0bfbdccbf890ea1af1f092d39db47b41f21e806b
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -7698,7 +7730,11 @@
           "persistentUuid": "4b728e1e-e5f4-4976-9244-5c8f81671994",
           "width": 0,
           "x": 704,
+<<<<<<< HEAD
           "y": -1216,
+=======
+          "y": 160,
+>>>>>>> 0bfbdccbf890ea1af1f092d39db47b41f21e806b
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -7826,7 +7862,11 @@
           "persistentUuid": "00f26961-654e-4473-839a-0d0353e09088",
           "width": 0,
           "x": 0,
+<<<<<<< HEAD
           "y": -1216,
+=======
+          "y": 160,
+>>>>>>> 0bfbdccbf890ea1af1f092d39db47b41f21e806b
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -23648,10 +23688,17 @@
           "layer": "",
           "name": "Player",
           "persistentUuid": "e1d8c94b-0c52-4cd1-bff6-f1b0d569282f",
+<<<<<<< HEAD
           "width": 69,
           "x": 317,
           "y": 384,
           "zOrder": 100,
+=======
+          "width": 43,
+          "x": 150,
+          "y": 352,
+          "zOrder": 2,
+>>>>>>> 0bfbdccbf890ea1af1f092d39db47b41f21e806b
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -23682,9 +23729,15 @@
           "name": "queue_pos_1",
           "opacity": 0,
           "persistentUuid": "8839eab0-4e77-4714-8764-f896f116c6a1",
+<<<<<<< HEAD
           "width": 49,
           "x": 98,
           "y": 256,
+=======
+          "width": 32,
+          "x": 112,
+          "y": 160,
+>>>>>>> 0bfbdccbf890ea1af1f092d39db47b41f21e806b
           "zOrder": 28,
           "numberProperties": [],
           "stringProperties": [],
@@ -23700,9 +23753,15 @@
           "name": "queue_pos_2",
           "opacity": 0,
           "persistentUuid": "f2ad449d-9c7a-492a-9f1a-1d352001fb16",
+<<<<<<< HEAD
           "width": 49,
           "x": 98,
           "y": 207,
+=======
+          "width": 32,
+          "x": 112,
+          "y": 128,
+>>>>>>> 0bfbdccbf890ea1af1f092d39db47b41f21e806b
           "zOrder": 29,
           "numberProperties": [],
           "stringProperties": [],
@@ -23718,9 +23777,15 @@
           "name": "queue_pos_3",
           "opacity": 0,
           "persistentUuid": "f82b2aca-7dae-4df5-8b70-daa973b26701",
+<<<<<<< HEAD
           "width": 49,
           "x": 98,
           "y": 159,
+=======
+          "width": 32,
+          "x": 112,
+          "y": 96,
+>>>>>>> 0bfbdccbf890ea1af1f092d39db47b41f21e806b
           "zOrder": 30,
           "numberProperties": [],
           "stringProperties": [],
@@ -23735,9 +23800,15 @@
           "layer": "",
           "name": "villager_exitpoint",
           "persistentUuid": "0dd5bfa0-0583-4538-b6e3-1ee8eddc811d",
+<<<<<<< HEAD
           "width": 49,
           "x": -284,
           "y": 252,
+=======
+          "width": 32,
+          "x": -16,
+          "y": 128,
+>>>>>>> 0bfbdccbf890ea1af1f092d39db47b41f21e806b
           "zOrder": 31,
           "numberProperties": [],
           "stringProperties": [],
@@ -23752,10 +23823,17 @@
           "layer": "",
           "name": "villager_spawnpoint",
           "persistentUuid": "18f1e023-9f22-4186-b687-81ec48d27923",
+<<<<<<< HEAD
           "width": 49,
           "x": -162,
           "y": 252,
           "zOrder": 3,
+=======
+          "width": 32,
+          "x": 112,
+          "y": -64,
+          "zOrder": 32,
+>>>>>>> 0bfbdccbf890ea1af1f092d39db47b41f21e806b
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -23963,16 +24041,27 @@
         },
         {
           "angle": 0,
+<<<<<<< HEAD
           "customSize": true,
           "depth": 64,
           "height": 48,
+=======
+          "customSize": false,
+          "height": 0,
+>>>>>>> 0bfbdccbf890ea1af1f092d39db47b41f21e806b
           "keepRatio": true,
           "layer": "",
           "name": "DeliveryBtn",
           "persistentUuid": "3fd3bca5-6d66-4849-ad3c-31aec95f71e5",
+<<<<<<< HEAD
           "width": 256,
           "x": 992,
           "y": 336,
+=======
+          "width": 0,
+          "x": 1024,
+          "y": 352,
+>>>>>>> 0bfbdccbf890ea1af1f092d39db47b41f21e806b
           "zOrder": 46,
           "numberProperties": [],
           "stringProperties": [],
@@ -23988,7 +24077,11 @@
           "persistentUuid": "89571172-d25f-4a6a-96c2-4ddfbb855fce",
           "width": 0,
           "x": 160,
+<<<<<<< HEAD
           "y": -1344,
+=======
+          "y": 32,
+>>>>>>> 0bfbdccbf890ea1af1f092d39db47b41f21e806b
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -24004,7 +24097,11 @@
           "persistentUuid": "d560410f-ff00-4f87-9cbf-c229f6a44fab",
           "width": 0,
           "x": 160,
+<<<<<<< HEAD
           "y": -1312,
+=======
+          "y": 64,
+>>>>>>> 0bfbdccbf890ea1af1f092d39db47b41f21e806b
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -24020,7 +24117,11 @@
           "persistentUuid": "8df4f451-4d13-421d-8120-73c38b4f9ef2",
           "width": 0,
           "x": 160,
+<<<<<<< HEAD
           "y": -1248,
+=======
+          "y": 128,
+>>>>>>> 0bfbdccbf890ea1af1f092d39db47b41f21e806b
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -24036,7 +24137,11 @@
           "persistentUuid": "2d71ca62-a20b-4a52-b548-02aeb6f13d8f",
           "width": 0,
           "x": 160,
+<<<<<<< HEAD
           "y": -1280,
+=======
+          "y": 96,
+>>>>>>> 0bfbdccbf890ea1af1f092d39db47b41f21e806b
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -24052,7 +24157,11 @@
           "persistentUuid": "fa026ac0-4d0f-4400-809f-12aff34b4636",
           "width": 0,
           "x": 160,
+<<<<<<< HEAD
           "y": -1216,
+=======
+          "y": 160,
+>>>>>>> 0bfbdccbf890ea1af1f092d39db47b41f21e806b
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -24068,7 +24177,59 @@
           "persistentUuid": "4754fa00-88ec-4421-86ef-6e60aafd78e8",
           "width": 0,
           "x": 32,
+<<<<<<< HEAD
           "y": -1216,
+=======
+          "y": 160,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "tile_floor_brown_passable",
+          "persistentUuid": "5cea9076-d2d6-4a09-a69a-b3627af8dfb9",
+          "width": 0,
+          "x": 64,
+          "y": 160,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "tile_floor_brown_passable",
+          "persistentUuid": "5f249bac-3985-4b1a-9d5e-79ae6fc4d5ed",
+          "width": 0,
+          "x": 96,
+          "y": 160,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "tile_floor_brown_passable",
+          "persistentUuid": "1c36f1c0-fcb3-498a-9d9b-47ffc0763373",
+          "width": 0,
+          "x": 128,
+          "y": 160,
+>>>>>>> 0bfbdccbf890ea1af1f092d39db47b41f21e806b
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -24086,7 +24247,11 @@
           "persistentUuid": "525405d2-7538-4e8e-a41f-f576e0a16774",
           "width": 32,
           "x": 112,
+<<<<<<< HEAD
           "y": -1152,
+=======
+          "y": 224,
+>>>>>>> 0bfbdccbf890ea1af1f092d39db47b41f21e806b
           "zOrder": 47,
           "numberProperties": [],
           "stringProperties": [],
@@ -24102,7 +24267,11 @@
           "persistentUuid": "7940996f-c615-4c8b-ac22-a46933b90019",
           "width": 0,
           "x": 64,
+<<<<<<< HEAD
           "y": -1248,
+=======
+          "y": 128,
+>>>>>>> 0bfbdccbf890ea1af1f092d39db47b41f21e806b
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -24118,7 +24287,11 @@
           "persistentUuid": "375030bc-5ec3-4beb-98f2-74e53a3010bf",
           "width": 0,
           "x": 128,
+<<<<<<< HEAD
           "y": -1248,
+=======
+          "y": 128,
+>>>>>>> 0bfbdccbf890ea1af1f092d39db47b41f21e806b
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -25089,15 +25262,25 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
+<<<<<<< HEAD
           "height": 43,
+=======
+          "height": 48,
+>>>>>>> 0bfbdccbf890ea1af1f092d39db47b41f21e806b
           "keepRatio": true,
           "layer": "DS_Base Layer",
           "name": "villagerhouse_spawnpoint",
           "opacity": 0,
           "persistentUuid": "f2f33a57-6b45-4d6f-ae71-17f3bca7f869",
+<<<<<<< HEAD
           "width": 42,
           "x": 602,
           "y": 277,
+=======
+          "width": 50,
+          "x": 606,
+          "y": 282,
+>>>>>>> 0bfbdccbf890ea1af1f092d39db47b41f21e806b
           "zOrder": 72,
           "numberProperties": [],
           "stringProperties": [],
@@ -25282,6 +25465,7 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+<<<<<<< HEAD
         },
         {
           "angle": 0,
@@ -28183,6 +28367,8 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+=======
+>>>>>>> 0bfbdccbf890ea1af1f092d39db47b41f21e806b
         }
       ],
       "objects": [
@@ -29283,10 +29469,17 @@
             {
               "name": "Pathfinding",
               "type": "PathfindingBehavior::PathfindingBehavior",
+<<<<<<< HEAD
               "cellHeight": 16,
               "cellWidth": 16,
               "gridOffsetX": 0,
               "gridOffsetY": 0,
+=======
+              "cellHeight": 32,
+              "cellWidth": 32,
+              "gridOffsetX": 16,
+              "gridOffsetY": 16,
+>>>>>>> 0bfbdccbf890ea1af1f092d39db47b41f21e806b
               "acceleration": 650,
               "allowDiagonals": false,
               "angleOffset": 0,
@@ -30884,8 +31077,13 @@
             {
               "name": "Pathfinding",
               "type": "PathfindingBehavior::PathfindingBehavior",
+<<<<<<< HEAD
               "cellHeight": 8,
               "cellWidth": 8,
+=======
+              "cellHeight": 20,
+              "cellWidth": 20,
+>>>>>>> 0bfbdccbf890ea1af1f092d39db47b41f21e806b
               "gridOffsetX": 0,
               "gridOffsetY": 0,
               "acceleration": 400,
@@ -32116,7 +32314,11 @@
           }
         },
         {
+<<<<<<< HEAD
           "adaptCollisionMaskAutomatically": false,
+=======
+          "adaptCollisionMaskAutomatically": true,
+>>>>>>> 0bfbdccbf890ea1af1f092d39db47b41f21e806b
           "assetStoreId": "",
           "name": "tile_floor_brown",
           "persistentUuid": "0b11d316-8f3a-4916-ab3b-3bd0443e4b2e",
@@ -32128,6 +32330,7 @@
             {
               "name": "PathfindingObstacle",
               "type": "PathfindingBehavior::PathfindingObstacleBehavior",
+<<<<<<< HEAD
               "cost": 45,
               "impassable": false
             }
@@ -32198,6 +32401,9 @@
               "name": "PathfindingObstacle",
               "type": "PathfindingBehavior::PathfindingObstacleBehavior",
               "cost": 0,
+=======
+              "cost": 2,
+>>>>>>> 0bfbdccbf890ea1af1f092d39db47b41f21e806b
               "impassable": true
             }
           ],
@@ -32256,6 +32462,132 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
+<<<<<<< HEAD
+=======
+          "name": "tile_floor_brown_passable",
+          "persistentUuid": "7979065f-6440-4163-8fe9-887705fe3b9f",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "assets/lab_tileset/seperated/tile031",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/lab_tileset/seperated/tile031",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 32,
+                            "y": 0
+                          },
+                          {
+                            "x": 32,
+                            "y": 32
+                          },
+                          {
+                            "x": 0,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "player_targetzone",
+          "persistentUuid": "5cb8908a-5c60-4f4e-a228-4779fdb3eb81",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/points/NewSprite8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 32,
+                        "y": 64
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+>>>>>>> 0bfbdccbf890ea1af1f092d39db47b41f21e806b
           "name": "ClickEffect",
           "persistentUuid": "ecd405c3-8142-4ae9-8867-e7145b0a93c8",
           "preScale": 0.2,
@@ -32271,11 +32603,19 @@
               "directions": [
                 {
                   "looping": false,
+<<<<<<< HEAD
                   "timeBetweenFrames": 0.05,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
                       "image": "assets/star_01_a.png",
+=======
+                  "timeBetweenFrames": 0.04,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "star_01_a.png",
+>>>>>>> 0bfbdccbf890ea1af1f092d39db47b41f21e806b
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -32311,7 +32651,11 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
+<<<<<<< HEAD
                       "image": "assets/star_02_a.png",
+=======
+                      "image": "star_02_a.png",
+>>>>>>> 0bfbdccbf890ea1af1f092d39db47b41f21e806b
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -32347,7 +32691,11 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
+<<<<<<< HEAD
                       "image": "assets/star_03_a.png",
+=======
+                      "image": "star_03_a.png",
+>>>>>>> 0bfbdccbf890ea1af1f092d39db47b41f21e806b
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -33798,7 +34146,17 @@
           "persistentUuid": "351ea095-a417-4446-bbde-0d45947cce74",
           "type": "Sprite",
           "updateIfNotVisible": false,
+<<<<<<< HEAD
           "variables": [],
+=======
+          "variables": [
+            {
+              "name": "number",
+              "type": "number",
+              "value": 0
+            }
+          ],
+>>>>>>> 0bfbdccbf890ea1af1f092d39db47b41f21e806b
           "effects": [],
           "behaviors": [],
           "animations": [
@@ -34069,7 +34427,17 @@
           "name": "houseRequired",
           "persistentUuid": "d20b7f4b-07a6-4b7e-8284-41e75d72c9d4",
           "type": "BBText::BBText",
+<<<<<<< HEAD
           "variables": [],
+=======
+          "variables": [
+            {
+              "name": "number",
+              "type": "number",
+              "value": 0
+            }
+          ],
+>>>>>>> 0bfbdccbf890ea1af1f092d39db47b41f21e806b
           "effects": [],
           "behaviors": [],
           "content": {
@@ -34082,6 +34450,7 @@
             "align": "center",
             "verticalTextAlignment": "center"
           }
+<<<<<<< HEAD
         },
         {
           "adaptCollisionMaskAutomatically": true,
@@ -34485,6 +34854,8 @@
               ]
             }
           ]
+=======
+>>>>>>> 0bfbdccbf890ea1af1f092d39db47b41f21e806b
         }
       ],
       "objectsFolderStructure": {
@@ -34628,6 +34999,9 @@
               },
               {
                 "objectName": "villager_exitpoint"
+              },
+              {
+                "objectName": "player_targetzone"
               }
             ]
           },
@@ -34963,7 +35337,11 @@
                 "ClickEffect",
                 "MouseX()",
                 "MouseY()",
+<<<<<<< HEAD
                 ""
+=======
+                "\"Universal Layer\""
+>>>>>>> 0bfbdccbf890ea1af1f092d39db47b41f21e806b
               ]
             }
           ]
@@ -35038,6 +35416,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+<<<<<<< HEAD
           "name": "ORDER NAVIGATION",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -35898,6 +36277,8 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+=======
+>>>>>>> 0bfbdccbf890ea1af1f092d39db47b41f21e806b
           "name": "PLAYER MOVEMENT",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -36708,7 +37089,11 @@
                 "",
                 "\"spawnTimer\"",
                 ">",
+<<<<<<< HEAD
                 "7"
+=======
+                "20"
+>>>>>>> 0bfbdccbf890ea1af1f092d39db47b41f21e806b
               ]
             },
             {
@@ -37166,6 +37551,7 @@
           "comment": "Queue shifting/moving trigger event"
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -37266,6 +37652,7 @@
           "comment": "Villager position arrange event"
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -37719,7 +38106,11 @@
                     "Villager",
                     "\"deliveryTimer\"",
                     ">",
+<<<<<<< HEAD
                     "15"
+=======
+                    "30"
+>>>>>>> 0bfbdccbf890ea1af1f092d39db47b41f21e806b
                   ]
                 }
               ],
@@ -37857,10 +38248,11 @@
                 "value": "IsCursorOnObject"
               },
               "parameters": [
-                "Villager",
+                "queue_pos_1",
                 "",
                 "yes",
                 ""
+<<<<<<< HEAD
               ]
             },
             {
@@ -37989,6 +38381,8 @@
                     "Villager.data.villagerType"
                   ]
                 }
+=======
+>>>>>>> 0bfbdccbf890ea1af1f092d39db47b41f21e806b
               ]
             },
             {
@@ -38107,6 +38501,72 @@
         },
         {
           "disabled": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Villager",
+                    "queue_pos_1",
+                    "100",
+                    "",
+                    "no"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player",
+                    "player_targetzone",
+                    "100",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ]
+            },
+            {
+              "type": {
+                "value": "LayerVisible"
+              },
+              "parameters": [
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PathfindingBehavior::SetDestination"
+              },
+              "parameters": [
+                "Player",
+                "Pathfinding",
+                "",
+                "96",
+                "192"
+              ]
+            }
+          ]
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -38294,7 +38754,11 @@
                 "villagerhouse_spawnpoint",
                 "number",
                 "=",
+<<<<<<< HEAD
                 "acceptedOrderCount"
+=======
+                "villageHousePlaceholder"
+>>>>>>> 0bfbdccbf890ea1af1f092d39db47b41f21e806b
               ]
             },
             {
@@ -38831,7 +39295,11 @@
                 "Villager",
                 "\"patienceTimer\"",
                 ">",
+<<<<<<< HEAD
                 "15"
+=======
+                "25"
+>>>>>>> 0bfbdccbf890ea1af1f092d39db47b41f21e806b
               ]
             },
             {
@@ -38904,6 +39372,7 @@
             {
               "type": {
                 "value": "CollisionNP"
+<<<<<<< HEAD
               },
               "parameters": [
                 "Player",
@@ -39641,6 +40110,12 @@
               },
               "parameters": [
                 "villagerhouse_spawnpoint",
+=======
+              },
+              "parameters": [
+                "Player",
+                "Shelf",
+>>>>>>> 0bfbdccbf890ea1af1f092d39db47b41f21e806b
                 "",
                 "",
                 ""
@@ -39648,6 +40123,7 @@
             },
             {
               "type": {
+<<<<<<< HEAD
                 "value": "NumberObjectVariable"
               },
               "parameters": [
@@ -70090,6 +70566,8 @@
             },
             {
               "type": {
+=======
+>>>>>>> 0bfbdccbf890ea1af1f092d39db47b41f21e806b
                 "value": "BuiltinCommonInstructions::Once"
               },
               "parameters": []
@@ -70098,6 +70576,7 @@
           "actions": [
             {
               "type": {
+<<<<<<< HEAD
                 "value": "PlaySound"
               },
               "parameters": [
@@ -70118,6 +70597,13 @@
                 "MouseX()",
                 "MouseY()",
                 ""
+=======
+                "value": "ShowLayer"
+              },
+              "parameters": [
+                "",
+                "\"Bucket Options\""
+>>>>>>> 0bfbdccbf890ea1af1f092d39db47b41f21e806b
               ]
             }
           ]
@@ -70127,6 +70613,7 @@
           "conditions": [
             {
               "type": {
+<<<<<<< HEAD
                 "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
               },
               "parameters": [
@@ -71420,6 +71907,16 @@
                 "Villager",
                 "queue_pos_1",
                 "50",
+=======
+                "inverted": true,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Player",
+                "Shelf",
+                "",
+                "",
+>>>>>>> 0bfbdccbf890ea1af1f092d39db47b41f21e806b
                 ""
               ]
             }
@@ -71427,6 +71924,7 @@
           "actions": [
             {
               "type": {
+<<<<<<< HEAD
                 "value": "SetNumberObjectVariable"
               },
               "parameters": [
@@ -73157,6 +73655,9 @@
             {
               "type": {
                 "value": "ShowLayer"
+=======
+                "value": "HideLayer"
+>>>>>>> 0bfbdccbf890ea1af1f092d39db47b41f21e806b
               },
               "parameters": [
                 "",
@@ -74029,6 +74530,7 @@
                 "value": "NumberObjectVariable"
               },
               "parameters": [
+<<<<<<< HEAD
                 "villagerhouse_spawnpoint",
                 "number",
                 "=",
@@ -74040,6 +74542,8 @@
                 "value": "NumberObjectVariable"
               },
               "parameters": [
+=======
+>>>>>>> 0bfbdccbf890ea1af1f092d39db47b41f21e806b
                 "Truck",
                 "heldWater",
                 ">=",
